@@ -16,9 +16,7 @@ import {
     TableRow,
     Fade,
     Snackbar,
-    Alert,
-    Grid,
-    Divider,
+    Alert,    Divider,
     Dialog,
     DialogTitle,
     DialogContent,
@@ -627,15 +625,15 @@ const MapUser: React.FC = () => {
                                         </Typography>
                                     </Box>
                                 ) : (
-                                    <Grid container spacing={3}>
-                                        <Grid item xs={12} md={3}><DetailItem label="Employee ID" value={employeeDetails.id} /></Grid>
-                                        <Grid item xs={12} md={3}><DetailItem label="Employee Name" value={employeeDetails.name} /></Grid>
-                                        <Grid item xs={12} md={3}><DetailItem label="Section" value={employeeDetails.section} /></Grid>
-                                        <Grid item xs={12} md={3}><DetailItem label="Recruitment Type" value={employeeDetails.recruitmentType} /></Grid>
-                                        <Grid item xs={12} md={3}><DetailItem label="Designation" value={employeeDetails.designation} /></Grid>
-                                        <Grid item xs={12} md={3}><DetailItem label="Current ULB" value={employeeDetails.ulbName} /></Grid>
-                                        <Grid item xs={12} md={3}><DetailItem label="Ward Name" value={employeeDetails.wardName} /></Grid>
-                                        <Grid item xs={12} md={3}>
+                                    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 3 }}>
+                                        <Box sx={{ flex: '1 1 calc(25% - 18px)', minWidth: '200px' }}><DetailItem label="Employee ID" value={employeeDetails.id} /></Box>
+                                        <Box sx={{ flex: '1 1 calc(25% - 18px)', minWidth: '200px' }}><DetailItem label="Employee Name" value={employeeDetails.name} /></Box>
+                                        <Box sx={{ flex: '1 1 calc(25% - 18px)', minWidth: '200px' }}><DetailItem label="Section" value={employeeDetails.section} /></Box>
+                                        <Box sx={{ flex: '1 1 calc(25% - 18px)', minWidth: '200px' }}><DetailItem label="Recruitment Type" value={employeeDetails.recruitmentType} /></Box>
+                                        <Box sx={{ flex: '1 1 calc(25% - 18px)', minWidth: '200px' }}><DetailItem label="Designation" value={employeeDetails.designation} /></Box>
+                                        <Box sx={{ flex: '1 1 calc(25% - 18px)', minWidth: '200px' }}><DetailItem label="Current ULB" value={employeeDetails.ulbName} /></Box>
+                                        <Box sx={{ flex: '1 1 calc(25% - 18px)', minWidth: '200px' }}><DetailItem label="Ward Name" value={employeeDetails.wardName} /></Box>
+                                        <Box sx={{ flex: '1 1 calc(25% - 18px)', minWidth: '200px' }}>
                                             <Box sx={{ mb: 1 }}>
                                                 <Typography variant="caption" sx={{ color: '#64748b', display: 'block', mb: 0.5, fontWeight: 500 }}>
                                                     Access Status
@@ -648,8 +646,8 @@ const MapUser: React.FC = () => {
                                                     icon={employeeDetails.hasExistingAccess ? <CheckCircle /> : <Cancel />}
                                                 />
                                             </Box>
-                                        </Grid>
-                                    </Grid>
+                                        </Box>
+                                    </Box>
                                 )}
                             </CardContent>
                         </Card>
@@ -732,8 +730,8 @@ const MapUser: React.FC = () => {
                                             </Typography>
                                         </Alert>
                                         
-                                        <Grid container spacing={3} alignItems="flex-end">
-                                            <Grid item xs={12} md={2.4}>
+                                        <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 3, alignItems: 'flex-end' }}>
+                                            <Box sx={{ flex: '1 1 calc(20% - 18px)', minWidth: '180px' }}>
                                                 <Typography variant="caption" sx={{ fontWeight: 600, color: '#334155', mb: 1, display: 'block' }}>
                                                     Preferred ULB * 
                                                     <Tooltip title={!employeeDetails.hasExistingAccess ? "Pre-set from current ULB and editable" : "Select from dropdown list"}>
@@ -761,8 +759,8 @@ const MapUser: React.FC = () => {
                                                         />
                                                     )}
                                                 />
-                                            </Grid>
-                                            <Grid item xs={12} md={2.4}>
+                                            </Box>
+                                            <Box sx={{ flex: '1 1 calc(20% - 18px)', minWidth: '180px' }}>
                                                 <Typography variant="caption" sx={{ fontWeight: 600, color: '#334155', mb: 1, display: 'block' }}>
                                                     Preferred Section *
                                                     <Tooltip title="Pre-populated from employee section">
@@ -790,8 +788,8 @@ const MapUser: React.FC = () => {
                                                         />
                                                     )}
                                                 />
-                                            </Grid>
-                                            <Grid item xs={12} md={2.4}>
+                                            </Box>
+                                            <Box sx={{ flex: '1 1 calc(20% - 18px)', minWidth: '180px' }}>
                                                 <Typography variant="caption" sx={{ fontWeight: 600, color: '#334155', mb: 1, display: 'block' }}>
                                                     User Type *
                                                     <Tooltip title="ULB Employee or ULB Head (only one Head per ULB)">
@@ -821,8 +819,8 @@ const MapUser: React.FC = () => {
                                                         />
                                                     )}
                                                 />
-                                            </Grid>
-                                            <Grid item xs={12} md={2.4}>
+                                            </Box>
+                                            <Box sx={{ flex: '1 1 calc(20% - 18px)', minWidth: '180px' }}>
                                                 <Typography variant="caption" sx={{ fontWeight: 600, color: '#334155', mb: 1, display: 'block' }}>
                                                     Role *
                                                 </Typography>
@@ -847,8 +845,8 @@ const MapUser: React.FC = () => {
                                                         />
                                                     )}
                                                 />
-                                            </Grid>
-                                            <Grid item xs={12} md={2.4}>
+                                            </Box>
+                                            <Box sx={{ flex: '1 1 calc(20% - 18px)', minWidth: '180px' }}>
                                                 <Button
                                                     fullWidth
                                                     variant="contained"
@@ -866,8 +864,8 @@ const MapUser: React.FC = () => {
                                                 >
                                                     Add ULB and Role
                                                 </Button>
-                                            </Grid>
-                                        </Grid>
+                                            </Box>
+                                        </Box>
                                         
                                         <Box sx={{ mt: 2, p: 2, bgcolor: '#f0f9ff', borderRadius: 1, border: '1px solid #bae6fd' }}>
                                             <Typography variant="caption" sx={{ color: '#0369a1', display: 'block', mb: 1 }}>
