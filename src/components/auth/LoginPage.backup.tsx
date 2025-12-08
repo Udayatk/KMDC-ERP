@@ -25,13 +25,13 @@ import {
   Avatar,
   Stack
 } from '@mui/material';
-import { 
-  Visibility, 
-  VisibilityOff, 
-  Refresh, 
-  Security, 
-  Person, 
-  Phone, 
+import {
+  Visibility,
+  VisibilityOff,
+  Refresh,
+  Security,
+  Person,
+  Phone,
   VpnKey,
   CheckCircle,
   ErrorOutline,
@@ -89,14 +89,14 @@ const LoginPage: React.FC = () => {
 
   const handleInputChange = (field: string) => (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value;
-    
+
     // Employee ID validation - only allow 6 digits
     if (field === 'employeeId') {
       if (value.length > 6 || !/^\d*$/.test(value)) {
         return;
       }
     }
-    
+
     // Password length validation
     if (field === 'password') {
       if (value.length > 12) {
@@ -108,7 +108,7 @@ const LoginPage: React.FC = () => {
       ...prev,
       [field]: value
     }));
-    
+
     // Clear error when user starts typing
     if (errors[field]) {
       setErrors(prev => ({
@@ -163,11 +163,11 @@ const LoginPage: React.FC = () => {
 
     setIsLoading(true);
     setErrors({});
-    
+
     try {
       // Simulate API call delay
       await new Promise(resolve => setTimeout(resolve, 2000));
-      
+
       // Simulate login validation
       const isValidEmployee = formData.employeeId === '123456'; // Mock validation
       const isValidPassword = formData.password === 'password123'; // Mock validation
@@ -180,13 +180,13 @@ const LoginPage: React.FC = () => {
       if (!isValidPassword) {
         const newAttemptCount = attemptCount + 1;
         setAttemptCount(newAttemptCount);
-        
+
         if (newAttemptCount >= 5) {
           setIsLocked(true);
           setErrors({ general: 'User ID is locked. Change password using forgot password link' });
         } else {
-          setErrors({ 
-            general: `Please enter correct password, left with ${5 - newAttemptCount} attempts` 
+          setErrors({
+            general: `Please enter correct password, left with ${5 - newAttemptCount} attempts`
           });
         }
         clearForm();
@@ -196,13 +196,13 @@ const LoginPage: React.FC = () => {
       // Reset attempt count on successful login
       setAttemptCount(0);
       setSuccessMessage('Login successful! Redirecting to dashboard...');
-      
+
       // Simulate redirect delay
       setTimeout(() => {
         console.log('Redirecting to dashboard...');
         // Here you would typically redirect to dashboard
       }, 1500);
-      
+
     } catch (error) {
       setErrors({ general: 'Login failed. Please try again.' });
     } finally {
@@ -215,16 +215,16 @@ const LoginPage: React.FC = () => {
       setErrors({ employeeId: 'Please enter a valid 6-digit Employee ID first' });
       return;
     }
-    
+
     setOtpLoading(true);
     setErrors({});
-    
+
     try {
       // Simulate API call
       await new Promise(resolve => setTimeout(resolve, 1500));
       setOtpSent(true);
       setSuccessMessage('OTP sent to your registered mobile number!');
-      
+
       // Clear success message after 3 seconds
       setTimeout(() => setSuccessMessage(''), 3000);
     } catch (error) {
@@ -265,8 +265,8 @@ const LoginPage: React.FC = () => {
   }
 
   return (
-    <Box sx={{ 
-      minHeight: '100vh', 
+    <Box sx={{
+      minHeight: '100vh',
       background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
       position: 'relative',
       overflow: 'hidden',
@@ -300,10 +300,10 @@ const LoginPage: React.FC = () => {
       <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 2, py: 2 }}>
         {/* Header */}
         <Slide direction="down" in={true} timeout={800}>
-          <Paper elevation={12} sx={{ 
+          <Paper elevation={12} sx={{
             background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)',
-            color: 'white', 
-            p: { xs: 2, md: 3 }, 
+            color: 'white',
+            p: { xs: 2, md: 3 },
             mb: 2,
             borderRadius: 4,
             boxShadow: '0 12px 40px rgba(0,0,0,0.4)',
@@ -361,7 +361,8 @@ const LoginPage: React.FC = () => {
                 🏛️
               </Box>
               <Box>
-                <Typography variant={{ xs: 'h5', md: 'h4' }} fontWeight="700" sx={{ 
+                <Typography variant="h4" fontWeight="700" sx={{
+                  fontSize: { xs: '1.5rem', md: '2.125rem' },
                   textShadow: '2px 2px 4px rgba(0,0,0,0.3)',
                   letterSpacing: '0.5px',
                   background: 'linear-gradient(45deg, #ffffff 30%, #e3f2fd 90%)',
@@ -371,7 +372,8 @@ const LoginPage: React.FC = () => {
                 }}>
                   Directorate of Municipal Administration
                 </Typography>
-                <Typography variant={{ xs: 'body1', md: 'h6' }} sx={{ 
+                <Typography variant="h6" sx={{
+                  fontSize: { xs: '1rem', md: '1.25rem' },
                   opacity: 0.9,
                   fontWeight: 300,
                   letterSpacing: '1px',
@@ -379,22 +381,22 @@ const LoginPage: React.FC = () => {
                 }}>
                   GOVERNMENT OF KARNATAKA
                 </Typography>
-                <Chip 
-                  label="ERP System v2.0" 
-                  size="small" 
-                  sx={{ 
-                    mt: 1, 
-                    bgcolor: 'rgba(255,255,255,0.2)', 
+                <Chip
+                  label="ERP System v2.0"
+                  size="small"
+                  sx={{
+                    mt: 1,
+                    bgcolor: 'rgba(255,255,255,0.2)',
                     color: 'white',
-                    fontSize: '10px' 
-                  }} 
+                    fontSize: '10px'
+                  }}
                 />
               </Box>
             </Box>
             <Tooltip title="Access Employee Portal" arrow>
-              <Button 
-                variant="contained" 
-                sx={{ 
+              <Button
+                variant="contained"
+                sx={{
                   background: 'linear-gradient(135deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.1) 100%)',
                   backdropFilter: 'blur(10px)',
                   border: '2px solid rgba(255,255,255,0.3)',
@@ -405,7 +407,7 @@ const LoginPage: React.FC = () => {
                   fontWeight: 600,
                   textTransform: 'none',
                   minWidth: { xs: 'auto', md: '120px' },
-                  '&:hover': { 
+                  '&:hover': {
                     background: 'linear-gradient(135deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.2) 100%)',
                     transform: 'translateY(-2px) scale(1.05)',
                     boxShadow: '0 8px 25px rgba(0,0,0,0.3)',
@@ -417,13 +419,14 @@ const LoginPage: React.FC = () => {
                 🚀 Portal →
               </Button>
             </Tooltip>
-        </Paper>
+          </Paper>
+        </Slide>
 
         {/* Navigation Bar */}
-        <Paper elevation={4} sx={{ 
-          background: 'linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%)', 
-          color: 'white', 
-          p: 2, 
+        <Paper elevation={4} sx={{
+          background: 'linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%)',
+          color: 'white',
+          p: 2,
           mb: 3,
           borderRadius: 2,
           boxShadow: '0 4px 16px rgba(0,0,0,0.2)'
@@ -433,9 +436,9 @@ const LoginPage: React.FC = () => {
 
         {/* Login Form */}
         <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-          <Paper elevation={12} sx={{ 
-            width: '100%', 
-            maxWidth: 520, 
+          <Paper elevation={12} sx={{
+            width: '100%',
+            maxWidth: 520,
             p: 4,
             borderRadius: 4,
             background: 'rgba(255,255,255,0.95)',
@@ -444,7 +447,7 @@ const LoginPage: React.FC = () => {
             boxShadow: '0 16px 40px rgba(0,0,0,0.2)'
           }}>
             <Box sx={{ textAlign: 'center', mb: 4 }}>
-              <Typography variant="h4" sx={{ 
+              <Typography variant="h4" sx={{
                 fontWeight: 700,
                 background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)',
                 backgroundClip: 'text',
@@ -455,12 +458,12 @@ const LoginPage: React.FC = () => {
               }}>
                 🔐 Employee Login Portal
               </Typography>
-              
+
               <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 2, mb: 2 }}>
-                <Chip 
+                <Chip
                   icon={<Box sx={{ width: 8, height: 8, borderRadius: '50%', bgcolor: '#4ade80', animation: 'pulse 2s infinite' }} />}
-                  label="System Online" 
-                  color="success" 
+                  label="System Online"
+                  color="success"
                   variant="outlined"
                   size="small"
                 />
@@ -470,11 +473,11 @@ const LoginPage: React.FC = () => {
               </Box>
             </Box>
 
-            <Tabs 
-              value={tabValue} 
-              onChange={handleTabChange} 
-              centered 
-              sx={{ 
+            <Tabs
+              value={tabValue}
+              onChange={handleTabChange}
+              centered
+              sx={{
                 mb: 4,
                 '& .MuiTabs-indicator': {
                   background: 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)',
@@ -483,9 +486,9 @@ const LoginPage: React.FC = () => {
                 }
               }}
             >
-              <Tab 
-                label="👤 Citizen" 
-                sx={{ 
+              <Tab
+                label="👤 Citizen"
+                sx={{
                   fontWeight: 600,
                   fontSize: '16px',
                   textTransform: 'none',
@@ -495,11 +498,11 @@ const LoginPage: React.FC = () => {
                     background: 'linear-gradient(135deg, rgba(30,58,138,0.1) 0%, rgba(59,130,246,0.1) 100%)',
                     color: '#1e3a8a'
                   }
-                }} 
+                }}
               />
-              <Tab 
-                label="🏢 ULB Login" 
-                sx={{ 
+              <Tab
+                label="🏢 ULB Login"
+                sx={{
                   fontWeight: 600,
                   fontSize: '16px',
                   textTransform: 'none',
@@ -509,50 +512,50 @@ const LoginPage: React.FC = () => {
                     background: 'linear-gradient(135deg, rgba(30,58,138,0.1) 0%, rgba(59,130,246,0.1) 100%)',
                     color: '#1e3a8a'
                   }
-                }} 
+                }}
               />
             </Tabs>
 
-          <TabPanel value={tabValue} index={0}>
-            <Typography align="center" color="text.secondary">
-              Citizen login functionality will be implemented here.
-            </Typography>
-          </TabPanel>
+            <TabPanel value={tabValue} index={0}>
+              <Typography align="center" color="text.secondary">
+                Citizen login functionality will be implemented here.
+              </Typography>
+            </TabPanel>
 
-          <TabPanel value={tabValue} index={1}>
-            {errors.general && (
-              <Alert 
-                severity="error" 
-                sx={{ 
-                  mb: 3, 
-                  borderRadius: 3,
-                  '& .MuiAlert-icon': {
-                    fontSize: '24px'
-                  }
-                }}
-              >
-                {errors.general}
-              </Alert>
-            )}
-            
-            {successMessage && (
-              <Alert 
-                severity="success" 
-                sx={{ 
-                  mb: 3, 
-                  borderRadius: 3,
-                  '& .MuiAlert-icon': {
-                    fontSize: '24px'
-                  }
-                }}
-              >
-                {successMessage}
-              </Alert>
-            )}
+            <TabPanel value={tabValue} index={1}>
+              {errors.general && (
+                <Alert
+                  severity="error"
+                  sx={{
+                    mb: 3,
+                    borderRadius: 3,
+                    '& .MuiAlert-icon': {
+                      fontSize: '24px'
+                    }
+                  }}
+                >
+                  {errors.general}
+                </Alert>
+              )}
+
+              {successMessage && (
+                <Alert
+                  severity="success"
+                  sx={{
+                    mb: 3,
+                    borderRadius: 3,
+                    '& .MuiAlert-icon': {
+                      fontSize: '24px'
+                    }
+                  }}
+                >
+                  {successMessage}
+                </Alert>
+              )}
 
               {/* Info Card */}
-              <Card elevation={2} sx={{ 
-                mb: 3, 
+              <Card elevation={2} sx={{
+                mb: 3,
                 borderRadius: 3,
                 background: 'linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%)',
                 border: '1px solid #2196f3'
@@ -563,7 +566,7 @@ const LoginPage: React.FC = () => {
                   </Typography>
                 </CardContent>
               </Card>
-              
+
               <Box component="form" sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
                 <TextField
                   label="👤 User ID"
@@ -642,7 +645,7 @@ const LoginPage: React.FC = () => {
                   variant="contained"
                   onClick={generateOTP}
                   disabled={otpLoading || otpSent}
-                  sx={{ 
+                  sx={{
                     background: (otpLoading || otpSent) ? '#64748b' : 'linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)',
                     borderRadius: 3,
                     py: 1.5,
@@ -651,7 +654,7 @@ const LoginPage: React.FC = () => {
                     textTransform: 'none',
                     boxShadow: (otpLoading || otpSent) ? 'none' : '0 4px 16px rgba(30,58,138,0.3)',
                     minHeight: '48px',
-                    '&:hover': { 
+                    '&:hover': {
                       background: (otpLoading || otpSent) ? '#64748b' : 'linear-gradient(135deg, #1e40af 0%, #2563eb 100%)',
                       transform: (otpLoading || otpSent) ? 'none' : 'translateY(-2px)',
                       boxShadow: (otpLoading || otpSent) ? 'none' : '0 6px 20px rgba(30,58,138,0.4)'
@@ -724,10 +727,10 @@ const LoginPage: React.FC = () => {
                       }
                     }}
                   />
-                  <Paper elevation={3} sx={{ 
-                    border: '2px solid #e5e7eb', 
-                    p: 2, 
-                    background: 'linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)', 
+                  <Paper elevation={3} sx={{
+                    border: '2px solid #e5e7eb',
+                    p: 2,
+                    background: 'linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)',
                     minWidth: '120px',
                     height: '56px',
                     display: 'flex',
@@ -742,8 +745,8 @@ const LoginPage: React.FC = () => {
                   }}>
                     {captchaText}
                   </Paper>
-                  <IconButton 
-                    onClick={generateNewCaptcha} 
+                  <IconButton
+                    onClick={generateNewCaptcha}
                     title="Generate new CAPTCHA"
                     sx={{
                       mt: 1,
@@ -765,7 +768,7 @@ const LoginPage: React.FC = () => {
                   variant="contained"
                   onClick={handleLogin}
                   disabled={isLocked || isLoading}
-                  sx={{ 
+                  sx={{
                     background: (isLocked || isLoading) ? '#64748b' : 'linear-gradient(135deg, #059669 0%, #10b981 100%)',
                     borderRadius: 3,
                     py: 2,
@@ -775,7 +778,7 @@ const LoginPage: React.FC = () => {
                     boxShadow: (isLocked || isLoading) ? 'none' : '0 4px 16px rgba(5,150,105,0.4)',
                     minHeight: '56px',
                     position: 'relative',
-                    '&:hover': { 
+                    '&:hover': {
                       background: (isLocked || isLoading) ? '#64748b' : 'linear-gradient(135deg, #047857 0%, #059669 100%)',
                       transform: (isLocked || isLoading) ? 'none' : 'translateY(-2px) scale(1.02)',
                       boxShadow: (isLocked || isLoading) ? 'none' : '0 8px 25px rgba(5,150,105,0.6)'
@@ -808,9 +811,9 @@ const LoginPage: React.FC = () => {
 
                 <Button
                   onClick={handleForgotPasswordClick}
-                  sx={{ 
+                  sx={{
                     color: '#dc2626',
-                    textTransform: 'none', 
+                    textTransform: 'none',
                     fontSize: '16px',
                     fontWeight: 500,
                     borderRadius: 2,
@@ -828,8 +831,8 @@ const LoginPage: React.FC = () => {
             </TabPanel>
           </Paper>
         </Box>
-      </Container>
-    </Box>
+      </Container >
+    </Box >
   );
 };
 
