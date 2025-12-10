@@ -13,7 +13,7 @@ const theme = createTheme({
       main: '#0f172a', // Slate from Login headers
     },
     background: {
-      default: '#f8fafc', // Light gray background
+      default: '#f1f5f9', // Light gray background
     },
   },
   typography: {

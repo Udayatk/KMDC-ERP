@@ -26,12 +26,16 @@ import {
     Autocomplete,
     Container
 } from '@mui/material';
+import { TYPOGRAPHY, COLORS } from '../shared/typography';
+import { PADDING, MARGIN, GRID_SPACING, BUTTON_SIZES } from '../shared/responsive';
 import {
     Add,
     UploadFile,
     Edit,
     Close,
-    Download
+    Download,
+    Assignment,
+    Search
 } from '@mui/icons-material';
 
 // --- Types ---
@@ -79,6 +83,13 @@ const MOCK_EMPLOYEES: Employee[] = [
 ];
 
 const THEME_BLUE = '#002147'; // Dark Navy Blue
+const THEME_ACCENT = '#1976d2'; // Secondary blue for accents
+const THEME_SUCCESS = '#00c853'; // Success green
+const THEME_WARNING = '#ffab00'; // Warning amber
+const THEME_ERROR = '#d50000'; // Error red
+const THEME_LIGHT_BG = '#f8fafc'; // Light background
+const THEME_DARK_TEXT = '#0f172a'; // Dark text
+const THEME_MEDIUM_TEXT = '#64748b'; // Medium text
 
 const UserManagement: React.FC = () => {
     // State
@@ -157,49 +168,57 @@ const UserManagement: React.FC = () => {
     // --- Sub-Components ---
     const renderList = () => (
         <Fade in={true}>
-            <Box sx={{ p: 3 }}>
+            <Box sx={{ p: { xs: PADDING.XS, sm: PADDING.SM, md: PADDING.MD } }}>
                 {/* Header */}
-                <Box sx={{ mb: 3 }}>
-                    <Typography variant="h5" sx={{ fontWeight: 600, color: '#374151', mb: 1 }}>
+                <Box sx={{ mb: MARGIN.LG }}>
+                    <Typography variant="h4" sx={{ ...TYPOGRAPHY.HEADER_MEDIUM, color: COLORS.DARK_TEXT, mb: MARGIN.SM }}>
                         Employee / User Details
                     </Typography>
-                    <Typography variant="body2" sx={{ color: '#6b7280' }}>
+                    <Typography variant="h6" sx={{ ...TYPOGRAPHY.BODY_LARGE, color: COLORS.MEDIUM_TEXT }}>
                         Manage system users, create new employees, or bulk upload via Excel.
                     </Typography>
                 </Box>
 
                 {/* Toolbar */}
-                <Box sx={{ display: 'flex', gap: 2, alignItems: 'center', flexWrap: 'wrap', mb: 3 }}>
+                <Box sx={{ display: 'flex', gap: GRID_SPACING.LG, alignItems: 'center', flexWrap: 'wrap', mb: MARGIN.LG }}>
                     <Button
                         variant="contained"
-                        startIcon={<Add />}
+                        startIcon={<Add sx={{ fontSize: 20 }} />}
                         onClick={handleCreateNew}
                         sx={{ 
                             bgcolor: THEME_BLUE, 
                             fontWeight: 600, 
-                            '&:hover': { bgcolor: '#001a38' }, 
                             textTransform: 'none',
-                            borderRadius: '6px',
-                            px: 3,
-                            py: 1,
-                            fontSize: '0.875rem'
+                            borderRadius: '12px',
+                            px: 3.5,
+                            py: 1.5,
+                            fontSize: '1rem',
+                            boxShadow: '0 4px 6px rgba(0, 33, 71, 0.15)',
+                            '&:hover': { 
+                                bgcolor: '#001a38',
+                                boxShadow: '0 6px 12px rgba(0, 33, 71, 0.25)'
+                            }
                         }}
                     >
                         Create New User
                     </Button>
                     <Button
                         variant="contained"
-                        startIcon={<UploadFile />}
+                        startIcon={<UploadFile sx={{ fontSize: 20 }} />}
                         onClick={() => setIsUploadOpen(true)}
                         sx={{ 
                             bgcolor: THEME_BLUE, 
                             fontWeight: 600, 
-                            '&:hover': { bgcolor: '#001a38' }, 
                             textTransform: 'none',
-                            borderRadius: '6px',
-                            px: 3,
-                            py: 1,
-                            fontSize: '0.875rem'
+                            borderRadius: '12px',
+                            px: 3.5,
+                            py: 1.5,
+                            fontSize: '1rem',
+                            boxShadow: '0 4px 6px rgba(0, 33, 71, 0.15)',
+                            '&:hover': { 
+                                bgcolor: '#001a38',
+                                boxShadow: '0 6px 12px rgba(0, 33, 71, 0.25)'
+                            }
                         }}
                     >
                         Add Users through Excel Sheet
@@ -207,31 +226,38 @@ const UserManagement: React.FC = () => {
 
                     <Box sx={{ flexGrow: 1 }} />
 
-                    <Box sx={{ display: 'flex', gap: 1, alignItems: 'center', width: 380 }}>
+                    <Box sx={{ display: 'flex', gap: 1.5, alignItems: 'center', width: { xs: '100%', sm: 380 } }}>
                         <TextField
                             placeholder="Search User / Employee"
                             value={searchQuery}
                             onChange={(e) => setSearchQuery(e.target.value)}
                             sx={{
                                 '& .MuiOutlinedInput-root': { 
-                                    borderRadius: '6px', 
+                                    borderRadius: '12px', 
                                     bgcolor: 'white',
-                                    fontSize: '0.875rem'
+                                    fontSize: '1rem',
+                                    boxShadow: '0 1px 3px rgba(0,0,0,0.05)'
                                 }
                             }}
                             fullWidth
-                            size="small"
+                            size="medium"
                         />
                         <Button 
                             variant="contained" 
+                            startIcon={<Search sx={{ fontSize: 20 }} />}
                             sx={{ 
                                 bgcolor: THEME_BLUE, 
-                                borderRadius: '6px', 
+                                borderRadius: '12px', 
                                 textTransform: 'none', 
-                                px: 3,
-                                py: 1,
-                                fontSize: '0.875rem',
-                                '&:hover': { bgcolor: '#001a38' }
+                                px: 3.5,
+                                py: 1.5,
+                                fontSize: '1rem',
+                                fontWeight: 600,
+                                boxShadow: '0 4px 6px rgba(0, 33, 71, 0.15)',
+                                '&:hover': { 
+                                    bgcolor: '#001a38',
+                                    boxShadow: '0 6px 12px rgba(0, 33, 71, 0.25)'
+                                }
                             }}
                         >
                             Search
@@ -240,9 +266,9 @@ const UserManagement: React.FC = () => {
                 </Box>
                 
                 {/* Table */}
-                <Paper sx={{ borderRadius: '8px', overflow: 'hidden', boxShadow: '0 1px 3px rgba(0,0,0,0.1)' }}>
-                    <Box sx={{ bgcolor: THEME_BLUE, px: 3, py: 2, color: 'white' }}>
-                        <Typography variant="subtitle1" fontWeight={600} sx={{ fontSize: '1rem' }}>Employee List</Typography>
+                <Paper sx={{ borderRadius: '12px', overflow: 'hidden', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
+                    <Box sx={{ bgcolor: THEME_BLUE, px: 4, py: 2.5, color: 'white' }}>
+                        <Typography variant="h6" fontWeight={700} sx={{ fontSize: '1.25rem' }}>Employee List</Typography>
                     </Box>
                     <TableContainer>
                         <Table>
@@ -252,11 +278,12 @@ const UserManagement: React.FC = () => {
                                         <TableCell 
                                             key={head} 
                                             sx={{ 
-                                                fontWeight: 700, 
-                                                color: '#334155',
-                                                fontSize: '0.9rem',
-                                                py: 2,
-                                                borderBottom: '2px solid #e2e8f0'
+                                                ...TYPOGRAPHY.CAPTION_LARGE,
+                                                color: COLORS.DARK_TEXT,
+                                                py: 2.5,
+                                                borderBottom: `2px solid ${COLORS.BORDER}`,
+                                                textTransform: 'uppercase',
+                                                letterSpacing: '0.5px'
                                             }}
                                         >
                                             {head}
@@ -274,20 +301,20 @@ const UserManagement: React.FC = () => {
                                         hover
                                         sx={{
                                             bgcolor: index % 2 === 0 ? 'white' : '#f8fafc',
-                                            '&:hover': { bgcolor: '#f1f5f9' },
+                                            '&:hover': { bgcolor: '#f1f5f9', boxShadow: 'inset 4px 0 0 #002147' },
                                             '&:last-child td, &:last-child th': { border: 0 }
                                         }}
                                     >
-                                        <TableCell sx={{ fontWeight: 500, color: '#334155' }}>{emp.id}</TableCell>
+                                        <TableCell sx={{ fontWeight: 600, color: '#0f172a', py: 2 }}>{emp.id}</TableCell>
                                         <TableCell>
                                             <Box>
-                                                <Typography variant="subtitle2" fontWeight={600} color="#1e293b">{emp.name}</Typography>
-                                                <Typography variant="caption" color="#64748b">{emp.email}</Typography>
+                                                <Typography variant="subtitle1" sx={{ ...TYPOGRAPHY.BODY_LARGE, fontWeight: 600, color: COLORS.DARK_TEXT }}>{emp.name}</Typography>
+                                                <Typography variant="body2" sx={{ ...TYPOGRAPHY.BODY_MEDIUM, color: COLORS.MEDIUM_TEXT }}>{emp.email}</Typography>
                                             </Box>
                                         </TableCell>
-                                        <TableCell sx={{ color: '#475569' }}>{emp.designation}</TableCell>
-                                        <TableCell sx={{ color: '#475569' }}>{emp.ulbName}</TableCell>
-                                        <TableCell sx={{ color: '#475569' }}>{emp.mobile}</TableCell>
+                                        <TableCell sx={{ color: '#475569', fontWeight: 500 }}>{emp.designation}</TableCell>
+                                        <TableCell sx={{ color: '#475569', fontWeight: 500 }}>{emp.ulbName}</TableCell>
+                                        <TableCell sx={{ color: '#475569', fontWeight: 500 }}>{emp.mobile}</TableCell>
                                         <TableCell>
                                             <Chip
                                                 label={emp.status}
@@ -296,24 +323,50 @@ const UserManagement: React.FC = () => {
                                                 variant="outlined"
                                                 sx={{
                                                     fontWeight: 600,
-                                                    borderRadius: 4
+                                                    borderRadius: 12,
+                                                    px: 1.5,
+                                                    py: 0.5,
+                                                    borderColor: emp.status === 'Active' ? '#16a34a' : '#94a3b8',
+                                                    color: emp.status === 'Active' ? '#166534' : '#64748b'
                                                 }}
                                             />
                                         </TableCell>
                                         <TableCell>
-                                            <Tooltip title="Edit Details">
-                                                <IconButton 
-                                                    size="small" 
-                                                    color="primary" 
-                                                    onClick={() => handleEdit(emp)}
-                                                    sx={{
-                                                        bgcolor: 'rgba(0, 33, 71, 0.05)',
-                                                        '&:hover': { bgcolor: 'rgba(0, 33, 71, 0.1)' }
-                                                    }}
-                                                >
-                                                    <Edit fontSize="small" />
-                                                </IconButton>
-                                            </Tooltip>
+                                            <Box sx={{ display: 'flex', gap: 1.5 }}>
+                                                <Tooltip title="Edit Details">
+                                                    <IconButton 
+                                                        size="medium" 
+                                                        color="primary" 
+                                                        onClick={() => handleEdit(emp)}
+                                                        sx={{
+                                                            bgcolor: 'rgba(0, 33, 71, 0.08)',
+                                                            '&:hover': { bgcolor: 'rgba(0, 33, 71, 0.15)', transform: 'translateY(-1px)' },
+                                                            borderRadius: 3,
+                                                            transition: 'all 0.2s ease-in-out'
+                                                        }}
+                                                    >
+                                                        <Edit />
+                                                    </IconButton>
+                                                </Tooltip>
+                                                <Tooltip title="Assign Modules">
+                                                    <IconButton 
+                                                        size="medium" 
+                                                        color="secondary" 
+                                                        onClick={() => {
+                                                            // In a real implementation, this would navigate to the Assign Modules view
+                                                            alert(`Navigate to Assign Modules for ${emp.name}`);
+                                                        }}
+                                                        sx={{
+                                                            bgcolor: 'rgba(25, 118, 210, 0.08)',
+                                                            '&:hover': { bgcolor: 'rgba(25, 118, 210, 0.15)', transform: 'translateY(-1px)' },
+                                                            borderRadius: 3,
+                                                            transition: 'all 0.2s ease-in-out'
+                                                        }}
+                                                    >
+                                                        <Assignment />
+                                                    </IconButton>
+                                                </Tooltip>
+                                            </Box>
                                         </TableCell>
                                     </TableRow>
                                 ))}
@@ -329,26 +382,27 @@ const UserManagement: React.FC = () => {
         const fieldStyle = {
             '& .MuiOutlinedInput-root': { 
                 bgcolor: 'white', 
-                borderRadius: 8, 
-                height: '48px',
-                boxShadow: '0 1px 3px rgba(0,0,0,0.05)',
-                '& fieldset': { borderColor: '#e2e8f0' },
-                '&:hover fieldset': { borderColor: '#cbd5e1' },
-                '&.Mui-focused fieldset': { borderColor: THEME_BLUE, borderWidth: 2 }
+                borderRadius: 12, 
+                height: '56px',
+                boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
+                '& fieldset': { borderColor: COLORS.BORDER, borderWidth: 1 },
+                '&:hover fieldset': { borderColor: '#cbd5e1', borderWidth: 1 },
+                '&.Mui-focused fieldset': { borderColor: THEME_BLUE, borderWidth: 2 },
+                transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
             },
-            '& .MuiInputBase-input': { py: 1.5, px: 2, fontSize: '16px' },
+            '& .MuiInputBase-input': { py: 1.8, px: 2.5, ...TYPOGRAPHY.BODY_LARGE },
             '& .MuiInputLabel-root': { 
-                fontSize: '16px',
+                ...TYPOGRAPHY.BODY_LARGE,
                 fontWeight: 500,
                 color: '#475569',
-                '&.Mui-focused': { color: THEME_BLUE }
+                '&.Mui-focused': { color: THEME_BLUE, fontWeight: 600 }
             }
         };
 
         const renderFieldRow = (label: string, field: keyof Employee, type: string = 'text', options: string[] = []) => (
-            <Box key={field} sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
+            <Box key={field} sx={{ display: 'flex', alignItems: 'center', mb: 3.5 }}>
                 <Box sx={{ width: '35%', textAlign: 'right', pr: 3 }}>
-                    <Typography variant="body1" sx={{ fontWeight: 600, color: '#334155' }}>{label}</Typography>
+                    <Typography variant="body1" sx={{ ...TYPOGRAPHY.CAPTION_LARGE, fontWeight: 600, color: COLORS.DARK_TEXT }}>{label}</Typography>
                 </Box>
                 <Box sx={{ width: '65%' }}>
                     {type === 'select' ? (
@@ -377,16 +431,16 @@ const UserManagement: React.FC = () => {
         );
 
         return (
-            <Box sx={{ bgcolor: 'white', minHeight: '100%', pb: 6 }}>
-                <Box sx={{ bgcolor: THEME_BLUE, p: 2, px: 3, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                    <Typography variant="h6" sx={{ color: 'white', fontWeight: 600, fontSize: '1.25rem' }}>Employee / User Details</Typography>
-                    <IconButton size="small" sx={{ color: 'white' }} onClick={() => setView('list')}><Close /></IconButton>
+            <Box sx={{ bgcolor: 'white', minHeight: '100%', pb: 8 }}>
+                <Box sx={{ bgcolor: THEME_BLUE, p: 2.5, px: 4, display: 'flex', alignItems: 'center', justifyContent: 'space-between', boxShadow: '0 2px 8px rgba(0,0,0,0.1)' }}>
+                    <Typography variant="h5" sx={{ color: 'white', fontWeight: 700, fontSize: '1.5rem' }}>Employee / User Details</Typography>
+                    <IconButton size="medium" sx={{ color: 'white', bgcolor: 'rgba(255,255,255,0.1)', '&:hover': { bgcolor: 'rgba(255,255,255,0.2)' }, borderRadius: 3 }} onClick={() => setView('list')}><Close sx={{ fontSize: 28 }} /></IconButton>
                 </Box>
 
-                <Container maxWidth="lg" sx={{ py: 5 }}>
-                    <Box sx={{ display: 'flex', gap: 4, flexWrap: 'wrap' }}>
+                <Container maxWidth="lg" sx={{ py: PADDING.XL }}>
+                    <Box sx={{ display: 'flex', gap: 5, flexWrap: 'wrap' }}>
                         {/* Column 1 */}
-                        <Box sx={{ flex: 1, minWidth: 300 }}>
+                        <Box sx={{ flex: 1, minWidth: 320, p: 3, bgcolor: '#f8fafc', borderRadius: 3, boxShadow: '0 2px 6px rgba(0,0,0,0.05)' }}>
                             {renderFieldRow("User Name", 'name')}
                             {renderFieldRow("Email Id", 'email', 'email')}
                             {renderFieldRow("Recruitment\nType", 'recruitmentType', 'select', ['Permanent', 'Contract', 'Temporary'])}
@@ -396,7 +450,7 @@ const UserManagement: React.FC = () => {
                         </Box>
 
                         {/* Column 2 */}
-                        <Box sx={{ flex: 1, minWidth: 300 }}>
+                        <Box sx={{ flex: 1, minWidth: 320, p: 3, bgcolor: '#f8fafc', borderRadius: 3, boxShadow: '0 2px 6px rgba(0,0,0,0.05)' }}>
                             {renderFieldRow("Date of Birth", 'dob', 'date')}
                             {renderFieldRow("Address", 'address')}
                             {renderFieldRow("Joining Date", 'joiningDate', 'date')}
@@ -405,7 +459,7 @@ const UserManagement: React.FC = () => {
                         </Box>
 
                         {/* Column 3 */}
-                        <Box sx={{ flex: 1, minWidth: 300 }}>
+                        <Box sx={{ flex: 1, minWidth: 320, p: 3, bgcolor: '#f8fafc', borderRadius: 3, boxShadow: '0 2px 6px rgba(0,0,0,0.05)' }}>
                             {renderFieldRow("Mobile Number", 'mobile')}
                             {renderFieldRow("Pin Code", 'pinCode')}
                             {renderFieldRow("ULB Name", 'ulbName', 'select', ['BBMP', 'Mysore City Corp'])}
@@ -414,25 +468,30 @@ const UserManagement: React.FC = () => {
                         </Box>
                     </Box>
 
-                    <Box sx={{ display: 'flex', justifyContent: 'center', mt: 6 }}>
+                    <Box sx={{ display: 'flex', justifyContent: 'center', mt: MARGIN.XL }}>
                         {/* Only "Save" button in Green as per screenshot */}
                         <Button
                             variant="contained"
                             sx={{
                                 bgcolor: '#00b050',
                                 color: 'white',
-                                fontWeight: 'bold',
-                                px: 8,
-                                py: 1.8,
-                                fontSize: '1.1rem',
-                                '&:hover': { bgcolor: '#009040' },
+                                fontWeight: 700,
+                                px: 10,
+                                py: 2,
+                                fontSize: '1.2rem',
                                 textTransform: 'none',
-                                borderRadius: 8,
-                                boxShadow: '0 4px 6px rgba(0, 176, 80, 0.2)'
+                                borderRadius: 12,
+                                boxShadow: '0 6px 12px rgba(0, 176, 80, 0.3)',
+                                transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                                '&:hover': { 
+                                    bgcolor: '#009040',
+                                    boxShadow: '0 8px 16px rgba(0, 176, 80, 0.4)',
+                                    transform: 'translateY(-2px)'
+                                }
                             }}
                             onClick={handleSave}
                         >
-                            Save
+                            Save Employee Details
                         </Button>
                     </Box>
                 </Container>

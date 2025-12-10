@@ -48,8 +48,18 @@ const MOCK_EMPLOYEES: Employee[] = [
     { id: 'EMP002', name: 'Suresh Patil', designation: 'Chief Officer' },
 ];
 
-const THEME_BLUE = '#002147';
-const THEME_RED = '#ff0000';
+// Using shared constants
+import { COLORS } from '../shared/typography';
+import { PADDING, MARGIN, GRID_SPACING } from '../shared/responsive';
+
+const THEME_BLUE = COLORS.PRIMARY_DARK;
+const THEME_ACCENT = COLORS.PRIMARY_ACCENT;
+const THEME_SUCCESS = COLORS.SUCCESS;
+const THEME_WARNING = COLORS.WARNING;
+const THEME_ERROR = COLORS.ERROR;
+const THEME_LIGHT_BG = COLORS.LIGHT_BACKGROUND;
+const THEME_DARK_TEXT = COLORS.DARK_TEXT;
+const THEME_MEDIUM_TEXT = COLORS.MEDIUM_TEXT;
 
 const MapSuperAdmin: React.FC = () => {
     // State
@@ -101,7 +111,7 @@ const MapSuperAdmin: React.FC = () => {
 
     return (
         <Fade in={true}>
-            <Box sx={{ maxWidth: '100%', mx: 'auto' }}>
+            <Box sx={{ maxWidth: '100%', mx: 'auto', p: { xs: PADDING.XS, sm: PADDING.SM, md: PADDING.MD } }}>
                 <Paper elevation={3} sx={{ borderRadius: 2, overflow: 'hidden' }}>
                     {/* Header */}
                     <Box sx={{ bgcolor: THEME_BLUE, py: 2, px: 3 }}>
@@ -111,9 +121,9 @@ const MapSuperAdmin: React.FC = () => {
                     </Box>
 
                     {/* Controls */}
-                    <Box sx={{ p: 3 }}>
-                        <Paper elevation={0} sx={{ p: 3, borderRadius: 2, border: '1px solid #e2e8f0', mb: 3 }}>
-                            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 3, width: '100%' }}>
+                    <Box sx={{ p: { xs: PADDING.SM, sm: PADDING.MD, md: PADDING.LG } }}>
+                        <Paper elevation={0} sx={{ p: { xs: PADDING.SM, sm: PADDING.MD, md: PADDING.LG }, borderRadius: 2, border: '1px solid #e2e8f0', mb: MARGIN.MD }}>
+                            <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: GRID_SPACING.LG, width: '100%' }}>
                                 <Box sx={{ flex: '1 1 300px' }}>
                                     <Typography variant="subtitle2" sx={{ mb: 1, color: '#475569', fontWeight: 600 }}>
                                         Select Employee
@@ -267,7 +277,7 @@ const MapSuperAdmin: React.FC = () => {
                                                             size="small"
                                                             onClick={() => handleRevoke(admin.id)}
                                                             sx={{
-                                                                bgcolor: THEME_RED,
+                                                                bgcolor: THEME_ERROR,
                                                                 color: 'white',
                                                                 textTransform: 'none',
                                                                 fontWeight: 600,

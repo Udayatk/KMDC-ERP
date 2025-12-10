@@ -117,19 +117,6 @@ const MODULES: Module[] = [
       { id: 'sanitation-services', name: 'Sanitation Services', description: 'Maintain cleanliness and sanitation' },
       { id: 'health-inspection', name: 'Health Inspection', description: 'Conduct health and safety inspections' }
     ]
-  },
-  {
-    id: 'finance-accounts',
-    name: 'Finance & Accounts',
-    description: 'Budget management, revenue collection and accounting',
-    icon: <AccountBalance />,
-    color: '#00796b',
-    subMenus: [
-      { id: 'budget-planning', name: 'Budget Planning', description: 'Plan and allocate budgets' },
-      { id: 'revenue-collection', name: 'Revenue Collection', description: 'Collect various taxes and fees' },
-      { id: 'expense-tracking', name: 'Expense Tracking', description: 'Track and manage expenses' },
-      { id: 'financial-reports', name: 'Financial Reports', description: 'Generate financial statements' }
-    ]
   }
 ];
 
@@ -169,57 +156,75 @@ const ModuleNavigation: React.FC<ModuleNavigationProps> = ({ userInfo, selectedU
   };
 
   const renderBreadcrumb = () => (
-    <Box sx={{ mb: 3, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-      <Breadcrumbs separator={<ChevronRight />} sx={{ color: '#374151' }}>
+    <Box sx={{ mb: 4, display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 2 }}>
+      <Breadcrumbs separator={<ChevronRight sx={{ color: '#94a3b8' }} />} sx={{ color: '#374151', flex: 1 }}>
         <Button
           onClick={handleHomeClick}
-          startIcon={<Home />}
-          sx={{ 
-            color: currentView === 'modules' ? '#1976d2' : '#6b7280',
-            fontWeight: currentView === 'modules' ? 600 : 400,
+          startIcon={<Home sx={{ fontSize: '1.2rem' }} />}
+          sx={{
+            color: currentView === 'modules' ? '#002147' : '#64748b',
+            fontWeight: currentView === 'modules' ? 700 : 500,
             textTransform: 'none',
-            '&:hover': { backgroundColor: 'rgba(25, 118, 210, 0.04)' }
+            fontSize: '1rem',
+            px: 1.5,
+            py: 1,
+            borderRadius: 12,
+            '&:hover': { backgroundColor: 'rgba(0, 33, 71, 0.08)', color: '#002147' }
           }}
         >
           Home
         </Button>
-        
+
         {selectedModule && (
           <Button
             onClick={() => setCurrentView('submenus')}
-            sx={{ 
-              color: currentView === 'submenus' ? '#1976d2' : '#6b7280',
-              fontWeight: currentView === 'submenus' ? 600 : 400,
+            sx={{
+              color: currentView === 'submenus' ? '#002147' : '#64748b',
+              fontWeight: currentView === 'submenus' ? 700 : 500,
               textTransform: 'none',
-              '&:hover': { backgroundColor: 'rgba(25, 118, 210, 0.04)' }
+              fontSize: '1rem',
+              px: 1.5,
+              py: 1,
+              borderRadius: 12,
+              '&:hover': { backgroundColor: 'rgba(0, 33, 71, 0.08)', color: '#002147' }
             }}
           >
             {selectedModule.name}
           </Button>
         )}
-        
+
         {selectedSubMenu && (
-          <Typography sx={{ color: '#1976d2', fontWeight: 600 }}>
+          <Typography sx={{ color: '#002147', fontWeight: 700, fontSize: '1rem' }}>
             {selectedSubMenu.name}
           </Typography>
         )}
       </Breadcrumbs>
-      
-      <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-        <Chip 
-          label={selectedULB.ulbName} 
-          size="small" 
-          sx={{ 
-            bgcolor: '#e3f2fd', 
-            color: '#1976d2',
-            fontWeight: 500
-          }} 
+
+      <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
+        <Chip
+          label={selectedULB.ulbName}
+          size="small"
+          sx={{
+            bgcolor: '#e3f2fd',
+            color: '#002147',
+            fontWeight: 600,
+            borderRadius: 12,
+            px: 1.5,
+            py: 1
+          }}
         />
-        <Chip 
-          label={selectedULB.roleType} 
-          size="small" 
+        <Chip
+          label={selectedULB.roleType}
+          size="small"
           variant="outlined"
-          sx={{ borderColor: '#1976d2', color: '#1976d2' }}
+          sx={{
+            borderColor: '#002147',
+            color: '#002147',
+            fontWeight: 600,
+            borderRadius: 12,
+            px: 1.5,
+            py: 1
+          }}
         />
       </Box>
     </Box>
@@ -228,11 +233,11 @@ const ModuleNavigation: React.FC<ModuleNavigationProps> = ({ userInfo, selectedU
   const renderModules = () => (
     <Box>
       {/* Module Navigation Bar */}
-      <Box sx={{ 
-        bgcolor: '#002147', 
-        borderRadius: '6px',
+      <Box sx={{
+        bgcolor: '#002147',
+        borderRadius: '12px',
         overflow: 'hidden',
-        boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+        boxShadow: '0 4px 12px rgba(0,0,0,0.15)'
       }}>
         <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
           {MODULES.map((module) => (
@@ -242,50 +247,70 @@ const ModuleNavigation: React.FC<ModuleNavigationProps> = ({ userInfo, selectedU
               sx={{
                 color: 'white',
                 textTransform: 'none',
-                px: 3,
-                py: 2,
-                fontSize: '0.9rem',
-                fontWeight: 500,
+                px: { xs: 2, sm: 3 },
+                py: 2.5,
+                fontSize: { xs: '0.85rem', sm: '0.95rem' },
+                fontWeight: 600,
                 borderRadius: 0,
                 flexGrow: 1,
                 minWidth: 'fit-content',
-                borderRight: '1px solid rgba(255,255,255,0.1)',
+                borderRight: '1px solid rgba(255,255,255,0.15)',
+                transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
                 '&:hover': {
-                  bgcolor: 'rgba(255,255,255,0.1)'
+                  bgcolor: 'rgba(255,255,255,0.15)',
+                  transform: 'translateY(-2px)',
+                  boxShadow: '0 4px 8px rgba(0,0,0,0.2)'
                 },
                 '&:last-child': {
                   borderRight: 'none'
                 }
               }}
             >
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                <Box sx={{ fontSize: '18px', display: 'flex', alignItems: 'center' }}>
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
+                <Box sx={{ fontSize: { xs: '16px', sm: '20px' }, display: 'flex', alignItems: 'center' }}>
                   {module.icon}
                 </Box>
-                {module.name}
+                <Box component="span" sx={{ display: { xs: 'none', sm: 'inline' } }}>
+                  {module.name}
+                </Box>
               </Box>
             </Button>
           ))}
         </Box>
       </Box>
-      
+
       {/* Main Content Area */}
-      <Box sx={{ mt: 4, p: 6, textAlign: 'center', bgcolor: '#f8fafc', borderRadius: 2 }}>
-        <Typography variant="h5" sx={{ fontWeight: 600, color: '#1e293b', mb: 2 }}>
+      <Box sx={{ mt: 5, p: { xs: 3, sm: 5, md: 6 }, textAlign: 'center', bgcolor: '#f8fafc', borderRadius: 3, boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
+        <Typography variant="h4" sx={{ fontWeight: 700, color: '#0f172a', mb: 3 }}>
           Welcome to {selectedULB.ulbName}
         </Typography>
-        <Typography variant="body1" sx={{ color: '#64748b', mb: 3 }}>
+        <Typography variant="h6" sx={{ color: '#64748b', mb: 4, fontWeight: 400 }}>
           Select a module from the navigation bar above to access its services and functionalities
         </Typography>
-        <Box sx={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: 2 }}>
-          <Chip 
+        <Box sx={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: 2.5 }}>
+          <Chip
             label={`${MODULES.length} Modules Available`}
-            sx={{ bgcolor: '#e3f2fd', color: '#1976d2', fontWeight: 500 }}
+            sx={{
+              bgcolor: '#e3f2fd',
+              color: '#1976d2',
+              fontWeight: 600,
+              borderRadius: 12,
+              px: 2,
+              py: 1.5,
+              boxShadow: '0 2px 4px rgba(0,0,0,0.05)'
+            }}
           />
-          <Chip 
+          <Chip
             label={`Role: ${selectedULB.roleType}`}
             variant="outlined"
-            sx={{ borderColor: '#1976d2', color: '#1976d2' }}
+            sx={{
+              borderColor: '#1976d2',
+              color: '#1976d2',
+              fontWeight: 600,
+              borderRadius: 12,
+              px: 2,
+              py: 1.5
+            }}
           />
         </Box>
       </Box>
@@ -298,37 +323,43 @@ const ModuleNavigation: React.FC<ModuleNavigationProps> = ({ userInfo, selectedU
     return (
       <Box>
         {/* Module Navigation Bar - Only show selected module */}
-        <Box sx={{ 
-          bgcolor: '#002147', 
-          borderRadius: '6px',
+        <Box sx={{
+          bgcolor: '#002147',
+          borderRadius: '12px',
           overflow: 'hidden',
-          boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-          mb: 3
+          boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+          mb: 4
         }}>
-          <Box sx={{ display: 'flex', alignItems: 'center' }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap' }}>
             <Button
               sx={{
                 color: 'white',
                 textTransform: 'none',
-                px: 3,
-                py: 2,
-                fontSize: '0.9rem',
-                fontWeight: 600,
+                px: { xs: 2, sm: 3 },
+                py: 2.5,
+                fontSize: { xs: '0.9rem', sm: '1rem' },
+                fontWeight: 700,
                 borderRadius: 0,
-                bgcolor: 'rgba(255,255,255,0.1)',
+                bgcolor: 'rgba(255,255,255,0.15)',
+                minWidth: { xs: '100%', sm: 'fit-content' },
+                justifyContent: { xs: 'center', sm: 'flex-start' },
                 '&:hover': {
-                  bgcolor: 'rgba(255,255,255,0.15)'
-                }
+                  bgcolor: 'rgba(255,255,255,0.2)',
+                  transform: 'translateY(-1px)'
+                },
+                transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
               }}
             >
-              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                <Box sx={{ fontSize: '18px', display: 'flex', alignItems: 'center' }}>
+              <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
+                <Box sx={{ fontSize: { xs: '20px', sm: '22px' }, display: 'flex', alignItems: 'center' }}>
                   {selectedModule.icon}
                 </Box>
-                {selectedModule.name}
+                <Box component="span" sx={{ display: { xs: 'inline', sm: 'inline' } }}>
+                  {selectedModule.name}
+                </Box>
               </Box>
             </Button>
-            
+
             {/* Submenu Navigation */}
             <Box sx={{ display: 'flex', flexWrap: 'wrap', flexGrow: 1 }}>
               {selectedModule.subMenus.map((subMenu, index) => (
@@ -336,19 +367,24 @@ const ModuleNavigation: React.FC<ModuleNavigationProps> = ({ userInfo, selectedU
                   key={subMenu.id}
                   onClick={() => handleSubMenuClick(subMenu)}
                   sx={{
-                    color: 'rgba(255,255,255,0.8)',
+                    color: 'rgba(255,255,255,0.9)',
                     textTransform: 'none',
-                    px: 2.5,
-                    py: 2,
-                    fontSize: '0.85rem',
-                    fontWeight: 400,
+                    px: { xs: 2, sm: 3 },
+                    py: 2.5,
+                    fontSize: { xs: '0.85rem', sm: '0.95rem' },
+                    fontWeight: 500,
                     borderRadius: 0,
-                    borderLeft: index === 0 ? '1px solid rgba(255,255,255,0.1)' : 'none',
-                    borderRight: '1px solid rgba(255,255,255,0.1)',
+                    borderLeft: index === 0 ? '1px solid rgba(255,255,255,0.15)' : 'none',
+                    borderRight: '1px solid rgba(255,255,255,0.15)',
+                    minWidth: { xs: '50%', sm: 'fit-content' },
+                    justifyContent: { xs: 'center', sm: 'flex-start' },
                     '&:hover': {
-                      bgcolor: 'rgba(255,255,255,0.1)',
-                      color: 'white'
-                    }
+                      bgcolor: 'rgba(255,255,255,0.15)',
+                      color: 'white',
+                      transform: 'translateY(-1px)',
+                      boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+                    },
+                    transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
                   }}
                 >
                   {subMenu.name}
@@ -359,14 +395,14 @@ const ModuleNavigation: React.FC<ModuleNavigationProps> = ({ userInfo, selectedU
         </Box>
 
         {/* Module Description */}
-        <Box sx={{ mb: 4, p: 4, bgcolor: '#f8fafc', borderRadius: 2, textAlign: 'center' }}>
-          <Typography variant="h5" sx={{ fontWeight: 600, color: '#1e293b', mb: 1 }}>
+        <Box sx={{ mb: 5, p: { xs: 3, sm: 4, md: 5 }, bgcolor: '#f8fafc', borderRadius: 3, textAlign: 'center', boxShadow: '0 4px 12px rgba(0,0,0,0.05)' }}>
+          <Typography variant="h4" sx={{ fontWeight: 700, color: '#0f172a', mb: 2 }}>
             {selectedModule.name}
           </Typography>
-          <Typography variant="body1" sx={{ color: '#64748b', mb: 3 }}>
+          <Typography variant="h6" sx={{ color: '#64748b', mb: 4, fontWeight: 400 }}>
             {selectedModule.description}
           </Typography>
-          <Typography variant="body2" sx={{ color: '#9ca3af' }}>
+          <Typography variant="body1" sx={{ color: '#94a3b8' }}>
             Click on any service above to access its functionality
           </Typography>
         </Box>
@@ -379,55 +415,78 @@ const ModuleNavigation: React.FC<ModuleNavigationProps> = ({ userInfo, selectedU
 
     return (
       <Box>
-        <Paper sx={{ p: 4, borderRadius: 2, border: '1px solid #e2e8f0' }}>
-          <Box sx={{ display: 'flex', alignItems: 'center', mb: 3 }}>
+        <Paper sx={{ p: { xs: 3, sm: 4, md: 5 }, borderRadius: 3, border: '1px solid #e2e8f0', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
+          <Box sx={{ display: 'flex', alignItems: 'center', mb: 4 }}>
             <Box
               sx={{
-                p: 1.5,
-                borderRadius: 2,
+                p: 2,
+                borderRadius: 3,
                 bgcolor: `${selectedModule.color}15`,
                 color: selectedModule.color,
-                mr: 3,
+                mr: 4,
                 display: 'flex',
                 alignItems: 'center',
-                justifyContent: 'center'
+                justifyContent: 'center',
+                boxShadow: '0 4px 6px rgba(0,0,0,0.05)'
               }}
             >
               {selectedModule.icon}
             </Box>
             <Box>
-              <Typography variant="h5" sx={{ fontWeight: 600, color: '#1e293b', mb: 0.5 }}>
+              <Typography variant="h4" sx={{ fontWeight: 700, color: '#0f172a', mb: 1 }}>
                 {selectedSubMenu.name}
               </Typography>
-              <Typography variant="body1" sx={{ color: '#64748b' }}>
+              <Typography variant="h6" sx={{ color: '#64748b', fontWeight: 400 }}>
                 {selectedSubMenu.description}
               </Typography>
             </Box>
           </Box>
 
-          <Box sx={{ p: 6, textAlign: 'center', bgcolor: '#f8fafc', borderRadius: 2 }}>
-            <Typography variant="h6" sx={{ color: '#64748b', mb: 2 }}>
+          <Box sx={{ p: { xs: 4, sm: 5, md: 6 }, textAlign: 'center', bgcolor: '#f8fafc', borderRadius: 3, boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
+            <Typography variant="h5" sx={{ color: '#0f172a', mb: 3, fontWeight: 700 }}>
               {selectedSubMenu.name} Interface
             </Typography>
-            <Typography variant="body1" sx={{ color: '#9ca3af', mb: 4 }}>
+            <Typography variant="body1" sx={{ color: '#64748b', mb: 5, fontSize: '1.1rem', lineHeight: 1.7 }}>
               This is where the specific functionality for "{selectedSubMenu.name}" would be implemented.
               The interface would contain forms, tables, and other components specific to this service.
             </Typography>
-            <Box sx={{ display: 'flex', gap: 2, justifyContent: 'center' }}>
+            <Box sx={{ display: 'flex', gap: 3, justifyContent: 'center', flexWrap: 'wrap' }}>
               <Button
                 variant="outlined"
                 onClick={() => setCurrentView('submenus')}
-                sx={{ textTransform: 'none' }}
+                sx={{
+                  textTransform: 'none',
+                  px: 4,
+                  py: 1.5,
+                  borderRadius: 12,
+                  fontWeight: 600,
+                  fontSize: '1rem',
+                  borderColor: '#002147',
+                  color: '#002147',
+                  '&:hover': {
+                    borderColor: '#001a38',
+                    bgcolor: 'rgba(0, 33, 71, 0.05)',
+                    boxShadow: '0 4px 6px rgba(0, 33, 71, 0.1)'
+                  }
+                }}
               >
                 Back to Services
               </Button>
               <Button
                 variant="contained"
                 onClick={handleHomeClick}
-                sx={{ 
+                sx={{
                   textTransform: 'none',
+                  px: 4,
+                  py: 1.5,
+                  borderRadius: 12,
+                  fontWeight: 600,
+                  fontSize: '1rem',
                   bgcolor: selectedModule.color,
-                  '&:hover': { bgcolor: selectedModule.color + 'dd' }
+                  '&:hover': {
+                    bgcolor: selectedModule.color + 'dd',
+                    boxShadow: `0 4px 12px ${selectedModule.color}40`
+                  }
                 }}
               >
                 Go to Home
@@ -442,7 +501,7 @@ const ModuleNavigation: React.FC<ModuleNavigationProps> = ({ userInfo, selectedU
   return (
     <Box sx={{ p: 3 }}>
       {renderBreadcrumb()}
-      
+
       {currentView === 'modules' && renderModules()}
       {currentView === 'submenus' && renderSubMenus()}
       {currentView === 'content' && renderContent()}

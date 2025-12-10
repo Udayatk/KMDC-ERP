@@ -48,6 +48,7 @@ import MapSuperAdmin from '../admin/MapSuperAdmin';
 import MapLevelsToRoles from '../admin/MapLevelsToRoles';
 import MapUser from '../admin/MapUser';
 import TransferEmployee from '../admin/TransferEmployee';
+import AssignModules from '../admin/AssignModules';
 import ChangePassword from '../auth/ChangePassword';
 import ModuleNavigation from './ModuleNavigation';
 
@@ -75,7 +76,7 @@ const Dashboard: React.FC<DashboardProps> = ({ userInfo, selectedULB, onLogout }
   const [showSwitchULB, setShowSwitchULB] = useState(false);
   const [selectedNewULB, setSelectedNewULB] = useState<string>('');
 
-  const [currentView, setCurrentView] = useState<'modules' | 'employees' | 'map-ulb' | 'map-super-admin' | 'map-levels' | 'map-user' | 'transfer-employee' | 'change-password'>('modules');
+  const [currentView, setCurrentView] = useState<'modules' | 'employees' | 'map-ulb' | 'map-super-admin' | 'map-levels' | 'map-user' | 'transfer-employee' | 'assign-modules' | 'change-password'>('modules');
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleMenu = (event: React.MouseEvent<HTMLElement>) => {
@@ -128,6 +129,7 @@ const Dashboard: React.FC<DashboardProps> = ({ userInfo, selectedULB, onLogout }
     { id: 'map-levels', label: 'Levels & Roles', icon: <AccountTree /> },
     { id: 'map-user', label: 'User Mapping', icon: <Assignment /> },
     { id: 'transfer-employee', label: 'Transfer Employee', icon: <TransferWithinAStation /> },
+    { id: 'assign-modules', label: 'Assign Modules', icon: <Business /> },
     { id: 'modules', label: 'Modules', icon: <Business /> },
   ];
 
@@ -140,14 +142,15 @@ const Dashboard: React.FC<DashboardProps> = ({ userInfo, selectedULB, onLogout }
         alignItems: 'center',
         gap: 2,
         borderBottom: '1px solid rgba(255,255,255,0.1)',
-        bgcolor: '#001a38'
+        bgcolor: '#001a38',
+        boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
       }}>
-        <AdminPanelSettings sx={{ color: '#60a5fa', fontSize: 32 }} />
+        <AdminPanelSettings sx={{ color: '#60a5fa', fontSize: 36 }} />
         <Box>
-          <Typography variant="subtitle1" sx={{ fontWeight: 700, lineHeight: 1, fontSize: '1.1rem' }}>
+          <Typography variant="h6" sx={{ fontWeight: 700, lineHeight: 1.2, fontSize: '1.2rem' }}>
             Admin Panel
           </Typography>
-          <Typography variant="caption" sx={{ color: '#94a3b8', fontSize: '0.8rem' }}>
+          <Typography variant="caption" sx={{ color: '#94a3b8', fontSize: '0.85rem' }}>
             v2.0 dashboard
           </Typography>
         </Box>
@@ -168,7 +171,7 @@ const Dashboard: React.FC<DashboardProps> = ({ userInfo, selectedULB, onLogout }
                 startIcon={React.cloneElement(item.icon, {
                   sx: {
                     color: isActive ? 'white' : '#94a3b8',
-                    fontSize: 24
+                    fontSize: 26
                   }
                 })}
                 sx={{
@@ -177,15 +180,16 @@ const Dashboard: React.FC<DashboardProps> = ({ userInfo, selectedULB, onLogout }
                   color: isActive ? 'white' : '#cbd5e1',
                   bgcolor: isActive ? '#1976d2' : 'transparent',
                   fontWeight: isActive ? 600 : 400,
-                  fontSize: '0.95rem',
-                  py: 1.8,
+                  fontSize: '1rem',
+                  py: 2,
                   px: 2.5,
-                  borderRadius: 2,
-                  transition: 'all 0.2s',
+                  borderRadius: 3,
+                  transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
                   '&:hover': {
-                    bgcolor: isActive ? '#1565c0' : 'rgba(255,255,255,0.05)',
+                    bgcolor: isActive ? '#1565c0' : 'rgba(255,255,255,0.08)',
                     color: 'white',
-                    transform: 'translateX(4px)'
+                    transform: 'translateX(5px)',
+                    boxShadow: isActive ? '0 4px 8px rgba(0, 0, 0, 0.2)' : '0 2px 4px rgba(0, 0, 0, 0.1)'
                   }
                 }}
               >
@@ -197,35 +201,37 @@ const Dashboard: React.FC<DashboardProps> = ({ userInfo, selectedULB, onLogout }
       </Box>
 
       {/* Sidebar Footer / User Quick Info */}
-      <Box sx={{ p: 2, borderTop: '1px solid rgba(255,255,255,0.1)', bgcolor: '#001a38' }}>
+      <Box sx={{ p: 2.5, borderTop: '1px solid rgba(255,255,255,0.1)', bgcolor: '#001a38' }}>
         <Box sx={{
-          bgcolor: 'rgba(255,255,255,0.05)',
-          borderRadius: 2,
-          p: 2,
+          bgcolor: 'rgba(255,255,255,0.08)',
+          borderRadius: 3,
+          p: 2.5,
           display: 'flex',
           alignItems: 'center',
-          gap: 1.5
+          gap: 1.5,
+          boxShadow: '0 2px 6px rgba(0,0,0,0.1)'
         }}>
           <Box
             sx={{
-              width: 40,
-              height: 40,
+              width: 45,
+              height: 45,
               borderRadius: '50%',
               bgcolor: '#1e293b',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
               color: '#94a3b8',
-              flexShrink: 0
+              flexShrink: 0,
+              boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
             }}
           >
             <Business fontSize="small" />
           </Box>
           <Box sx={{ overflow: 'hidden' }}>
-            <Typography variant="body2" sx={{ fontWeight: 600, color: 'white', overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', lineHeight: 1.2 }}>
+            <Typography variant="body1" sx={{ fontWeight: 600, color: 'white', overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', lineHeight: 1.3 }}>
               {selectedULB.ulbName}
             </Typography>
-            <Typography variant="caption" sx={{ color: '#60a5fa', display: 'flex', alignItems: 'center', gap: 0.5, mt: 0.5 }}>
+            <Typography variant="caption" sx={{ color: '#60a5fa', display: 'flex', alignItems: 'center', gap: 0.5, mt: 0.7 }}>
               {selectedULB.roleType}
             </Typography>
           </Box>
@@ -253,9 +259,9 @@ const Dashboard: React.FC<DashboardProps> = ({ userInfo, selectedULB, onLogout }
       {/* Main Header */}
       <Box sx={{
         bgcolor: 'white',
-        height: 80,
+        height: 85,
         borderBottom: '1px solid #e2e8f0',
-        boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05)',
+        boxShadow: '0 4px 12px -1px rgba(0, 0, 0, 0.08)',
         position: 'sticky',
         top: 0,
         zIndex: 1200,
@@ -265,49 +271,53 @@ const Dashboard: React.FC<DashboardProps> = ({ userInfo, selectedULB, onLogout }
         <Container maxWidth={false} sx={{ px: { xs: 2, md: 4 } }}>
           <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 
-            <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 2.5 }}>
               {/* Mobile Menu Button */}
               <IconButton
                 color="inherit"
                 aria-label="open drawer"
                 edge="start"
                 onClick={handleDrawerToggle}
-                sx={{ display: { md: 'none' }, mr: 1, color: '#002147' }}
+                sx={{ display: { md: 'none' }, mr: 1, color: '#002147', bgcolor: 'rgba(0, 33, 71, 0.05)', '&:hover': { bgcolor: 'rgba(0, 33, 71, 0.1)' }, borderRadius: 2 }}
               >
                 <Assignment />
               </IconButton>
 
-              <img src="/images/karnataka_emblem.png" alt="Logo" style={{ height: 48, objectFit: 'contain' }} />
+              <img src="/images/karnataka_emblem.png" alt="Logo" style={{ height: 52, objectFit: 'contain' }} />
               <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-                <Typography variant="h6" sx={{ fontWeight: 800, color: '#0f172a', lineHeight: 1.1, fontSize: '1.25rem', letterSpacing: '-0.5px' }}>
+                <Typography variant="h5" sx={{ fontWeight: 800, color: '#0f172a', lineHeight: 1.2, fontSize: '1.35rem', letterSpacing: '-0.3px' }}>
                   Directorate of Municipal Administration
                 </Typography>
-                <Typography variant="caption" sx={{ color: '#64748b', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '1px', fontSize: '0.7rem' }}>
+                <Typography variant="caption" sx={{ color: '#002147', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1.5px', fontSize: '0.8rem' }}>
                   Government of Karnataka
                 </Typography>
               </Box>
             </Box>
 
             {/* Header Actions */}
-            <Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
               {userInfo.ulbMappings.length > 1 && (
                 <Button
                   onClick={() => setShowSwitchULB(true)}
                   startIcon={<SwapHoriz />}
                   sx={{
                     textTransform: 'none',
-                    color: '#64748b',
+                    color: '#002147',
                     fontWeight: 600,
                     mr: 1,
                     display: { xs: 'none', md: 'flex' },
-                    '&:hover': { color: '#1976d2', bgcolor: '#f0f9ff' }
+                    bgcolor: 'rgba(0, 33, 71, 0.05)',
+                    borderRadius: 12,
+                    px: 2.5,
+                    py: 1,
+                    '&:hover': { color: '#002147', bgcolor: 'rgba(0, 33, 71, 0.1)', boxShadow: '0 4px 6px rgba(0, 33, 71, 0.1)' }
                   }}
                 >
                   Switch ULB
                 </Button>
               )}
 
-              <IconButton size="small" sx={{ color: '#64748b', transition: 'all 0.2s', '&:hover': { color: '#0f172a', bgcolor: '#f1f5f9' } }}>
+              <IconButton size="medium" sx={{ color: '#002147', transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)', '&:hover': { color: '#002147', bgcolor: 'rgba(0, 33, 71, 0.1)', borderRadius: 12 } }}>
                 <Notifications />
               </IconButton>
 
@@ -318,18 +328,18 @@ const Dashboard: React.FC<DashboardProps> = ({ userInfo, selectedULB, onLogout }
                   alignItems: 'center',
                   gap: 1.5,
                   cursor: 'pointer',
-                  py: 0.5,
-                  px: 1,
-                  borderRadius: 8,
-                  transition: 'all 0.2s',
-                  '&:hover': { bgcolor: '#f8fafc' }
+                  py: 0.7,
+                  px: 1.5,
+                  borderRadius: 12,
+                  transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                  '&:hover': { bgcolor: 'rgba(0, 33, 71, 0.05)' }
                 }}
               >
-                <Typography variant="body2" sx={{ fontWeight: 600, color: '#334155', display: { xs: 'none', sm: 'block' } }}>
+                <Typography variant="body1" sx={{ fontWeight: 600, color: '#002147', display: { xs: 'none', sm: 'block' } }}>
                   {userInfo.employeeName}
                 </Typography>
                 <Box sx={{ position: 'relative' }}>
-                  <AccountCircle sx={{ fontSize: 40, color: '#002147' }} />
+                  <AccountCircle sx={{ fontSize: 42, color: '#002147' }} />
                 </Box>
               </Box>
             </Box>
@@ -361,38 +371,51 @@ const Dashboard: React.FC<DashboardProps> = ({ userInfo, selectedULB, onLogout }
         </Box>
 
         {/* Content Area */}
-        <Box sx={{ flexGrow: 1, p: 4, width: { md: `calc(100% - 300px)` }, overflowY: 'auto', height: 'calc(100vh - 83px)', bgcolor: '#f8fafc' }}>
+        <Box sx={{ flexGrow: 1, p: { xs: 2, sm: 3, md: 4 }, width: { md: `calc(100% - 300px)` }, overflowY: 'auto', height: 'calc(100vh - 88px)', bgcolor: '#f8fafc' }}>
           <Fade in timeout={400} key={currentView}>
             <Box sx={{ maxWidth: '1600px', mx: 'auto' }}>
               {/* Simple Session Status Bar */}
-              <Box sx={{ mb: 3, display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: 2 }}>
-                <Typography variant="body2" sx={{ color: '#64748b', fontSize: '0.85rem' }}>
+              <Box sx={{ mb: 4, display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: 2.5 }}>
+                <Typography variant="body1" sx={{ color: '#64748b', fontSize: '0.95rem' }}>
                   Welcome back, <Box component="span" sx={{ fontWeight: 600, color: '#0f172a' }}>{userInfo.employeeName}</Box>
                 </Typography>
                 <Chip
                   label="Active Session"
                   size="small"
                   sx={{
-                    height: 24,
-                    borderRadius: 1,
+                    height: 28,
+                    borderRadius: 12,
                     bgcolor: '#dcfce7',
                     color: '#166534',
                     fontWeight: 600,
                     border: '1px solid #bbf7d0',
-                    fontSize: '0.75rem'
+                    fontSize: '0.8rem',
+                    boxShadow: '0 2px 4px rgba(0,0,0,0.05)'
                   }}
                 />
               </Box>
 
-              {currentView === 'modules' ? <ModuleNavigation userInfo={userInfo} selectedULB={selectedULB} /> :
-                currentView === 'employees' ? <UserManagement /> :
-                  currentView === 'map-ulb' ? <MapUlbToDistrict /> :
-                    currentView === 'map-super-admin' ? <MapSuperAdmin /> :
-                      currentView === 'map-levels' ? <MapLevelsToRoles /> :
-                        currentView === 'map-user' ? <MapUser /> :
-                          currentView === 'transfer-employee' ? <TransferEmployee /> :
-                            currentView === 'change-password' ? <ChangePassword onBack={handleBackToDashboard} /> : null
-              }
+              <Paper
+                elevation={0}
+                sx={{
+                  borderRadius: 4,
+                  overflow: 'hidden',
+                  border: '1px solid #e2e8f0',
+                  boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
+                  bgcolor: 'white'
+                }}
+              >
+                {currentView === 'modules' ? <ModuleNavigation userInfo={userInfo} selectedULB={selectedULB} /> :
+                  currentView === 'employees' ? <UserManagement /> :
+                    currentView === 'map-ulb' ? <MapUlbToDistrict /> :
+                      currentView === 'map-super-admin' ? <MapSuperAdmin /> :
+                        currentView === 'map-levels' ? <MapLevelsToRoles /> :
+                          currentView === 'map-user' ? <MapUser /> :
+                            currentView === 'transfer-employee' ? <TransferEmployee /> :
+                              currentView === 'assign-modules' ? <AssignModules /> :
+                                currentView === 'change-password' ? <ChangePassword onBack={handleBackToDashboard} /> : null
+                }
+              </Paper>
             </Box>
           </Fade>
         </Box>

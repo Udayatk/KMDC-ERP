@@ -46,8 +46,18 @@ const ALL_ULBS = [
     'Bhadravathi CMC', 'Tiptur CMC', 'Gokak CMC'
 ];
 
-const THEME_BLUE = '#002147'; // Dark Navy Blue
-const THEME_RED = '#ff0000'; // Standard bright red from screenshot
+// Using shared constants
+import { COLORS } from '../shared/typography';
+import { PADDING, MARGIN, GRID_SPACING } from '../shared/responsive';
+
+const THEME_BLUE = COLORS.PRIMARY_DARK;
+const THEME_ACCENT = COLORS.PRIMARY_ACCENT;
+const THEME_SUCCESS = COLORS.SUCCESS;
+const THEME_WARNING = COLORS.WARNING;
+const THEME_ERROR = COLORS.ERROR;
+const THEME_LIGHT_BG = COLORS.LIGHT_BACKGROUND;
+const THEME_DARK_TEXT = COLORS.DARK_TEXT;
+const THEME_MEDIUM_TEXT = COLORS.MEDIUM_TEXT;
 
 const MapUlbToDistrict: React.FC = () => {
     // State
@@ -93,7 +103,7 @@ const MapUlbToDistrict: React.FC = () => {
     const checkedIcon = <CheckBox fontSize="small" />;
 
     return (
-        <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', p: 4, bgcolor: '#f1f5f9', minHeight: '100%' }}>
+        <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', p: { xs: PADDING.SM, sm: PADDING.MD, md: PADDING.LG }, bgcolor: '#f1f5f9', minHeight: '100%' }}>
             {/* Single Main Card Container */}
             <Paper
                 elevation={0}
@@ -103,7 +113,7 @@ const MapUlbToDistrict: React.FC = () => {
                     borderRadius: 3,
                     overflow: 'hidden',
                     bgcolor: 'white',
-                    p: 5,
+                    p: { xs: PADDING.MD, sm: PADDING.LG, md: PADDING.XL },
                     boxShadow: '0 10px 25px rgba(0,0,0,0.08)'
                 }}
             >
@@ -113,7 +123,7 @@ const MapUlbToDistrict: React.FC = () => {
                         bgcolor: THEME_BLUE,
                         py: 2,
                         borderRadius: 2,
-                        mb: 5,
+                        mb: MARGIN.LG,
                         textAlign: 'center',
                         boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
                     }}
@@ -124,7 +134,7 @@ const MapUlbToDistrict: React.FC = () => {
                 </Box>
 
                 {/* Input Row */}
-                <Box sx={{ display: 'flex', gap: 3, mb: 5, alignItems: 'center', flexWrap: 'wrap' }}>
+                <Box sx={{ display: 'flex', gap: GRID_SPACING.LG, mb: MARGIN.LG, alignItems: 'center', flexWrap: 'wrap' }}>
                     <Autocomplete
                         options={DISTRICTS}
                         value={selectedDistrict}
@@ -266,7 +276,7 @@ const MapUlbToDistrict: React.FC = () => {
                                             sx={{
                                                 textTransform: 'none',
                                                 minWidth: '90px',
-                                                bgcolor: THEME_RED,
+                                                bgcolor: THEME_ERROR,
                                                 borderRadius: 6,
                                                 fontWeight: 600,
                                                 boxShadow: '0 2px 4px rgba(255, 0, 0, 0.1)',

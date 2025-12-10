@@ -8,10 +8,10 @@ import ClientThemeProvider from '../components/ClientThemeProvider';
 const LoginPage = dynamic(() => import('../components/auth/LoginPage'), {
   ssr: false,
   loading: () => (
-    <div style={{ 
-      display: 'flex', 
-      justifyContent: 'center', 
-      alignItems: 'center', 
+    <div style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
       height: '100vh',
       fontSize: '16px',
       color: '#666'
@@ -24,10 +24,10 @@ const LoginPage = dynamic(() => import('../components/auth/LoginPage'), {
 const Dashboard = dynamic(() => import('../components/dashboard/Dashboard'), {
   ssr: false,
   loading: () => (
-    <div style={{ 
-      display: 'flex', 
-      justifyContent: 'center', 
-      alignItems: 'center', 
+    <div style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
       height: '100vh',
       fontSize: '16px',
       color: '#666'
@@ -80,25 +80,24 @@ export default function Home() {
     setIsAuthenticated(false);
   };
 
-  // Prevent hydration mismatch by only rendering client components after mount
+  // Prevent hydration mismatch by only rendering after client mount
   if (!isMounted) {
     return (
-      <ClientThemeProvider>
-        <main style={{ 
-          display: 'flex', 
-          justifyContent: 'center', 
-          alignItems: 'center', 
-          height: '100vh',
-          backgroundColor: '#f8fafc'
+      <div style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh',
+        backgroundColor: '#f1f5f9'
+      }}>
+        <div style={{
+          fontSize: '16px',
+          color: '#64748b',
+          fontFamily: 'Inter, sans-serif'
         }}>
-          <div style={{ 
-            fontSize: '16px',
-            color: '#666'
-          }}>
-            Loading...
-          </div>
-        </main>
-      </ClientThemeProvider>
+          Loading...
+        </div>
+      </div>
     );
   }
 
@@ -106,10 +105,10 @@ export default function Home() {
     <ClientThemeProvider>
       <main>
         {isAuthenticated ? (
-          <Dashboard 
+          <Dashboard
             userInfo={mockUserInfo}
             selectedULB={mockSelectedULB}
-            onLogout={handleLogout} 
+            onLogout={handleLogout}
           />
         ) : (
           <LoginPage onLoginSuccess={handleLoginSuccess} />

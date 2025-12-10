@@ -1,0 +1,2982 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/src/components/shared/typography.ts [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// Typography constants for consistent styling across the application
+__turbopack_context__.s([
+    "COLORS",
+    ()=>COLORS,
+    "TYPOGRAPHY",
+    ()=>TYPOGRAPHY
+]);
+const TYPOGRAPHY = {
+    // Headers
+    HEADER_LARGE: {
+        fontSize: '2rem',
+        fontWeight: 800,
+        lineHeight: 1.2,
+        letterSpacing: '-0.5px'
+    },
+    HEADER_MEDIUM: {
+        fontSize: '1.5rem',
+        fontWeight: 700,
+        lineHeight: 1.3,
+        letterSpacing: '-0.3px'
+    },
+    HEADER_SMALL: {
+        fontSize: '1.25rem',
+        fontWeight: 600,
+        lineHeight: 1.4,
+        letterSpacing: '-0.2px'
+    },
+    // Body text
+    BODY_LARGE: {
+        fontSize: '1rem',
+        fontWeight: 400,
+        lineHeight: 1.6,
+        letterSpacing: '0'
+    },
+    BODY_MEDIUM: {
+        fontSize: '0.875rem',
+        fontWeight: 400,
+        lineHeight: 1.5,
+        letterSpacing: '0'
+    },
+    BODY_SMALL: {
+        fontSize: '0.75rem',
+        fontWeight: 400,
+        lineHeight: 1.4,
+        letterSpacing: '0'
+    },
+    // Captions and labels
+    CAPTION_LARGE: {
+        fontSize: '0.875rem',
+        fontWeight: 600,
+        lineHeight: 1.4,
+        letterSpacing: '0.2px'
+    },
+    CAPTION_MEDIUM: {
+        fontSize: '0.75rem',
+        fontWeight: 500,
+        lineHeight: 1.3,
+        letterSpacing: '0.1px'
+    },
+    CAPTION_SMALL: {
+        fontSize: '0.625rem',
+        fontWeight: 500,
+        lineHeight: 1.2,
+        letterSpacing: '0'
+    },
+    // Specialized styles
+    BUTTON_LARGE: {
+        fontSize: '1rem',
+        fontWeight: 600,
+        lineHeight: 1.5,
+        letterSpacing: '0'
+    },
+    BUTTON_MEDIUM: {
+        fontSize: '0.875rem',
+        fontWeight: 600,
+        lineHeight: 1.4,
+        letterSpacing: '0'
+    },
+    BUTTON_SMALL: {
+        fontSize: '0.75rem',
+        fontWeight: 600,
+        lineHeight: 1.3,
+        letterSpacing: '0'
+    }
+};
+const COLORS = {
+    PRIMARY_DARK: '#002147',
+    PRIMARY_ACCENT: '#1976d2',
+    SUCCESS: '#00c853',
+    WARNING: '#ffab00',
+    ERROR: '#d50000',
+    LIGHT_BACKGROUND: '#f8fafc',
+    DARK_TEXT: '#0f172a',
+    MEDIUM_TEXT: '#64748b',
+    LIGHT_TEXT: '#94a3b8',
+    BORDER: '#e2e8f0',
+    HOVER: '#001a38' // Hover state for primary color
+};
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/components/shared/responsive.ts [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// Responsive design constants for consistent breakpoints and spacing across the application
+__turbopack_context__.s([
+    "BREAKPOINTS",
+    ()=>BREAKPOINTS,
+    "BUTTON_SIZES",
+    ()=>BUTTON_SIZES,
+    "CONTAINER_WIDTHS",
+    ()=>CONTAINER_WIDTHS,
+    "FONT_SIZES",
+    ()=>FONT_SIZES,
+    "GRID_SPACING",
+    ()=>GRID_SPACING,
+    "ICON_SIZES",
+    ()=>ICON_SIZES,
+    "MARGIN",
+    ()=>MARGIN,
+    "MEDIA_QUERIES",
+    ()=>MEDIA_QUERIES,
+    "PADDING",
+    ()=>PADDING
+]);
+const BREAKPOINTS = {
+    // Standard breakpoints matching Material-UI defaults
+    XS: 0,
+    SM: 600,
+    MD: 900,
+    LG: 1200,
+    XL: 1536 // Extra large devices (large desktops)
+};
+const PADDING = {
+    XS: 2,
+    SM: 3,
+    MD: 4,
+    LG: 5,
+    XL: 6
+};
+const MARGIN = {
+    XS: 1.5,
+    SM: 2,
+    MD: 3,
+    LG: 4,
+    XL: 5
+};
+const FONT_SIZES = {
+    XS: '0.75rem',
+    SM: '0.875rem',
+    MD: '1rem',
+    LG: '1.125rem',
+    XL: '1.25rem' // 20px
+};
+const ICON_SIZES = {
+    XS: 20,
+    SM: 24,
+    MD: 28,
+    LG: 32,
+    XL: 36
+};
+const BUTTON_SIZES = {
+    SMALL: {
+        HEIGHT: 36,
+        PADDING_X: 2,
+        PADDING_Y: 1,
+        FONT_SIZE: '0.875rem'
+    },
+    MEDIUM: {
+        HEIGHT: 42,
+        PADDING_X: 3,
+        PADDING_Y: 1.5,
+        FONT_SIZE: '1rem'
+    },
+    LARGE: {
+        HEIGHT: 48,
+        PADDING_X: 4,
+        PADDING_Y: 2,
+        FONT_SIZE: '1.125rem'
+    }
+};
+const CONTAINER_WIDTHS = {
+    XS: '100%',
+    SM: '540px',
+    MD: '720px',
+    LG: '960px',
+    XL: '1140px',
+    XXL: '1320px'
+};
+const GRID_SPACING = {
+    XS: 1,
+    SM: 1.5,
+    MD: 2,
+    LG: 2.5,
+    XL: 3
+};
+const MEDIA_QUERIES = {
+    UP_SM: '@media (min-width: 600px)',
+    UP_MD: '@media (min-width: 900px)',
+    UP_LG: '@media (min-width: 1200px)',
+    UP_XL: '@media (min-width: 1536px)',
+    DOWN_SM: '@media (max-width: 599px)',
+    DOWN_MD: '@media (max-width: 899px)',
+    DOWN_LG: '@media (max-width: 1199px)',
+    DOWN_XL: '@media (max-width: 1535px)'
+};
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/components/auth/ForgotPassword.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Box/Box.js [app-client] (ecmascript) <export default as Box>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Typography/Typography.js [app-client] (ecmascript) <export default as Typography>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/TextField/TextField.js [app-client] (ecmascript) <export default as TextField>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Button/Button.js [app-client] (ecmascript) <export default as Button>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Container$2f$Container$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Container/Container.js [app-client] (ecmascript) <export default as Container>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__IconButton$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/IconButton/IconButton.js [app-client] (ecmascript) <export default as IconButton>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Paper$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Paper/Paper.js [app-client] (ecmascript) <export default as Paper>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$InputAdornment$2f$InputAdornment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__InputAdornment$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/InputAdornment/InputAdornment.js [app-client] (ecmascript) <export default as InputAdornment>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Fade$2f$Fade$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Fade$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Fade/Fade.js [app-client] (ecmascript) <export default as Fade>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Alert$2f$Alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Alert$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Alert/Alert.js [app-client] (ecmascript) <export default as Alert>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Snackbar$2f$Snackbar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Snackbar$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Snackbar/Snackbar.js [app-client] (ecmascript) <export default as Snackbar>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CircularProgress$2f$CircularProgress$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CircularProgress$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/CircularProgress/CircularProgress.js [app-client] (ecmascript) <export default as CircularProgress>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Refresh$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Refresh.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Person.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Lock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Lock.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$VpnKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/VpnKey.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Security$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Security.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$ArrowBack$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/ArrowBack.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+const ForgotPassword = ({ onBackToLogin })=>{
+    _s();
+    // Steps: 1: Enter ID -> 2: Enter OTP/Captcha -> 3: Set Password
+    const [step, setStep] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(1);
+    const [formData, setFormData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
+        employeeId: '',
+        otp: '',
+        captcha: '',
+        newPassword: '',
+        confirmPassword: ''
+    });
+    const [captchaText, setCaptchaText] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('Captcha23');
+    const [isLoading, setIsLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [resendTimer, setResendTimer] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
+    const [alertInfo, setAlertInfo] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
+        show: false,
+        message: '',
+        severity: 'error'
+    });
+    // Mock Data
+    const VALID_ID = '123456';
+    const VALID_OTP = '1234';
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "ForgotPassword.useEffect": ()=>{
+            let timer;
+            if (resendTimer > 0) {
+                timer = setTimeout({
+                    "ForgotPassword.useEffect": ()=>setResendTimer(resendTimer - 1)
+                }["ForgotPassword.useEffect"], 1000);
+            }
+            return ({
+                "ForgotPassword.useEffect": ()=>clearTimeout(timer)
+            })["ForgotPassword.useEffect"];
+        }
+    }["ForgotPassword.useEffect"], [
+        resendTimer
+    ]);
+    const showAlert = (message, severity = 'error')=>{
+        setAlertInfo({
+            show: true,
+            message,
+            severity
+        });
+    };
+    const handleCloseAlert = ()=>{
+        setAlertInfo({
+            ...alertInfo,
+            show: false
+        });
+    };
+    const generateNewCaptcha = ()=>{
+        const captchas = [
+            'Captcha23',
+            'Secure45',
+            'Verify67',
+            'Check89',
+            'Guard12'
+        ];
+        const newCaptcha = captchas[Math.floor(Math.random() * captchas.length)];
+        setCaptchaText(newCaptcha);
+        setFormData((prev)=>({
+                ...prev,
+                captcha: ''
+            }));
+    };
+    const clearForm = ()=>{
+        setFormData({
+            employeeId: '',
+            otp: '',
+            captcha: '',
+            newPassword: '',
+            confirmPassword: ''
+        });
+        setStep(1);
+        generateNewCaptcha();
+    };
+    // --- Handlers ---
+    const handleGenerateOTP = async ()=>{
+        // Validation
+        if (!formData.employeeId) {
+            showAlert('Employee ID is mandatory');
+            return;
+        }
+        if (formData.employeeId !== VALID_ID) {
+            showAlert('Entered Employee Id does not exist or ID is not active');
+            return;
+        }
+        setIsLoading(true);
+        // Simulate API
+        await new Promise((r)=>setTimeout(r, 1000));
+        setIsLoading(false);
+        showAlert('OTP sent to registered mobile number', 'success');
+        setResendTimer(30);
+        setStep(2);
+    };
+    const handleVerifyOTP = async ()=>{
+        if (!formData.otp) {
+            showAlert('OTP is mandatory');
+            return;
+        }
+        if (!formData.captcha) {
+            showAlert('CAPTCHA is mandatory');
+            return;
+        }
+        // Mock OTP Check
+        if (formData.otp !== VALID_OTP) {
+            showAlert('Incorrect OTP');
+            return;
+        }
+        // Captcha Check
+        if (formData.captcha !== captchaText) {
+            showAlert('Incorrect CAPTCHA, please re-enter');
+            generateNewCaptcha();
+            return;
+        }
+        setIsLoading(true);
+        await new Promise((r)=>setTimeout(r, 800));
+        setIsLoading(false);
+        showAlert('OTP Verified. Please set new password.', 'success');
+        setStep(3);
+    };
+    const handleSetNewPassword = async ()=>{
+        // 14. All fields mandatory
+        if (!formData.newPassword || !formData.confirmPassword) {
+            showAlert('All fields are mandatory to set new password');
+            return;
+        }
+        // 13. Match Check
+        if (formData.newPassword !== formData.confirmPassword) {
+            showAlert('"New Password" and "Confirm New Password" does not match');
+            return;
+        }
+        // 15. Length Check (8-12)
+        if (formData.newPassword.length < 8 || formData.newPassword.length > 12) {
+            showAlert('New password length must be between 8 and 12 characters');
+            return;
+        }
+        // 16. Complexity Check
+        const complexityRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]/;
+        if (!complexityRegex.test(formData.newPassword)) {
+            showAlert('Password must contain 1 Capital, 1 small, 1 special char and 1 number');
+            return;
+        }
+        setIsLoading(true);
+        await new Promise((r)=>setTimeout(r, 1500));
+        setIsLoading(false);
+        showAlert('Password updated successfully!', 'success');
+        setTimeout(()=>{
+            onBackToLogin();
+        }, 1500);
+    };
+    // Enhanced Input Styling
+    const inputStyles = {
+        '& .MuiOutlinedInput-root': {
+            borderRadius: 8,
+            bgcolor: '#ffffff',
+            '& fieldset': {
+                borderColor: '#cbd5e1',
+                borderWidth: 1,
+                transition: 'all 0.2s ease-in-out'
+            },
+            '&:hover fieldset': {
+                borderColor: '#94a3b8',
+                boxShadow: '0 0 0 4px rgba(0, 33, 71, 0.05)'
+            },
+            '&.Mui-focused fieldset': {
+                borderColor: '#002147',
+                borderWidth: 2,
+                boxShadow: '0 0 0 4px rgba(0, 33, 71, 0.1)'
+            },
+            transition: 'all 0.2s ease-in-out',
+            fontSize: '16px',
+            '& .MuiInputBase-input': {
+                py: 1.5,
+                px: 1.5
+            }
+        },
+        '& .MuiInputLabel-root': {
+            color: '#64748b',
+            fontWeight: 500,
+            fontSize: '16px'
+        },
+        '& .MuiInputLabel-root.Mui-focused': {
+            color: '#002147',
+            fontWeight: 600
+        }
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+        sx: {
+            minHeight: '100vh',
+            bgcolor: '#f1f5f9',
+            display: 'flex',
+            flexDirection: 'column'
+        },
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Snackbar$2f$Snackbar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Snackbar$3e$__["Snackbar"], {
+                open: alertInfo.show,
+                autoHideDuration: 6000,
+                onClose: handleCloseAlert,
+                anchorOrigin: {
+                    vertical: 'top',
+                    horizontal: 'center'
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Alert$2f$Alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Alert$3e$__["Alert"], {
+                    onClose: handleCloseAlert,
+                    severity: alertInfo.severity,
+                    sx: {
+                        width: '100%',
+                        boxShadow: 3
+                    },
+                    children: alertInfo.message
+                }, void 0, false, {
+                    fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                    lineNumber: 230,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                lineNumber: 224,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                sx: {
+                    bgcolor: '#1e293b',
+                    color: '#cbd5e1',
+                    py: 0.5,
+                    px: 3,
+                    display: 'flex',
+                    justifyContent: 'flex-end',
+                    borderBottom: '1px solid #334155'
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                    sx: {
+                        display: 'flex',
+                        gap: 1,
+                        alignItems: 'center'
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            variant: "caption",
+                            sx: {
+                                fontSize: '11px',
+                                mr: 2
+                            },
+                            children: "Skip to Main Content"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                            lineNumber: 238,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        [
+                            'A',
+                            'A',
+                            '-',
+                            'A',
+                            '+',
+                            'En'
+                        ].map((text, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                component: "button",
+                                sx: {
+                                    border: '1px solid #475569',
+                                    bgcolor: 'transparent',
+                                    color: 'inherit',
+                                    px: 1,
+                                    fontSize: '10px',
+                                    borderRadius: 0.5,
+                                    cursor: 'pointer',
+                                    '&:hover': {
+                                        bgcolor: '#334155',
+                                        color: 'white'
+                                    },
+                                    transition: 'all 0.2s'
+                                },
+                                children: text
+                            }, index, false, {
+                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                lineNumber: 240,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0)))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                    lineNumber: 237,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                lineNumber: 236,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                sx: {
+                    bgcolor: 'white',
+                    py: 2,
+                    borderBottom: '1px solid #e2e8f0',
+                    boxShadow: '0 4px 6px -1px rgba(0,0,0,0.05)',
+                    position: 'relative',
+                    zIndex: 10
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Container$2f$Container$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
+                    maxWidth: "xl",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                        sx: {
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'space-between'
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                sx: {
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    gap: 2.5
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                        sx: {
+                                            width: 80,
+                                            height: 80,
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                            p: 0.5,
+                                            mr: 1
+                                        },
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            src: "/images/karnataka_emblem.png",
+                                            alt: "Karnataka Government Logo",
+                                            style: {
+                                                width: '100%',
+                                                height: '100%',
+                                                objectFit: 'contain'
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                            lineNumber: 277,
+                                            columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                        lineNumber: 266,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                variant: "h5",
+                                                sx: {
+                                                    fontWeight: 800,
+                                                    color: '#0f172a',
+                                                    lineHeight: 1.2,
+                                                    letterSpacing: '-0.5px'
+                                                },
+                                                children: "Directorate of Municipal Administration"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                lineNumber: 280,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                variant: "subtitle2",
+                                                sx: {
+                                                    color: '#002147',
+                                                    fontWeight: 700,
+                                                    letterSpacing: '1.5px',
+                                                    textTransform: 'uppercase',
+                                                    mt: 0.5
+                                                },
+                                                children: "Government of Karnataka"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                lineNumber: 283,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                        lineNumber: 279,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                lineNumber: 265,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                sx: {
+                                    display: {
+                                        xs: 'none',
+                                        md: 'block'
+                                    }
+                                },
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                    sx: {
+                                        display: 'flex',
+                                        flexDirection: 'column',
+                                        alignItems: 'flex-end'
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                            variant: "caption",
+                                            sx: {
+                                                color: '#64748b',
+                                                mb: 0.5
+                                            },
+                                            children: "Helpline Number"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                            lineNumber: 290,
+                                            columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                            variant: "body2",
+                                            sx: {
+                                                fontWeight: 700,
+                                                color: '#002147'
+                                            },
+                                            children: "1800-425-1111"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                            lineNumber: 291,
+                                            columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                    lineNumber: 289,
+                                    columnNumber: 15
+                                }, ("TURBOPACK compile-time value", void 0))
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                lineNumber: 288,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                        lineNumber: 264,
+                        columnNumber: 11
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
+                    fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                    lineNumber: 263,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                lineNumber: 262,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                sx: {
+                    bgcolor: '#002147',
+                    height: 10,
+                    background: 'linear-gradient(to right, #002147, #0f172a)'
+                }
+            }, void 0, false, {
+                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                lineNumber: 299,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                sx: {
+                    flexGrow: 1,
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    background: 'radial-gradient(circle at 50% 50%, #f8fafc 0%, #e2e8f0 100%)',
+                    p: 2
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Fade$2f$Fade$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Fade$3e$__["Fade"], {
+                    in: true,
+                    timeout: 800,
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Paper$3e$__["Paper"], {
+                        elevation: 0,
+                        sx: {
+                            maxWidth: 900,
+                            width: '100%',
+                            display: 'flex',
+                            borderRadius: 4,
+                            overflow: 'hidden',
+                            boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.15)',
+                            bgcolor: 'white',
+                            minHeight: 500
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                sx: {
+                                    flex: 1,
+                                    bgcolor: '#0f172a',
+                                    display: {
+                                        xs: 'none',
+                                        md: 'flex'
+                                    },
+                                    flexDirection: 'column',
+                                    justifyContent: 'center',
+                                    p: 6,
+                                    color: 'white',
+                                    position: 'relative',
+                                    overflow: 'hidden'
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                        sx: {
+                                            position: 'relative',
+                                            zIndex: 2
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                variant: "h3",
+                                                sx: {
+                                                    fontWeight: 800,
+                                                    mb: 2,
+                                                    color: '#e2e8f0'
+                                                },
+                                                children: "Password Recovery"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                lineNumber: 334,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                sx: {
+                                                    color: '#94a3b8',
+                                                    mb: 4,
+                                                    lineHeight: 1.6
+                                                },
+                                                children: "Reset your password securely. Follow the steps to verify your identity and restore access to your account."
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                lineNumber: 337,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                sx: {
+                                                    display: 'flex',
+                                                    flexDirection: 'column',
+                                                    gap: 3,
+                                                    mt: 4
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        sx: {
+                                                            display: 'flex',
+                                                            alignItems: 'center',
+                                                            gap: 2,
+                                                            color: step >= 1 ? '#38bdf8' : '#94a3b8'
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                sx: {
+                                                                    width: 36,
+                                                                    height: 36,
+                                                                    borderRadius: '50%',
+                                                                    border: '2px solid currentColor',
+                                                                    display: 'flex',
+                                                                    alignItems: 'center',
+                                                                    justifyContent: 'center',
+                                                                    fontWeight: 'bold',
+                                                                    bgcolor: step >= 1 ? 'rgba(56, 189, 248, 0.1)' : 'transparent'
+                                                                },
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                    sx: {
+                                                                        fontWeight: 700,
+                                                                        fontSize: '16px'
+                                                                    },
+                                                                    children: "1"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                    lineNumber: 353,
+                                                                    columnNumber: 23
+                                                                }, ("TURBOPACK compile-time value", void 0))
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                lineNumber: 342,
+                                                                columnNumber: 21
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                sx: {
+                                                                    fontWeight: step >= 1 ? 600 : 400,
+                                                                    fontSize: '16px'
+                                                                },
+                                                                children: "Verify Identity"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                lineNumber: 355,
+                                                                columnNumber: 21
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                        lineNumber: 341,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        sx: {
+                                                            display: 'flex',
+                                                            alignItems: 'center',
+                                                            gap: 2,
+                                                            color: step >= 2 ? '#38bdf8' : '#94a3b8'
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                sx: {
+                                                                    width: 36,
+                                                                    height: 36,
+                                                                    borderRadius: '50%',
+                                                                    border: '2px solid currentColor',
+                                                                    display: 'flex',
+                                                                    alignItems: 'center',
+                                                                    justifyContent: 'center',
+                                                                    fontWeight: 'bold',
+                                                                    bgcolor: step >= 2 ? 'rgba(56, 189, 248, 0.1)' : 'transparent'
+                                                                },
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                    sx: {
+                                                                        fontWeight: 700,
+                                                                        fontSize: '16px'
+                                                                    },
+                                                                    children: "2"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                    lineNumber: 369,
+                                                                    columnNumber: 23
+                                                                }, ("TURBOPACK compile-time value", void 0))
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                lineNumber: 358,
+                                                                columnNumber: 21
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                sx: {
+                                                                    fontWeight: step >= 2 ? 600 : 400,
+                                                                    fontSize: '16px'
+                                                                },
+                                                                children: "Verify OTP"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                lineNumber: 371,
+                                                                columnNumber: 21
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                        lineNumber: 357,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        sx: {
+                                                            display: 'flex',
+                                                            alignItems: 'center',
+                                                            gap: 2,
+                                                            color: step >= 3 ? '#38bdf8' : '#94a3b8'
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                sx: {
+                                                                    width: 36,
+                                                                    height: 36,
+                                                                    borderRadius: '50%',
+                                                                    border: '2px solid currentColor',
+                                                                    display: 'flex',
+                                                                    alignItems: 'center',
+                                                                    justifyContent: 'center',
+                                                                    fontWeight: 'bold',
+                                                                    bgcolor: step >= 3 ? 'rgba(56, 189, 248, 0.1)' : 'transparent'
+                                                                },
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                    sx: {
+                                                                        fontWeight: 700,
+                                                                        fontSize: '16px'
+                                                                    },
+                                                                    children: "3"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                    lineNumber: 385,
+                                                                    columnNumber: 23
+                                                                }, ("TURBOPACK compile-time value", void 0))
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                lineNumber: 374,
+                                                                columnNumber: 21
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                sx: {
+                                                                    fontWeight: step >= 3 ? 600 : 400,
+                                                                    fontSize: '16px'
+                                                                },
+                                                                children: "Set New Password"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                lineNumber: 387,
+                                                                columnNumber: 21
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                        lineNumber: 373,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                lineNumber: 340,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                        lineNumber: 333,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                        sx: {
+                                            position: 'absolute',
+                                            top: -100,
+                                            right: -100,
+                                            width: 300,
+                                            height: 300,
+                                            borderRadius: '50%',
+                                            border: '40px solid rgba(255,255,255,0.03)'
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                        lineNumber: 392,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                lineNumber: 322,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                sx: {
+                                    flex: 1.2,
+                                    p: {
+                                        xs: 3,
+                                        md: 6
+                                    },
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    justifyContent: 'center'
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                        sx: {
+                                            mb: 4
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                startIcon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$ArrowBack$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                                    fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                    lineNumber: 400,
+                                                    columnNumber: 30
+                                                }, void 0),
+                                                onClick: onBackToLogin,
+                                                sx: {
+                                                    color: '#64748b',
+                                                    mb: 2,
+                                                    fontWeight: 600,
+                                                    '&:hover': {
+                                                        color: '#0f172a',
+                                                        bgcolor: 'rgba(0, 0, 0, 0.03)'
+                                                    },
+                                                    textTransform: 'none',
+                                                    borderRadius: 8
+                                                },
+                                                children: "Back to Login"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                lineNumber: 399,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                variant: "h5",
+                                                sx: {
+                                                    fontWeight: 700,
+                                                    color: '#1e293b'
+                                                },
+                                                children: step === 1 ? 'Forgot Password?' : step === 2 ? 'Enter Verification Code' : 'Create New Password'
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                lineNumber: 416,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                variant: "body2",
+                                                sx: {
+                                                    color: '#64748b',
+                                                    mt: 1
+                                                },
+                                                children: step === 1 ? 'Enter your Employee ID to receive an OTP.' : step === 2 ? 'We sent a code to your registered mobile number.' : 'Your new password must be different from previous used passwords.'
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                lineNumber: 419,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                        lineNumber: 398,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                        component: "form",
+                                        sx: {
+                                            display: 'flex',
+                                            flexDirection: 'column',
+                                            gap: 2.5
+                                        },
+                                        children: [
+                                            step === 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                        fullWidth: true,
+                                                        label: "Employee ID",
+                                                        variant: "outlined",
+                                                        value: formData.employeeId,
+                                                        onChange: (e)=>{
+                                                            if (e.target.value.length <= 6) setFormData({
+                                                                ...formData,
+                                                                employeeId: e.target.value.replace(/\D/g, '')
+                                                            });
+                                                        },
+                                                        placeholder: "Enter 6-digit ID",
+                                                        sx: inputStyles,
+                                                        InputProps: {
+                                                            startAdornment: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$InputAdornment$2f$InputAdornment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__InputAdornment$3e$__["InputAdornment"], {
+                                                                position: "start",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    sx: {
+                                                                        color: '#94a3b8'
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                    lineNumber: 442,
+                                                                    columnNumber: 74
+                                                                }, void 0)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                lineNumber: 442,
+                                                                columnNumber: 41
+                                                            }, void 0)
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                        lineNumber: 431,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                        fullWidth: true,
+                                                        variant: "contained",
+                                                        onClick: handleGenerateOTP,
+                                                        disabled: isLoading,
+                                                        sx: {
+                                                            bgcolor: '#002147',
+                                                            py: 1.8,
+                                                            mt: 2,
+                                                            borderRadius: 8,
+                                                            fontWeight: 700,
+                                                            fontSize: '16px',
+                                                            textTransform: 'none',
+                                                            boxShadow: '0 4px 6px rgba(0, 33, 71, 0.1), 0 1px 3px rgba(0, 33, 71, 0.08)',
+                                                            '&:hover': {
+                                                                bgcolor: '#001a38',
+                                                                boxShadow: '0 10px 15px rgba(0, 33, 71, 0.15), 0 4px 6px rgba(0, 33, 71, 0.1)'
+                                                            },
+                                                            '&:disabled': {
+                                                                bgcolor: '#64748b',
+                                                                boxShadow: 'none'
+                                                            },
+                                                            transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
+                                                        },
+                                                        children: isLoading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CircularProgress$2f$CircularProgress$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CircularProgress$3e$__["CircularProgress"], {
+                                                            size: 24,
+                                                            color: "inherit",
+                                                            thickness: 4
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                            lineNumber: 470,
+                                                            columnNumber: 36
+                                                        }, ("TURBOPACK compile-time value", void 0)) : 'Generate OTP'
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                        lineNumber: 445,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true),
+                                            step === 2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                        fullWidth: true,
+                                                        label: "OTP",
+                                                        variant: "outlined",
+                                                        value: formData.otp,
+                                                        onChange: (e)=>setFormData({
+                                                                ...formData,
+                                                                otp: e.target.value
+                                                            }),
+                                                        placeholder: "Enter OTP",
+                                                        sx: inputStyles,
+                                                        InputProps: {
+                                                            startAdornment: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$InputAdornment$2f$InputAdornment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__InputAdornment$3e$__["InputAdornment"], {
+                                                                position: "start",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$VpnKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    sx: {
+                                                                        color: '#94a3b8'
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                    lineNumber: 487,
+                                                                    columnNumber: 74
+                                                                }, void 0)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                lineNumber: 487,
+                                                                columnNumber: 41
+                                                            }, void 0)
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                        lineNumber: 478,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        sx: {
+                                                            display: 'flex',
+                                                            gap: 2,
+                                                            alignItems: 'stretch'
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                                fullWidth: true,
+                                                                label: "Captcha",
+                                                                variant: "outlined",
+                                                                value: formData.captcha,
+                                                                onChange: (e)=>setFormData({
+                                                                        ...formData,
+                                                                        captcha: e.target.value
+                                                                    }),
+                                                                placeholder: "Code",
+                                                                sx: {
+                                                                    ...inputStyles,
+                                                                    flex: 1
+                                                                },
+                                                                InputProps: {
+                                                                    startAdornment: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$InputAdornment$2f$InputAdornment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__InputAdornment$3e$__["InputAdornment"], {
+                                                                        position: "start",
+                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Security$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                            sx: {
+                                                                                color: '#94a3b8'
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                            lineNumber: 501,
+                                                                            columnNumber: 76
+                                                                        }, void 0)
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                        lineNumber: 501,
+                                                                        columnNumber: 43
+                                                                    }, void 0)
+                                                                }
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                lineNumber: 492,
+                                                                columnNumber: 23
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                sx: {
+                                                                    display: 'flex',
+                                                                    alignItems: 'center',
+                                                                    gap: 1,
+                                                                    bgcolor: '#f1f5f9',
+                                                                    p: 1,
+                                                                    borderRadius: 2,
+                                                                    border: '1px solid #e2e8f0'
+                                                                },
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                        sx: {
+                                                                            fontWeight: 700,
+                                                                            fontFamily: 'monospace',
+                                                                            fontSize: '18px',
+                                                                            px: 1
+                                                                        },
+                                                                        children: captchaText
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                        lineNumber: 505,
+                                                                        columnNumber: 25
+                                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__IconButton$3e$__["IconButton"], {
+                                                                        size: "small",
+                                                                        onClick: generateNewCaptcha,
+                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Refresh$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                            fontSize: "small"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                            lineNumber: 506,
+                                                                            columnNumber: 79
+                                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                        lineNumber: 506,
+                                                                        columnNumber: 25
+                                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                lineNumber: 504,
+                                                                columnNumber: 23
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                        lineNumber: 491,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                        fullWidth: true,
+                                                        variant: "contained",
+                                                        onClick: handleVerifyOTP,
+                                                        disabled: isLoading,
+                                                        sx: {
+                                                            bgcolor: '#002147',
+                                                            py: 1.8,
+                                                            mt: 2,
+                                                            borderRadius: 8,
+                                                            fontWeight: 700,
+                                                            fontSize: '16px',
+                                                            textTransform: 'none',
+                                                            boxShadow: '0 4px 6px rgba(0, 33, 71, 0.1), 0 1px 3px rgba(0, 33, 71, 0.08)',
+                                                            '&:hover': {
+                                                                bgcolor: '#001a38',
+                                                                boxShadow: '0 10px 15px rgba(0, 33, 71, 0.15), 0 4px 6px rgba(0, 33, 71, 0.1)'
+                                                            },
+                                                            '&:disabled': {
+                                                                bgcolor: '#64748b',
+                                                                boxShadow: 'none'
+                                                            },
+                                                            transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
+                                                        },
+                                                        children: isLoading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CircularProgress$2f$CircularProgress$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CircularProgress$3e$__["CircularProgress"], {
+                                                            size: 24,
+                                                            color: "inherit",
+                                                            thickness: 4
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                            lineNumber: 535,
+                                                            columnNumber: 36
+                                                        }, ("TURBOPACK compile-time value", void 0)) : 'Validate OTP'
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                        lineNumber: 510,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        sx: {
+                                                            display: 'flex',
+                                                            justifyContent: 'center'
+                                                        },
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                            disabled: resendTimer > 0,
+                                                            onClick: handleGenerateOTP,
+                                                            sx: {
+                                                                textTransform: 'none',
+                                                                fontSize: '13px'
+                                                            },
+                                                            children: resendTimer > 0 ? `Resend OTP in ${resendTimer}s` : 'Resend OTP'
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                            lineNumber: 539,
+                                                            columnNumber: 23
+                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                        lineNumber: 538,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true),
+                                            step === 3 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                        fullWidth: true,
+                                                        label: "New Password",
+                                                        type: "password",
+                                                        variant: "outlined",
+                                                        value: formData.newPassword,
+                                                        onChange: (e)=>setFormData({
+                                                                ...formData,
+                                                                newPassword: e.target.value
+                                                            }),
+                                                        placeholder: "8-12 chars, 1 Cap, 1 Num, 1 Spec",
+                                                        sx: inputStyles,
+                                                        InputProps: {
+                                                            startAdornment: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$InputAdornment$2f$InputAdornment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__InputAdornment$3e$__["InputAdornment"], {
+                                                                position: "start",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Lock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    sx: {
+                                                                        color: '#94a3b8'
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                    lineNumber: 563,
+                                                                    columnNumber: 74
+                                                                }, void 0)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                lineNumber: 563,
+                                                                columnNumber: 41
+                                                            }, void 0)
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                        lineNumber: 553,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                        fullWidth: true,
+                                                        label: "Confirm Password",
+                                                        type: "password",
+                                                        variant: "outlined",
+                                                        value: formData.confirmPassword,
+                                                        onChange: (e)=>setFormData({
+                                                                ...formData,
+                                                                confirmPassword: e.target.value
+                                                            }),
+                                                        placeholder: "Re-enter password",
+                                                        sx: inputStyles,
+                                                        InputProps: {
+                                                            startAdornment: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$InputAdornment$2f$InputAdornment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__InputAdornment$3e$__["InputAdornment"], {
+                                                                position: "start",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Lock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    sx: {
+                                                                        color: '#94a3b8'
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                    lineNumber: 576,
+                                                                    columnNumber: 74
+                                                                }, void 0)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                                lineNumber: 576,
+                                                                columnNumber: 41
+                                                            }, void 0)
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                        lineNumber: 566,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                        fullWidth: true,
+                                                        variant: "contained",
+                                                        onClick: handleSetNewPassword,
+                                                        disabled: isLoading,
+                                                        sx: {
+                                                            bgcolor: '#002147',
+                                                            py: 1.8,
+                                                            mt: 2,
+                                                            borderRadius: 8,
+                                                            fontWeight: 700,
+                                                            fontSize: '16px',
+                                                            textTransform: 'none',
+                                                            boxShadow: '0 4px 6px rgba(0, 33, 71, 0.1), 0 1px 3px rgba(0, 33, 71, 0.08)',
+                                                            '&:hover': {
+                                                                bgcolor: '#001a38',
+                                                                boxShadow: '0 10px 15px rgba(0, 33, 71, 0.15), 0 4px 6px rgba(0, 33, 71, 0.1)'
+                                                            },
+                                                            '&:disabled': {
+                                                                bgcolor: '#64748b',
+                                                                boxShadow: 'none'
+                                                            },
+                                                            transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
+                                                        },
+                                                        children: isLoading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CircularProgress$2f$CircularProgress$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CircularProgress$3e$__["CircularProgress"], {
+                                                            size: 24,
+                                                            color: "inherit",
+                                                            thickness: 4
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                            lineNumber: 604,
+                                                            columnNumber: 36
+                                                        }, ("TURBOPACK compile-time value", void 0)) : 'Set New Password'
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                        lineNumber: 579,
+                                                        columnNumber: 21
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                onClick: onBackToLogin,
+                                                variant: "outlined",
+                                                sx: {
+                                                    textTransform: 'none',
+                                                    fontWeight: 600,
+                                                    borderColor: '#cbd5e1',
+                                                    color: '#64748b',
+                                                    py: 1.5,
+                                                    borderRadius: 8,
+                                                    '&:hover': {
+                                                        borderColor: '#94a3b8',
+                                                        bgcolor: 'rgba(0, 0, 0, 0.03)',
+                                                        color: '#1e293b'
+                                                    },
+                                                    transition: 'all 0.2s ease-in-out'
+                                                },
+                                                children: "Cancel"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                                lineNumber: 610,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                        lineNumber: 426,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                                lineNumber: 396,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                        lineNumber: 311,
+                        columnNumber: 11
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
+                    fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                    lineNumber: 310,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+                lineNumber: 302,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/auth/ForgotPassword.tsx",
+        lineNumber: 223,
+        columnNumber: 5
+    }, ("TURBOPACK compile-time value", void 0));
+};
+_s(ForgotPassword, "/Y88rBTKlZqlLiWdBuHxemc+Eow=");
+_c = ForgotPassword;
+const __TURBOPACK__default__export__ = ForgotPassword;
+var _c;
+__turbopack_context__.k.register(_c, "ForgotPassword");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/components/auth/LoginPage.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Box/Box.js [app-client] (ecmascript) <export default as Box>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Typography/Typography.js [app-client] (ecmascript) <export default as Typography>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/TextField/TextField.js [app-client] (ecmascript) <export default as TextField>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Button/Button.js [app-client] (ecmascript) <export default as Button>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Container$2f$Container$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Container/Container.js [app-client] (ecmascript) <export default as Container>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__IconButton$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/IconButton/IconButton.js [app-client] (ecmascript) <export default as IconButton>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Paper$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Paper/Paper.js [app-client] (ecmascript) <export default as Paper>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$InputAdornment$2f$InputAdornment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__InputAdornment$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/InputAdornment/InputAdornment.js [app-client] (ecmascript) <export default as InputAdornment>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Fade$2f$Fade$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Fade$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Fade/Fade.js [app-client] (ecmascript) <export default as Fade>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Alert$2f$Alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Alert$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Alert/Alert.js [app-client] (ecmascript) <export default as Alert>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Snackbar$2f$Snackbar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Snackbar$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Snackbar/Snackbar.js [app-client] (ecmascript) <export default as Snackbar>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CircularProgress$2f$CircularProgress$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CircularProgress$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/CircularProgress/CircularProgress.js [app-client] (ecmascript) <export default as CircularProgress>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/shared/typography.ts [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$responsive$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/shared/responsive.ts [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Refresh$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Refresh.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$AccountCircle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/AccountCircle.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Notifications$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Notifications.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Person.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Lock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Lock.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$VpnKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/VpnKey.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Security$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Security.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$auth$2f$ForgotPassword$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/auth/ForgotPassword.tsx [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+'use client';
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const LoginPage = ({ onLoginSuccess })=>{
+    _s();
+    const [loginType, setLoginType] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('ULB');
+    const [employeeId, setEmployeeId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
+    const [password, setPassword] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
+    const [otp, setOtp] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
+    const [captcha, setCaptcha] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
+    const [captchaText, setCaptchaText] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('Captcha23');
+    const [showForgotPassword, setShowForgotPassword] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    // Logic State
+    const [attempts, setAttempts] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
+    const [isLocked, setIsLocked] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [isLoading, setIsLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [alertInfo, setAlertInfo] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
+        show: false,
+        message: '',
+        severity: 'error'
+    });
+    // Constants
+    const MAX_ATTEMPTS = 5;
+    const CORRECT_ID = '123456';
+    const CORRECT_PASS = 'password123';
+    const VALID_OTP = '1234';
+    // Handlers
+    const handleLoginTypeChange = (type)=>{
+        setLoginType(type);
+        clearForm();
+    };
+    const generateNewCaptcha = ()=>{
+        const captchas = [
+            'Captcha23',
+            'Secure45',
+            'Verify67',
+            'Check89',
+            'Guard12'
+        ];
+        const newCaptcha = captchas[Math.floor(Math.random() * captchas.length)];
+        setCaptchaText(newCaptcha);
+        setCaptcha('');
+    };
+    const clearForm = ()=>{
+        setEmployeeId('');
+        setPassword('');
+        setOtp('');
+        setCaptcha('');
+        generateNewCaptcha();
+    };
+    const showAlert = (message, severity = 'error')=>{
+        setAlertInfo({
+            show: true,
+            message,
+            severity
+        });
+    };
+    const handleCloseAlert = ()=>{
+        setAlertInfo({
+            ...alertInfo,
+            show: false
+        });
+    };
+    const handleGenerateOTP = async ()=>{
+        // 10. Employee id field is mandatory should be validated before login (and OTP generation)
+        if (!employeeId) {
+            showAlert('Please Enter valid employee id'); // Requirement 3 variant for empty
+            return;
+        }
+        // 1. Employee id should be validated for 6 digits length only
+        if (!/^\d{6}$/.test(employeeId)) {
+            showAlert('Employee Id should be 6 digits');
+            return;
+        }
+        setIsLoading(true);
+        // Simulate API call
+        setTimeout(()=>{
+            setIsLoading(false);
+            showAlert(`OTP sent to registered mobile number (Test OTP: ${VALID_OTP})`, 'success');
+        }, 1000);
+    };
+    const handleLogin = async ()=>{
+        // 8. When User ID is locked, system should alert user
+        if (isLocked) {
+            showAlert('User ID is locked. Change password using forgot password link');
+            return;
+        }
+        // 1. Employee id validation
+        if (!employeeId || !/^\d{6}$/.test(employeeId)) {
+            showAlert(employeeId && !/^\d{6}$/.test(employeeId) ? 'Employee Id should be 6 digits' : 'Please Enter valid employee id');
+            return;
+        }
+        // 3. System should validate the entered employee is active and exists
+        // Mock check
+        if (employeeId !== CORRECT_ID) {
+            showAlert('Please Enter valid employee id');
+            return;
+        }
+        // 2. Password field is mandatory and should be of minimum 8 digits and maximum of 12 digits
+        if (!password || password.length < 8 || password.length > 12) {
+            // "else should not allow to enter value 'CAPTCHA' field" -> strict interpretation: fail login here
+            showAlert('Password should be between 8 and 12 characters');
+            return;
+        }
+        // 11. ODP field is mandatory
+        if (!otp) {
+            showAlert('OTP is mandatory');
+            return;
+        }
+        // Validate OTP
+        if (otp !== VALID_OTP) {
+            showAlert('Invalid OTP. Please enter the correct OTP sent to your mobile.');
+            return;
+        }
+        // 12. CAPTCHA field is mandatory
+        if (!captcha) {
+            showAlert('CAPTCHA is mandatory');
+            return;
+        }
+        if (captcha !== captchaText) {
+            showAlert('Invalid CAPTCHA');
+            generateNewCaptcha();
+            return;
+        }
+        setIsLoading(true);
+        await new Promise((resolve)=>setTimeout(resolve, 1500)); // Simulate network
+        // 4. If the entered password doesn’t match...
+        if (password !== CORRECT_PASS) {
+            const newAttempts = attempts + 1;
+            setAttempts(newAttempts);
+            setIsLoading(false);
+            // 5. System should lock the User ID when user tries to login with incorrect password after 5 time.
+            if (newAttempts >= MAX_ATTEMPTS) {
+                setIsLocked(true);
+                showAlert('User ID is locked. Change password using forgot password link');
+            } else {
+                showAlert(`Please enter correct password, left with ${MAX_ATTEMPTS - newAttempts} attempts`);
+                clearForm(); // "and clear all the fields"
+                // Restore ID since clearing form wipes it but user might want to retry (Requirement says clear all, usually implies all inputs)
+                // But UX-wise preserving ID is better. Strict requirement: "clear all the fields".
+                setEmployeeId(employeeId); // compromised for UX, keep ID, clear pass/otp
+                setPassword('');
+                setOtp('');
+                setCaptcha('');
+            }
+            return;
+        }
+        // 6. Password lock count should reset to 0 when a correct password is validated
+        setAttempts(0);
+        setIsLoading(false);
+        showAlert('Login Successful!', 'success');
+        if (onLoginSuccess) {
+            setTimeout(onLoginSuccess, 1000);
+        }
+    };
+    if (showForgotPassword) {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$auth$2f$ForgotPassword$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            onBackToLogin: ()=>setShowForgotPassword(false)
+        }, void 0, false, {
+            fileName: "[project]/src/components/auth/LoginPage.tsx",
+            lineNumber: 198,
+            columnNumber: 12
+        }, ("TURBOPACK compile-time value", void 0));
+    }
+    // Enhanced Input Styling with improved color scheme
+    const inputStyles = {
+        '& .MuiOutlinedInput-root': {
+            borderRadius: 12,
+            bgcolor: '#ffffff',
+            '& fieldset': {
+                borderColor: '#cbd5e1',
+                borderWidth: 1,
+                transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
+            },
+            '&:hover fieldset': {
+                borderColor: '#94a3b8',
+                boxShadow: '0 0 0 4px rgba(0, 33, 71, 0.1)'
+            },
+            '&.Mui-focused fieldset': {
+                borderColor: '#002147',
+                borderWidth: 2,
+                boxShadow: '0 0 0 4px rgba(0, 33, 71, 0.15)'
+            },
+            transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+            fontSize: '16px',
+            '& .MuiInputBase-input': {
+                py: 1.8,
+                px: 2
+            }
+        },
+        '& .MuiInputLabel-root': {
+            color: '#64748b',
+            fontWeight: 500,
+            fontSize: '16px',
+            transform: 'translate(14px, 18px) scale(1)',
+            '&.Mui-focused': {
+                color: '#002147',
+                fontWeight: 600
+            }
+        },
+        '& .MuiInputLabel-shrink': {
+            transform: 'translate(14px, -9px) scale(0.85)',
+            '&.Mui-focused': {
+                color: '#002147'
+            }
+        }
+    };
+    // Helper function to determine if label should shrink
+    const shouldShrinkLabel = (value)=>Boolean(value && value.length > 0);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+        sx: {
+            minHeight: '100vh',
+            bgcolor: '#f1f5f9',
+            display: 'flex',
+            flexDirection: 'column'
+        },
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Snackbar$2f$Snackbar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Snackbar$3e$__["Snackbar"], {
+                open: alertInfo.show,
+                autoHideDuration: 6000,
+                onClose: handleCloseAlert,
+                anchorOrigin: {
+                    vertical: 'top',
+                    horizontal: 'center'
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Alert$2f$Alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Alert$3e$__["Alert"], {
+                    onClose: handleCloseAlert,
+                    severity: alertInfo.severity,
+                    sx: {
+                        width: '100%',
+                        boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
+                        borderRadius: '12px',
+                        fontWeight: 500,
+                        fontSize: '16px',
+                        maxWidth: 500
+                    },
+                    children: alertInfo.message
+                }, void 0, false, {
+                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                    lineNumber: 256,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                lineNumber: 250,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                sx: {
+                    bgcolor: '#1e293b',
+                    color: '#cbd5e1',
+                    py: 0.7,
+                    px: 4,
+                    display: 'flex',
+                    justifyContent: 'flex-end',
+                    borderBottom: '1px solid #334155'
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                    sx: {
+                        display: 'flex',
+                        gap: 1.5,
+                        alignItems: 'center'
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                            variant: "caption",
+                            sx: {
+                                fontSize: '12px',
+                                mr: 2,
+                                cursor: 'pointer',
+                                '&:hover': {
+                                    color: 'white',
+                                    textDecoration: 'underline'
+                                }
+                            },
+                            children: "Skip to Main Content"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/auth/LoginPage.tsx",
+                            lineNumber: 275,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        [
+                            'A',
+                            'A',
+                            '-',
+                            'A',
+                            '+',
+                            'En'
+                        ].map((text, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                component: "button",
+                                sx: {
+                                    border: '1px solid #475569',
+                                    bgcolor: 'transparent',
+                                    color: 'inherit',
+                                    px: 1.2,
+                                    fontSize: '11px',
+                                    borderRadius: 1,
+                                    cursor: 'pointer',
+                                    '&:hover': {
+                                        bgcolor: '#334155',
+                                        color: 'white'
+                                    },
+                                    transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
+                                },
+                                children: text
+                            }, index, false, {
+                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                lineNumber: 277,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0)))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                    lineNumber: 274,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                lineNumber: 273,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                sx: {
+                    bgcolor: 'white',
+                    py: 2.5,
+                    borderBottom: '1px solid #e2e8f0',
+                    boxShadow: '0 4px 12px -1px rgba(0,0,0,0.08)',
+                    position: 'relative',
+                    zIndex: 10
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Container$2f$Container$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
+                    maxWidth: "xl",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                        sx: {
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'space-between'
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                sx: {
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    gap: 3
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                        sx: {
+                                            width: 85,
+                                            height: 85,
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'center',
+                                            p: 0.7,
+                                            mr: 1.5
+                                        },
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            src: "/images/karnataka_emblem.png",
+                                            alt: "Karnataka Government Logo",
+                                            style: {
+                                                width: '100%',
+                                                height: '100%',
+                                                objectFit: 'contain'
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                            lineNumber: 314,
+                                            columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                        lineNumber: 303,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                variant: "h4",
+                                                sx: {
+                                                    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TYPOGRAPHY"].HEADER_MEDIUM,
+                                                    color: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COLORS"].DARK_TEXT
+                                                },
+                                                children: "Directorate of Municipal Administration"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                lineNumber: 317,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                variant: "subtitle2",
+                                                sx: {
+                                                    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TYPOGRAPHY"].CAPTION_SMALL,
+                                                    color: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COLORS"].PRIMARY_DARK,
+                                                    fontWeight: 700,
+                                                    letterSpacing: '1.8px',
+                                                    textTransform: 'uppercase',
+                                                    mt: 0.7
+                                                },
+                                                children: "Government of Karnataka"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                lineNumber: 320,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                        lineNumber: 316,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                lineNumber: 302,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                sx: {
+                                    display: {
+                                        xs: 'none',
+                                        md: 'block'
+                                    }
+                                },
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                    sx: {
+                                        display: 'flex',
+                                        flexDirection: 'column',
+                                        alignItems: 'flex-end'
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                            variant: "caption",
+                                            sx: {
+                                                ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TYPOGRAPHY"].CAPTION_MEDIUM,
+                                                color: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COLORS"].MEDIUM_TEXT,
+                                                mb: 0.7
+                                            },
+                                            children: "Helpline Number"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                            lineNumber: 329,
+                                            columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                            variant: "h6",
+                                            sx: {
+                                                ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TYPOGRAPHY"].HEADER_SMALL,
+                                                fontWeight: 700,
+                                                color: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COLORS"].PRIMARY_DARK
+                                            },
+                                            children: "1800-425-1111"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                            lineNumber: 330,
+                                            columnNumber: 17
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                    lineNumber: 328,
+                                    columnNumber: 15
+                                }, ("TURBOPACK compile-time value", void 0))
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                lineNumber: 327,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                        lineNumber: 301,
+                        columnNumber: 11
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
+                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                    lineNumber: 300,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                lineNumber: 299,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                sx: {
+                    bgcolor: '#002147',
+                    py: 1.5,
+                    px: 4,
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    background: 'linear-gradient(90deg, #002147 0%, #003366 100%)',
+                    boxShadow: '0 4px 6px -2px rgba(0,0,0,0.1)'
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Container$2f$Container$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Container$3e$__["Container"], {
+                    maxWidth: "xl",
+                    sx: {
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        alignItems: 'center'
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                            sx: {
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: 4
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                    sx: {
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        gap: 1.2,
+                                        color: 'white',
+                                        cursor: 'pointer',
+                                        opacity: 1,
+                                        py: 1,
+                                        px: 1.5,
+                                        borderRadius: 8,
+                                        '&:hover': {
+                                            bgcolor: 'rgba(255,255,255,0.1)'
+                                        }
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                            sx: {
+                                                width: 10,
+                                                height: 10,
+                                                bgcolor: '#38bdf8',
+                                                borderRadius: '50%'
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                            lineNumber: 351,
+                                            columnNumber: 15
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                            sx: {
+                                                ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TYPOGRAPHY"].BUTTON_MEDIUM,
+                                                fontWeight: 600
+                                            },
+                                            children: "Home"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                            lineNumber: 352,
+                                            columnNumber: 15
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                    lineNumber: 350,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                    sx: {
+                                        ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TYPOGRAPHY"].BUTTON_MEDIUM,
+                                        color: '#cbd5e1',
+                                        cursor: 'pointer',
+                                        py: 1,
+                                        px: 1.5,
+                                        borderRadius: 8,
+                                        '&:hover': {
+                                            color: 'white',
+                                            fontWeight: 500,
+                                            bgcolor: 'rgba(255,255,255,0.1)'
+                                        }
+                                    },
+                                    children: "About Us"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                    lineNumber: 354,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                    sx: {
+                                        ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TYPOGRAPHY"].BUTTON_MEDIUM,
+                                        color: '#cbd5e1',
+                                        cursor: 'pointer',
+                                        py: 1,
+                                        px: 1.5,
+                                        borderRadius: 8,
+                                        '&:hover': {
+                                            color: 'white',
+                                            fontWeight: 500,
+                                            bgcolor: 'rgba(255,255,255,0.1)'
+                                        }
+                                    },
+                                    children: "Services"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                    lineNumber: 355,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                    sx: {
+                                        ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TYPOGRAPHY"].BUTTON_MEDIUM,
+                                        color: '#cbd5e1',
+                                        cursor: 'pointer',
+                                        py: 1,
+                                        px: 1.5,
+                                        borderRadius: 8,
+                                        '&:hover': {
+                                            color: 'white',
+                                            fontWeight: 500,
+                                            bgcolor: 'rgba(255,255,255,0.1)'
+                                        }
+                                    },
+                                    children: "Contact"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                    lineNumber: 356,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/auth/LoginPage.tsx",
+                            lineNumber: 349,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                            sx: {
+                                display: 'flex',
+                                gap: 2.5,
+                                color: 'white',
+                                alignItems: 'center'
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                    sx: {
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        gap: 1,
+                                        bgcolor: 'rgba(34, 197, 94, 0.15)',
+                                        px: 2,
+                                        py: 0.8,
+                                        borderRadius: 12
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                            sx: {
+                                                width: 10,
+                                                height: 10,
+                                                bgcolor: '#22c55e',
+                                                borderRadius: '50%'
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                            lineNumber: 361,
+                                            columnNumber: 15
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                            sx: {
+                                                ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TYPOGRAPHY"].CAPTION_MEDIUM,
+                                                fontWeight: 600
+                                            },
+                                            children: "System Online"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                            lineNumber: 362,
+                                            columnNumber: 15
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                    lineNumber: 360,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__IconButton$3e$__["IconButton"], {
+                                    size: "medium",
+                                    sx: {
+                                        color: 'white',
+                                        '&:hover': {
+                                            bgcolor: 'rgba(255,255,255,0.15)'
+                                        },
+                                        borderRadius: 12
+                                    },
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Notifications$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                        lineNumber: 366,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                    lineNumber: 365,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__IconButton$3e$__["IconButton"], {
+                                    size: "medium",
+                                    sx: {
+                                        color: 'white',
+                                        '&:hover': {
+                                            bgcolor: 'rgba(255,255,255,0.15)'
+                                        },
+                                        borderRadius: 12
+                                    },
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$AccountCircle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                        lineNumber: 369,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                    lineNumber: 368,
+                                    columnNumber: 13
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/components/auth/LoginPage.tsx",
+                            lineNumber: 359,
+                            columnNumber: 11
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                    lineNumber: 348,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                lineNumber: 338,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                sx: {
+                    flexGrow: 1,
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    background: 'radial-gradient(circle at 10% 20%, #e3f2fd 0%, #f1f5f9 100%)',
+                    p: {
+                        xs: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$responsive$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PADDING"].XS,
+                        sm: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$responsive$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PADDING"].SM,
+                        md: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$responsive$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PADDING"].MD
+                    }
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Fade$2f$Fade$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Fade$3e$__["Fade"], {
+                    in: true,
+                    timeout: 800,
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Paper$3e$__["Paper"], {
+                        elevation: 4,
+                        sx: {
+                            maxWidth: 950,
+                            width: '100%',
+                            display: 'flex',
+                            borderRadius: 16,
+                            overflow: 'hidden',
+                            boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 33, 71, 0.12)',
+                            bgcolor: 'white',
+                            minHeight: 600
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                sx: {
+                                    flex: 1,
+                                    bgcolor: 'linear-gradient(135deg, #002147 0%, #003366 70%, #004a80 100%)',
+                                    display: {
+                                        xs: 'none',
+                                        md: 'flex'
+                                    },
+                                    flexDirection: 'column',
+                                    justifyContent: 'center',
+                                    p: {
+                                        md: 5,
+                                        lg: 7
+                                    },
+                                    color: 'white',
+                                    position: 'relative',
+                                    overflow: 'hidden'
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                        sx: {
+                                            position: 'relative',
+                                            zIndex: 2
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                variant: "h2",
+                                                sx: {
+                                                    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TYPOGRAPHY"].HEADER_LARGE,
+                                                    fontWeight: 800,
+                                                    mb: 2,
+                                                    background: 'linear-gradient(45deg, #ffffff 30%, #e2e8f0 90%)',
+                                                    backgroundClip: 'text',
+                                                    WebkitTextFillColor: 'transparent'
+                                                },
+                                                children: "Welcome Back"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                lineNumber: 408,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                sx: {
+                                                    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TYPOGRAPHY"].BODY_LARGE,
+                                                    color: '#e2e8f0',
+                                                    mb: 5,
+                                                    lineHeight: 1.7
+                                                },
+                                                children: "Access the Municipal Administration ERP system securely. Please ensure you have your credentials ready."
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                lineNumber: 411,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                sx: {
+                                                    display: 'flex',
+                                                    gap: 3
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        sx: {
+                                                            p: 2,
+                                                            bgcolor: 'rgba(255,255,255,0.12)',
+                                                            borderRadius: 3
+                                                        },
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Security$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            sx: {
+                                                                fontSize: 36
+                                                            }
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                            lineNumber: 416,
+                                                            columnNumber: 21
+                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                        lineNumber: 415,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        sx: {
+                                                            p: 2,
+                                                            bgcolor: 'rgba(255,255,255,0.12)',
+                                                            borderRadius: 3
+                                                        },
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$AccountCircle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            sx: {
+                                                                fontSize: 36
+                                                            }
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                            lineNumber: 419,
+                                                            columnNumber: 21
+                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                        lineNumber: 418,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                lineNumber: 414,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                        lineNumber: 407,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                        sx: {
+                                            position: 'absolute',
+                                            top: -120,
+                                            right: -120,
+                                            width: 350,
+                                            height: 350,
+                                            borderRadius: '50%',
+                                            border: '45px solid rgba(255,255,255,0.04)'
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                        lineNumber: 424,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                        sx: {
+                                            position: 'absolute',
+                                            bottom: -70,
+                                            left: -70,
+                                            width: 250,
+                                            height: 250,
+                                            borderRadius: '50%',
+                                            bgcolor: 'rgba(255,255,255,0.04)'
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                        lineNumber: 425,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                lineNumber: 396,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                sx: {
+                                    flex: 1.3,
+                                    p: {
+                                        xs: 3,
+                                        sm: 4,
+                                        md: 6,
+                                        lg: 7
+                                    },
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    justifyContent: 'center',
+                                    bgcolor: '#ffffff'
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                        sx: {
+                                            mb: 5,
+                                            textAlign: 'center'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                variant: "h4",
+                                                sx: {
+                                                    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TYPOGRAPHY"].HEADER_MEDIUM,
+                                                    fontWeight: 800,
+                                                    color: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COLORS"].DARK_TEXT,
+                                                    mb: 1.5
+                                                },
+                                                children: "Login to Account"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                lineNumber: 431,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                variant: "body1",
+                                                sx: {
+                                                    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TYPOGRAPHY"].BODY_LARGE,
+                                                    color: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["COLORS"].MEDIUM_TEXT
+                                                },
+                                                children: "Enter your credentials to access the portal"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                lineNumber: 432,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                        lineNumber: 430,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                        sx: {
+                                            display: 'flex',
+                                            bgcolor: '#f1f5f9',
+                                            border: '1px solid #cbd5e1',
+                                            borderRadius: 16,
+                                            p: 0.7,
+                                            mb: 5,
+                                            width: 'fit-content',
+                                            mx: 'auto',
+                                            boxShadow: '0 4px 8px -1px rgba(0,0,0,0.08)'
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                onClick: ()=>handleLoginTypeChange('Citizen'),
+                                                sx: {
+                                                    borderRadius: 12,
+                                                    bgcolor: loginType === 'Citizen' ? '#002147' : 'transparent',
+                                                    color: loginType === 'Citizen' ? 'white' : '#64748b',
+                                                    px: {
+                                                        xs: 3,
+                                                        sm: 4
+                                                    },
+                                                    py: 1.2,
+                                                    textTransform: 'none',
+                                                    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TYPOGRAPHY"].BUTTON_MEDIUM,
+                                                    minWidth: {
+                                                        xs: 110,
+                                                        sm: 130
+                                                    },
+                                                    '&:hover': {
+                                                        bgcolor: loginType === 'Citizen' ? '#001a38' : 'rgba(0, 33, 71, 0.06)',
+                                                        boxShadow: loginType === 'Citizen' ? '0 4px 10px rgba(0, 33, 71, 0.2)' : '0 2px 4px rgba(0,0,0,0.05)'
+                                                    },
+                                                    transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
+                                                },
+                                                children: "Citizen"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                lineNumber: 447,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                onClick: ()=>handleLoginTypeChange('ULB'),
+                                                sx: {
+                                                    borderRadius: 12,
+                                                    bgcolor: loginType === 'ULB' ? '#002147' : 'transparent',
+                                                    color: loginType === 'ULB' ? 'white' : '#64748b',
+                                                    px: {
+                                                        xs: 3,
+                                                        sm: 4
+                                                    },
+                                                    py: 1.2,
+                                                    textTransform: 'none',
+                                                    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$shared$2f$typography$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TYPOGRAPHY"].BUTTON_MEDIUM,
+                                                    minWidth: {
+                                                        xs: 110,
+                                                        sm: 130
+                                                    },
+                                                    '&:hover': {
+                                                        bgcolor: loginType === 'ULB' ? '#001a38' : 'rgba(0, 33, 71, 0.06)',
+                                                        boxShadow: loginType === 'ULB' ? '0 4px 10px rgba(0, 33, 71, 0.2)' : '0 2px 4px rgba(0,0,0,0.05)'
+                                                    },
+                                                    transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
+                                                },
+                                                children: "ULB / Admin"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                lineNumber: 467,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                        lineNumber: 436,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                        component: "form",
+                                        sx: {
+                                            display: 'flex',
+                                            flexDirection: 'column',
+                                            gap: 3
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                fullWidth: true,
+                                                label: "User ID",
+                                                variant: "outlined",
+                                                value: employeeId,
+                                                onChange: (e)=>{
+                                                    if (e.target.value.length <= 6) setEmployeeId(e.target.value.replace(/\D/g, ''));
+                                                },
+                                                placeholder: "Enter 6-digit Employee ID",
+                                                sx: inputStyles,
+                                                InputLabelProps: {
+                                                    shrink: shouldShrinkLabel(employeeId)
+                                                },
+                                                InputProps: {
+                                                    startAdornment: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$InputAdornment$2f$InputAdornment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__InputAdornment$3e$__["InputAdornment"], {
+                                                        position: "start",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            sx: {
+                                                                color: '#94a3b8',
+                                                                fontSize: 22
+                                                            }
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                            lineNumber: 503,
+                                                            columnNumber: 70
+                                                        }, void 0)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                        lineNumber: 503,
+                                                        columnNumber: 37
+                                                    }, void 0)
+                                                }
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                lineNumber: 491,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                fullWidth: true,
+                                                label: "Password",
+                                                type: "password",
+                                                variant: "outlined",
+                                                value: password,
+                                                onChange: (e)=>setPassword(e.target.value),
+                                                placeholder: "Enter Password",
+                                                disabled: !employeeId || employeeId.length !== 6,
+                                                sx: inputStyles,
+                                                InputLabelProps: {
+                                                    shrink: shouldShrinkLabel(password)
+                                                },
+                                                InputProps: {
+                                                    startAdornment: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$InputAdornment$2f$InputAdornment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__InputAdornment$3e$__["InputAdornment"], {
+                                                        position: "start",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Lock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            sx: {
+                                                                color: '#94a3b8',
+                                                                fontSize: 22
+                                                            }
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                            lineNumber: 519,
+                                                            columnNumber: 70
+                                                        }, void 0)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                        lineNumber: 519,
+                                                        columnNumber: 37
+                                                    }, void 0)
+                                                }
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                lineNumber: 507,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                sx: {
+                                                    display: 'flex',
+                                                    gap: 2.5,
+                                                    flexDirection: {
+                                                        xs: 'column',
+                                                        sm: 'row'
+                                                    }
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                        fullWidth: true,
+                                                        label: "OTP",
+                                                        variant: "outlined",
+                                                        value: otp,
+                                                        onChange: (e)=>setOtp(e.target.value),
+                                                        placeholder: "Received OTP",
+                                                        sx: {
+                                                            ...inputStyles,
+                                                            flex: {
+                                                                sm: 1.5
+                                                            }
+                                                        },
+                                                        InputLabelProps: {
+                                                            shrink: shouldShrinkLabel(otp)
+                                                        },
+                                                        InputProps: {
+                                                            startAdornment: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$InputAdornment$2f$InputAdornment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__InputAdornment$3e$__["InputAdornment"], {
+                                                                position: "start",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$VpnKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    sx: {
+                                                                        color: '#94a3b8',
+                                                                        fontSize: 22
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                                    lineNumber: 534,
+                                                                    columnNumber: 72
+                                                                }, void 0)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                                lineNumber: 534,
+                                                                columnNumber: 39
+                                                            }, void 0)
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                        lineNumber: 524,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                        variant: "outlined",
+                                                        onClick: handleGenerateOTP,
+                                                        sx: {
+                                                            flex: {
+                                                                sm: 1
+                                                            },
+                                                            borderRadius: 3,
+                                                            textTransform: 'none',
+                                                            borderColor: '#002147',
+                                                            color: '#002147',
+                                                            fontWeight: 600,
+                                                            whiteSpace: 'nowrap',
+                                                            minWidth: 'fit-content',
+                                                            px: 3,
+                                                            py: 1.8,
+                                                            fontSize: '16px',
+                                                            '&:hover': {
+                                                                borderColor: '#001a38',
+                                                                bgcolor: '#f8fafc',
+                                                                boxShadow: '0 4px 8px rgba(0, 33, 71, 0.15)'
+                                                            }
+                                                        },
+                                                        children: "Get OTP"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                        lineNumber: 537,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                lineNumber: 523,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                sx: {
+                                                    display: 'flex',
+                                                    gap: 2.5,
+                                                    alignItems: 'stretch',
+                                                    flexDirection: {
+                                                        xs: 'column',
+                                                        sm: 'row'
+                                                    }
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                        fullWidth: true,
+                                                        label: "Captcha",
+                                                        variant: "outlined",
+                                                        value: captcha,
+                                                        onChange: (e)=>setCaptcha(e.target.value),
+                                                        placeholder: "Enter Code",
+                                                        disabled: !password || password.length < 8,
+                                                        sx: {
+                                                            ...inputStyles,
+                                                            flex: {
+                                                                sm: 1
+                                                            }
+                                                        },
+                                                        InputLabelProps: {
+                                                            shrink: shouldShrinkLabel(captcha)
+                                                        },
+                                                        InputProps: {
+                                                            startAdornment: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$InputAdornment$2f$InputAdornment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__InputAdornment$3e$__["InputAdornment"], {
+                                                                position: "start",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Security$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    sx: {
+                                                                        color: '#94a3b8',
+                                                                        fontSize: 22
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                                    lineNumber: 571,
+                                                                    columnNumber: 72
+                                                                }, void 0)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                                lineNumber: 571,
+                                                                columnNumber: 39
+                                                            }, void 0)
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                        lineNumber: 560,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        sx: {
+                                                            display: 'flex',
+                                                            alignItems: 'center',
+                                                            gap: 1.5,
+                                                            bgcolor: '#f1f5f9',
+                                                            p: 1.5,
+                                                            borderRadius: 3,
+                                                            border: '1px solid #cbd5e1',
+                                                            flex: {
+                                                                sm: 0.8
+                                                            },
+                                                            justifyContent: 'center'
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                sx: {
+                                                                    fontWeight: 800,
+                                                                    fontFamily: 'monospace',
+                                                                    fontSize: '20px',
+                                                                    letterSpacing: 2.5,
+                                                                    px: 2.5,
+                                                                    color: '#0f172a'
+                                                                },
+                                                                children: captchaText
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                                lineNumber: 585,
+                                                                columnNumber: 21
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__IconButton$3e$__["IconButton"], {
+                                                                size: "medium",
+                                                                onClick: generateNewCaptcha,
+                                                                sx: {
+                                                                    bgcolor: 'rgba(0, 33, 71, 0.05)',
+                                                                    '&:hover': {
+                                                                        bgcolor: 'rgba(0, 33, 71, 0.1)'
+                                                                    },
+                                                                    borderRadius: 2
+                                                                },
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Refresh$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                                                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                                    lineNumber: 596,
+                                                                    columnNumber: 23
+                                                                }, ("TURBOPACK compile-time value", void 0))
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                                lineNumber: 595,
+                                                                columnNumber: 21
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                        lineNumber: 574,
+                                                        columnNumber: 19
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                lineNumber: 559,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                fullWidth: true,
+                                                variant: "contained",
+                                                onClick: handleLogin,
+                                                disabled: isLoading,
+                                                sx: {
+                                                    bgcolor: '#002147',
+                                                    py: 2,
+                                                    mt: 3,
+                                                    borderRadius: 12,
+                                                    fontWeight: 700,
+                                                    fontSize: '18px',
+                                                    textTransform: 'none',
+                                                    boxShadow: '0 6px 12px rgba(0, 33, 71, 0.15), 0 2px 4px rgba(0, 33, 71, 0.1)',
+                                                    '&:hover': {
+                                                        bgcolor: '#001a38',
+                                                        boxShadow: '0 12px 20px rgba(0, 33, 71, 0.2), 0 4px 8px rgba(0, 33, 71, 0.15)'
+                                                    },
+                                                    '&:disabled': {
+                                                        bgcolor: '#94a3b8',
+                                                        boxShadow: 'none'
+                                                    },
+                                                    transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
+                                                },
+                                                children: isLoading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CircularProgress$2f$CircularProgress$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CircularProgress$3e$__["CircularProgress"], {
+                                                    size: 26,
+                                                    color: "inherit",
+                                                    thickness: 5
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                    lineNumber: 626,
+                                                    columnNumber: 32
+                                                }, ("TURBOPACK compile-time value", void 0)) : 'Login'
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                lineNumber: 601,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                onClick: ()=>setShowForgotPassword(true),
+                                                sx: {
+                                                    textTransform: 'none',
+                                                    color: '#dc2626',
+                                                    fontWeight: 600,
+                                                    fontSize: '16px',
+                                                    alignSelf: 'center',
+                                                    mt: 1.5,
+                                                    '&:hover': {
+                                                        bgcolor: 'transparent',
+                                                        textDecoration: 'underline',
+                                                        color: '#b91c1c'
+                                                    },
+                                                    transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
+                                                },
+                                                children: "Forgot Password?"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                                lineNumber: 629,
+                                                columnNumber: 17
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                        lineNumber: 490,
+                                        columnNumber: 15
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                                lineNumber: 429,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/components/auth/LoginPage.tsx",
+                        lineNumber: 385,
+                        columnNumber: 11
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
+                    fileName: "[project]/src/components/auth/LoginPage.tsx",
+                    lineNumber: 384,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/src/components/auth/LoginPage.tsx",
+                lineNumber: 376,
+                columnNumber: 7
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/components/auth/LoginPage.tsx",
+        lineNumber: 249,
+        columnNumber: 5
+    }, ("TURBOPACK compile-time value", void 0));
+};
+_s(LoginPage, "qD3sZL1CWvGskmEwuW0R0ZqfLRk=");
+_c = LoginPage;
+const __TURBOPACK__default__export__ = LoginPage;
+var _c;
+__turbopack_context__.k.register(_c, "LoginPage");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/src/components/auth/LoginPage.tsx [app-client] (ecmascript, next/dynamic entry)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/src/components/auth/LoginPage.tsx [app-client] (ecmascript)"));
+}),
+]);
+
+//# sourceMappingURL=src_components_71ba8d69._.js.map

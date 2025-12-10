@@ -68,10 +68,18 @@ const MOCK_ROLES = ['JE', 'AE', 'AEE', 'Health Inspector', 'Revenue Inspector', 
 const MOCK_LEVELS = ['Level 0', 'Level 1', 'Level 2', 'Level 3', 'Level 4', 'Level 5'];
 const MOCK_USER_TYPES = ['ULB Employee', 'ULB Head'];
 
-const THEME_BLUE = '#002147';
-const THEME_RED = '#ff0000';
-const THEME_GREEN = '#00c853';
-const THEME_ACCENT = '#1976d2';
+// Using shared constants
+import { COLORS, TYPOGRAPHY } from '../shared/typography';
+import { PADDING, MARGIN, GRID_SPACING } from '../shared/responsive';
+
+const THEME_BLUE = COLORS.PRIMARY_DARK;
+const THEME_ACCENT = COLORS.PRIMARY_ACCENT;
+const THEME_SUCCESS = COLORS.SUCCESS;
+const THEME_WARNING = COLORS.WARNING;
+const THEME_ERROR = COLORS.ERROR;
+const THEME_LIGHT_BG = COLORS.LIGHT_BACKGROUND;
+const THEME_DARK_TEXT = COLORS.DARK_TEXT;
+const THEME_MEDIUM_TEXT = COLORS.MEDIUM_TEXT;
 
 const MapUser: React.FC = () => {
     // Search State
@@ -174,8 +182,8 @@ const MapUser: React.FC = () => {
     };
 
     const DetailItem = ({ label, value, icon }: { label: string, value: string, icon?: React.ReactNode }) => (
-        <Box sx={{ mb: 2 }}>
-            <Typography variant="caption" sx={{ color: '#64748b', display: 'block', mb: 1, fontWeight: 600, fontSize: '15px' }}>
+        <Box sx={{ mb: MARGIN.MD }}>
+            <Typography variant="caption" sx={{ ...TYPOGRAPHY.CAPTION_LARGE, color: THEME_MEDIUM_TEXT, display: 'block', mb: 1, fontWeight: 600 }}>
                 {icon} {label}
             </Typography>
             <Box sx={{
@@ -187,7 +195,7 @@ const MapUser: React.FC = () => {
                 display: 'flex',
                 alignItems: 'center'
             }}>
-                <Typography variant="body1" sx={{ fontWeight: 700, color: '#334155', fontSize: '17px' }}>
+                <Typography variant="body1" sx={{ ...TYPOGRAPHY.BODY_LARGE, fontWeight: 700, color: '#334155' }}>
                     {value || '-'}
                 </Typography>
             </Box>
@@ -196,7 +204,7 @@ const MapUser: React.FC = () => {
 
     return (
         <Fade in={true}>
-            <Box sx={{ maxWidth: '100%', mx: 'auto', p: 3 }}>
+            <Box sx={{ maxWidth: '100%', mx: 'auto', p: { xs: PADDING.XS, sm: PADDING.SM, md: PADDING.MD } }}>
                 <Paper elevation={8} sx={{ 
                     borderRadius: 4, 
                     overflow: 'hidden',
@@ -245,12 +253,12 @@ const MapUser: React.FC = () => {
                         </Typography>
                     </Box>
 
-                    <Box sx={{ p: 4 }}>
+                    <Box sx={{ p: { xs: PADDING.SM, sm: PADDING.MD, md: PADDING.LG } }}>
                         {/* Stats Summary */}
                         <Box sx={{ 
                             display: 'flex', 
-                            gap: 3, 
-                            mb: 5, 
+                            gap: GRID_SPACING.LG, 
+                            mb: MARGIN.LG, 
                             flexWrap: 'wrap' 
                         }}>
                             <Paper elevation={2} sx={{ 
@@ -347,9 +355,9 @@ const MapUser: React.FC = () => {
                         {/* Search Section */}
                         <Box sx={{ 
                             display: 'flex', 
-                            gap: 2, 
+                            gap: GRID_SPACING.MD, 
                             justifyContent: 'center', 
-                            mb: 5, 
+                            mb: MARGIN.LG, 
                             alignItems: 'center',
                             flexWrap: 'wrap'
                         }}>
@@ -447,7 +455,7 @@ const MapUser: React.FC = () => {
 
                         {/* Basic Details Section */}
                         {employeeDetails && (
-                            <Box sx={{ mb: 5 }}>
+                            <Box sx={{ mb: MARGIN.LG }}>
                                 <Typography variant="h5" sx={{ 
                                     color: THEME_BLUE, 
                                     fontWeight: 800, 
@@ -516,7 +524,7 @@ const MapUser: React.FC = () => {
                         <Divider sx={{ mb: 5, borderColor: '#cbd5e1' }} />
 
                         {/* Map Roles Section */}
-                        <Box sx={{ mb: 5 }}>
+                        <Box sx={{ mb: MARGIN.LG }}>
                             <Typography variant="h5" sx={{ 
                                 color: THEME_BLUE, 
                                 fontWeight: 800, 
@@ -837,7 +845,7 @@ const MapUser: React.FC = () => {
                                                             startIcon={<Delete />}
                                                             onClick={() => handleRevoke(row.id)}
                                                             sx={{
-                                                                bgcolor: THEME_RED,
+                                                                bgcolor: THEME_ERROR,
                                                                 textTransform: 'none',
                                                                 fontWeight: 700,
                                                                 boxShadow: 'none',

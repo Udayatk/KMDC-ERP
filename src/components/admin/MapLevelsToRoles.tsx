@@ -35,8 +35,18 @@ const MOCK_SECTIONS = ['Engineering', 'Health', 'Revenue', 'Administration', 'To
 const MOCK_ROLES = ['JE', 'AE', 'AEE', 'EE', 'DC', 'Commissioner', 'Health Inspector', 'Revenue Inspector', 'Chief Officer'];
 const MOCK_LEVELS = ['Level 0', 'Level 1', 'Level 2', 'Level 3', 'Level 4', 'Level 5'];
 
-const THEME_BLUE = '#002147';
-const THEME_RED = '#ff0000';
+// Using shared constants
+import { COLORS } from '../shared/typography';
+import { PADDING, MARGIN, GRID_SPACING } from '../shared/responsive';
+
+const THEME_BLUE = COLORS.PRIMARY_DARK;
+const THEME_ACCENT = COLORS.PRIMARY_ACCENT;
+const THEME_SUCCESS = COLORS.SUCCESS;
+const THEME_WARNING = COLORS.WARNING;
+const THEME_ERROR = COLORS.ERROR;
+const THEME_LIGHT_BG = COLORS.LIGHT_BACKGROUND;
+const THEME_DARK_TEXT = COLORS.DARK_TEXT;
+const THEME_MEDIUM_TEXT = COLORS.MEDIUM_TEXT;
 
 const MapLevelsToRoles: React.FC = () => {
     // Form State
@@ -102,7 +112,7 @@ const MapLevelsToRoles: React.FC = () => {
 
     return (
         <Fade in={true}>
-            <Box sx={{ maxWidth: '100%', mx: 'auto' }}>
+            <Box sx={{ maxWidth: '100%', mx: 'auto', p: { xs: PADDING.XS, sm: PADDING.SM, md: PADDING.MD } }}>
                 <Paper elevation={0} sx={{ borderRadius: 3, overflow: 'hidden', boxShadow: '0 10px 25px rgba(0,0,0,0.08)' }}>
                     {/* Header */}
                     <Box sx={{ bgcolor: THEME_BLUE, py: 2.5, px: 4 }}>
@@ -112,8 +122,8 @@ const MapLevelsToRoles: React.FC = () => {
                     </Box>
 
                     {/* Controls Row */}
-                    <Box sx={{ p: 5, bgcolor: '#fff' }}>
-                        <Box sx={{ display: 'flex', gap: 3, alignItems: 'center', flexWrap: 'wrap' }}>
+                    <Box sx={{ p: { xs: PADDING.MD, sm: PADDING.LG, md: PADDING.XL }, bgcolor: '#fff' }}>
+                        <Box sx={{ display: 'flex', gap: GRID_SPACING.LG, alignItems: 'center', flexWrap: 'wrap' }}>
                             <Box sx={{ flex: 1, minWidth: 200 }}>
                                 <Autocomplete
                                     fullWidth
@@ -227,10 +237,10 @@ const MapLevelsToRoles: React.FC = () => {
                     </Box>
 
                     {/* Divider/Spacing - Matches screenshot separator line */}
-                    <Box sx={{ height: 2, bgcolor: '#e2e8f0', mx: 5 }} />
+                    <Box sx={{ height: 2, bgcolor: '#e2e8f0', mx: { xs: MARGIN.MD, sm: MARGIN.LG, md: MARGIN.XL } }} />
 
                     {/* Table */}
-                    <Box sx={{ p: 5 }}>
+                    <Box sx={{ p: { xs: PADDING.MD, sm: PADDING.LG, md: PADDING.XL } }}>
                         <TableContainer sx={{ border: '1px solid #e2e8f0', borderRadius: 3, boxShadow: '0 4px 6px rgba(0,0,0,0.03)' }}>
                             <Table>
                                 <TableHead>
@@ -272,7 +282,7 @@ const MapLevelsToRoles: React.FC = () => {
                                                         size="small"
                                                         onClick={() => handleDelete(row.id)}
                                                         sx={{
-                                                            bgcolor: THEME_RED,
+                                                            bgcolor: THEME_ERROR,
                                                             color: 'white',
                                                             textTransform: 'none',
                                                             fontWeight: 600,

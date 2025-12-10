@@ -155,7 +155,18 @@ const TRANSFER_TYPES = [
     'Mutual Transfer'
 ];
 
-const THEME_BLUE = '#002147'; // Dark Navy Blue
+// Using shared constants
+import { COLORS } from '../shared/typography';
+import { PADDING, MARGIN, GRID_SPACING } from '../shared/responsive';
+
+const THEME_BLUE = COLORS.PRIMARY_DARK;
+const THEME_ACCENT = COLORS.PRIMARY_ACCENT;
+const THEME_SUCCESS = COLORS.SUCCESS;
+const THEME_WARNING = COLORS.WARNING;
+const THEME_ERROR = COLORS.ERROR;
+const THEME_LIGHT_BG = COLORS.LIGHT_BACKGROUND;
+const THEME_DARK_TEXT = COLORS.DARK_TEXT;
+const THEME_MEDIUM_TEXT = COLORS.MEDIUM_TEXT;
 
 const TransferEmployee: React.FC = () => {
     // State
@@ -658,7 +669,7 @@ const TransferEmployee: React.FC = () => {
     );
 
     return (
-        <Box sx={{ minHeight: '100%' }}>
+        <Box sx={{ p: 3 }}>
             {view === 'search' ? renderSearchView() : renderPendingTransfers()}
 
             {/* Transfer Dialog */}
