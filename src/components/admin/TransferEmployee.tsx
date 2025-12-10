@@ -24,7 +24,6 @@ import {
     Tooltip,
     Autocomplete,
     Container,
-    Grid,
     Divider,
     Alert,
     CircularProgress
@@ -376,8 +375,8 @@ const TransferEmployee: React.FC = () => {
                         <Typography variant="h6" sx={{ mb: 3, color: '#1e293b', fontWeight: 600 }}>
                             Employee Details
                         </Typography>
-                        <Grid container spacing={3} sx={{ mb: 3 }}>
-                            <Grid item xs={12} md={6}>
+                        <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, gap: 3, mb: 3 }}>
+                            <Box sx={{ flex: 1 }}>
                                 <Box sx={{ display: 'flex', mb: 2 }}>
                                     <Typography sx={{ width: 150, fontWeight: 600, color: '#475569' }}>Employee ID:</Typography>
                                     <Typography sx={{ color: '#1e293b' }}>{selectedEmployee.id}</Typography>
@@ -390,8 +389,8 @@ const TransferEmployee: React.FC = () => {
                                     <Typography sx={{ width: 150, fontWeight: 600, color: '#475569' }}>Section:</Typography>
                                     <Typography sx={{ color: '#1e293b' }}>{selectedEmployee.section}</Typography>
                                 </Box>
-                            </Grid>
-                            <Grid item xs={12} md={6}>
+                            </Box>
+                            <Box sx={{ flex: 1 }}>
                                 <Box sx={{ display: 'flex', mb: 2 }}>
                                     <Typography sx={{ width: 150, fontWeight: 600, color: '#475569' }}>Recruitment Type:</Typography>
                                     <Typography sx={{ color: '#1e293b' }}>{selectedEmployee.recruitmentType}</Typography>
@@ -404,8 +403,8 @@ const TransferEmployee: React.FC = () => {
                                     <Typography sx={{ width: 150, fontWeight: 600, color: '#475569' }}>ULB Name:</Typography>
                                     <Typography sx={{ color: '#1e293b' }}>{selectedEmployee.ulbName}</Typography>
                                 </Box>
-                            </Grid>
-                        </Grid>
+                            </Box>
+                        </Box>
                         <Box sx={{ display: 'flex', justifyContent: 'center' }}>
                             <Button
                                 variant="contained"
@@ -696,8 +695,8 @@ const TransferEmployee: React.FC = () => {
                     <Typography variant="h6" sx={{ mb: 2, color: '#1e293b', fontWeight: 600 }}>
                         Employee Basic Details
                     </Typography>
-                    <Grid container spacing={2} sx={{ mb: 4 }}>
-                        <Grid item xs={6}>
+                    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, mb: 4 }}>
+                        <Box sx={{ flex: '1 1 calc(50% - 8px)', minWidth: '200px' }}>
                             <TextField
                                 label="Employee ID"
                                 value={selectedEmployee?.id || ''}
@@ -705,8 +704,8 @@ const TransferEmployee: React.FC = () => {
                                 fullWidth
                                 size="small"
                             />
-                        </Grid>
-                        <Grid item xs={6}>
+                        </Box>
+                        <Box sx={{ flex: '1 1 calc(50% - 8px)', minWidth: '200px' }}>
                             <TextField
                                 label="Employee Name"
                                 value={selectedEmployee?.name || ''}
@@ -714,8 +713,8 @@ const TransferEmployee: React.FC = () => {
                                 fullWidth
                                 size="small"
                             />
-                        </Grid>
-                        <Grid item xs={6}>
+                        </Box>
+                        <Box sx={{ flex: '1 1 calc(50% - 8px)', minWidth: '200px' }}>
                             <TextField
                                 label="Section"
                                 value={selectedEmployee?.section || ''}
@@ -723,8 +722,8 @@ const TransferEmployee: React.FC = () => {
                                 fullWidth
                                 size="small"
                             />
-                        </Grid>
-                        <Grid item xs={6}>
+                        </Box>
+                        <Box sx={{ flex: '1 1 calc(50% - 8px)', minWidth: '200px' }}>
                             <TextField
                                 label="Current ULB"
                                 value={selectedEmployee?.ulbName || ''}
@@ -732,8 +731,8 @@ const TransferEmployee: React.FC = () => {
                                 fullWidth
                                 size="small"
                             />
-                        </Grid>
-                    </Grid>
+                        </Box>
+                    </Box>
 
                     <Divider sx={{ my: 3 }} />
 
@@ -741,8 +740,8 @@ const TransferEmployee: React.FC = () => {
                     <Typography variant="h6" sx={{ mb: 2, color: '#1e293b', fontWeight: 600 }}>
                         Transfer Details
                     </Typography>
-                    <Grid container spacing={2}>
-                        <Grid item xs={12} md={6}>
+                    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2 }}>
+                        <Box sx={{ flex: '1 1 calc(50% - 8px)', minWidth: '200px' }}>
                             <TextField
                                 select
                                 label="To ULB Name *"
@@ -758,8 +757,8 @@ const TransferEmployee: React.FC = () => {
                                     <MenuItem key={ulb} value={ulb}>{ulb}</MenuItem>
                                 ))}
                             </TextField>
-                        </Grid>
-                        <Grid item xs={12} md={6}>
+                        </Box>
+                        <Box sx={{ flex: '1 1 calc(50% - 8px)', minWidth: '200px' }}>
                             <TextField
                                 type="date"
                                 label="Date of Transfer *"
@@ -772,8 +771,8 @@ const TransferEmployee: React.FC = () => {
                                 size="small"
                                 sx={{ mb: 2 }}
                             />
-                        </Grid>
-                        <Grid item xs={12} md={6}>
+                        </Box>
+                        <Box sx={{ flex: '1 1 calc(50% - 8px)', minWidth: '200px' }}>
                             <TextField
                                 select
                                 label="Transfer Type *"
@@ -789,8 +788,8 @@ const TransferEmployee: React.FC = () => {
                                     <MenuItem key={type} value={type}>{type}</MenuItem>
                                 ))}
                             </TextField>
-                        </Grid>
-                        <Grid item xs={12} md={6}>
+                        </Box>
+                        <Box sx={{ flex: '1 1 calc(50% - 8px)', minWidth: '200px' }}>
                             <input
                                 accept=".pdf"
                                 style={{ display: 'none' }}
@@ -823,8 +822,8 @@ const TransferEmployee: React.FC = () => {
                                     <CheckCircle fontSize="inherit" /> {transferData.transferOrder.name}
                                 </Typography>
                             )}
-                        </Grid>
-                        <Grid item xs={12}>
+                        </Box>
+                        <Box sx={{ flex: '1 1 100%', minWidth: '200px' }}>
                             <TextField
                                 label="Transfer Reason *"
                                 multiline
@@ -836,8 +835,8 @@ const TransferEmployee: React.FC = () => {
                                 fullWidth
                                 size="small"
                             />
-                        </Grid>
-                    </Grid>
+                        </Box>
+                    </Box>
                 </DialogContent>
                 <DialogActions sx={{ px: 4, py: 3, bgcolor: '#f8fafc' }}>
                     <Button
@@ -867,3 +866,6 @@ const TransferEmployee: React.FC = () => {
 };
 
 export default TransferEmployee;
+
+
+

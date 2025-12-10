@@ -122,13 +122,13 @@ const Dashboard: React.FC<DashboardProps> = ({ userInfo, selectedULB, onLogout }
   };
 
   const navItems = [
-    { id: 'modules', label: 'Modules', icon: <Business /> },
     { id: 'employees', label: 'User Management', icon: <People /> },
     { id: 'map-ulb', label: 'ULB Mapping', icon: <Map /> },
     { id: 'map-super-admin', label: 'Super Admin', icon: <AdminPanelSettings /> },
     { id: 'map-levels', label: 'Levels & Roles', icon: <AccountTree /> },
     { id: 'map-user', label: 'User Mapping', icon: <Assignment /> },
     { id: 'transfer-employee', label: 'Transfer Employee', icon: <TransferWithinAStation /> },
+    { id: 'modules', label: 'Modules', icon: <Business /> },
   ];
 
   const drawerContent = (

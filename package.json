@@ -8,6 +8,7 @@
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.6",
     "@mui/material": "^7.3.6",
+    "@mui/system": "^7.3.6",
     "@mui/x-data-grid": "^8.21.0",
     "@mui/x-date-pickers": "^8.21.0",
     "@types/node": "^24.10.1",
@@ -168,5 +169,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "vercel": "^49.1.2"
+  }
 }

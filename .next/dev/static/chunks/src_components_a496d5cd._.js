@@ -3219,36 +3219,24 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$mat
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Fade$2f$Fade$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Fade$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Fade/Fade.js [app-client] (ecmascript) <export default as Fade>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Snackbar$2f$Snackbar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Snackbar$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Snackbar/Snackbar.js [app-client] (ecmascript) <export default as Snackbar>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Alert$2f$Alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Alert$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Alert/Alert.js [app-client] (ecmascript) <export default as Alert>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grid$2f$Grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Grid/Grid.js [app-client] (ecmascript) <export default as Grid>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Divider$2f$Divider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Divider/Divider.js [app-client] (ecmascript) <export default as Divider>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Dialog$2f$Dialog$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dialog$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Dialog/Dialog.js [app-client] (ecmascript) <export default as Dialog>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DialogTitle$2f$DialogTitle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DialogTitle$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/DialogTitle/DialogTitle.js [app-client] (ecmascript) <export default as DialogTitle>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DialogContent$2f$DialogContent$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DialogContent$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/DialogContent/DialogContent.js [app-client] (ecmascript) <export default as DialogContent>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DialogActions$2f$DialogActions$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DialogActions$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/DialogActions/DialogActions.js [app-client] (ecmascript) <export default as DialogActions>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Chip$2f$Chip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Chip$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Chip/Chip.js [app-client] (ecmascript) <export default as Chip>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Checkbox$2f$Checkbox$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Checkbox$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Checkbox/Checkbox.js [app-client] (ecmascript) <export default as Checkbox>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$FormGroup$2f$FormGroup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__FormGroup$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/FormGroup/FormGroup.js [app-client] (ecmascript) <export default as FormGroup>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$FormControlLabel$2f$FormControlLabel$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__FormControlLabel$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/FormControlLabel/FormControlLabel.js [app-client] (ecmascript) <export default as FormControlLabel>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Tooltip/Tooltip.js [app-client] (ecmascript) <export default as Tooltip>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__IconButton$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/IconButton/IconButton.js [app-client] (ecmascript) <export default as IconButton>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Card$2f$Card$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Card/Card.js [app-client] (ecmascript) <export default as Card>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CardContent$2f$CardContent$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CardContent$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/CardContent/CardContent.js [app-client] (ecmascript) <export default as CardContent>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$LinearProgress$2f$LinearProgress$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__LinearProgress$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/LinearProgress/LinearProgress.js [app-client] (ecmascript) <export default as LinearProgress>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Badge$2f$Badge$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Badge$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Badge/Badge.js [app-client] (ecmascript) <export default as Badge>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Search$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Search.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Add$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Add.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Divider$2f$Divider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__ = __turbopack_context__.i("[project]/node_modules/@mui/material/esm/Divider/Divider.js [app-client] (ecmascript) <export default as Divider>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$PersonAdd$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/PersonAdd.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Delete.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Menu.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Search$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Search.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Person.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Business$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Business.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Badge$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Badge.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Work$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Work.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$LocationOn$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/LocationOn.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Assignment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Assignment.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$CheckCircle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/CheckCircle.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Cancel$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Cancel.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Refresh$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Refresh.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Info$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Info.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Engineering$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Engineering.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$AccountBalance$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/AccountBalance.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Security$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Security.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Verified$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@mui/icons-material/esm/Verified.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
+;
 ;
 ;
 ;
@@ -3271,9 +3259,7 @@ const MOCK_EMPLOYEES = [
         recruitmentType: 'Permanent',
         designation: 'Junior Engineer',
         ulbName: 'Bengaluru',
-        wardName: 'Ward 1',
-        currentUlb: 'Bengaluru',
-        hasExistingAccess: true
+        wardName: 'Ward 1'
     },
     {
         id: 'EMP002',
@@ -3282,9 +3268,7 @@ const MOCK_EMPLOYEES = [
         recruitmentType: 'Contract',
         designation: 'Health Inspector',
         ulbName: 'Mysuru',
-        wardName: 'Ward 5',
-        currentUlb: 'Mysuru',
-        hasExistingAccess: false
+        wardName: 'Ward 5'
     },
     {
         id: '1234',
@@ -3293,40 +3277,25 @@ const MOCK_EMPLOYEES = [
         recruitmentType: 'Permanent',
         designation: 'Clerk',
         ulbName: 'Nagamangala',
-        wardName: 'Ward 10',
-        hasExistingAccess: false
+        wardName: 'Ward 10'
     },
     {
         id: 'EMP003',
         name: 'Priya Sharma',
-        section: 'Finance',
+        section: 'Revenue',
         recruitmentType: 'Permanent',
-        designation: 'Accountant',
+        designation: 'Revenue Inspector',
         ulbName: 'Hassan',
-        wardName: 'Ward 3',
-        currentUlb: 'Hassan',
-        hasExistingAccess: true
+        wardName: 'Ward 3'
     },
     {
         id: 'EMP004',
-        name: 'Ravi Gowda',
-        section: 'Administration',
+        name: 'Rajesh Gupta',
+        section: 'Town Planning',
         recruitmentType: 'Contract',
-        designation: 'Assistant',
-        ulbName: 'Tumakuru',
-        wardName: 'Ward 7',
-        hasExistingAccess: false
-    },
-    {
-        id: 'EMP005',
-        name: 'Lakshmi Devi',
-        section: 'Health',
-        recruitmentType: 'Permanent',
-        designation: 'Medical Officer',
-        ulbName: 'Bengaluru',
-        wardName: 'Ward 2',
-        currentUlb: 'Bengaluru',
-        hasExistingAccess: true
+        designation: 'Planning Assistant',
+        ulbName: 'Shivamogga',
+        wardName: 'Ward 7'
     }
 ];
 const MOCK_ULBS = [
@@ -3334,16 +3303,9 @@ const MOCK_ULBS = [
     'Mysuru',
     'Nagamangala',
     'Hassan',
-    'Tumakuru'
-];
-const MOCK_SECTIONS = [
-    'Engineering',
-    'Health',
-    'Administration',
-    'Finance',
-    'Revenue',
-    'Legal',
-    'Planning'
+    'Tumakuru',
+    'Shivamogga',
+    'Belagavi'
 ];
 const MOCK_ROLES = [
     'JE',
@@ -3352,85 +3314,25 @@ const MOCK_ROLES = [
     'Health Inspector',
     'Revenue Inspector',
     'Clerk',
-    'Accountant',
-    'Medical Officer',
-    'Assistant'
+    'Planning Assistant',
+    'Commissioner'
 ];
 const MOCK_LEVELS = [
     'Level 0',
     'Level 1',
     'Level 2',
-    'Level 3'
+    'Level 3',
+    'Level 4',
+    'Level 5'
 ];
 const MOCK_USER_TYPES = [
     'ULB Employee',
     'ULB Head'
 ];
-const MOCK_MENUS = [
-    {
-        id: 'dashboard',
-        name: 'Dashboard',
-        category: 'Core',
-        description: 'Main dashboard access'
-    },
-    {
-        id: 'user_management',
-        name: 'User Management',
-        category: 'Administration',
-        description: 'Manage system users'
-    },
-    {
-        id: 'reports',
-        name: 'Reports',
-        category: 'Analytics',
-        description: 'Generate and view reports'
-    },
-    {
-        id: 'settings',
-        name: 'Settings',
-        category: 'Configuration',
-        description: 'System configuration'
-    },
-    {
-        id: 'audit_logs',
-        name: 'Audit Logs',
-        category: 'Security',
-        description: 'View system audit trails'
-    },
-    {
-        id: 'notifications',
-        name: 'Notifications',
-        category: 'Communication',
-        description: 'Manage notifications'
-    },
-    {
-        id: 'file_management',
-        name: 'File Management',
-        category: 'Documents',
-        description: 'Manage documents and files'
-    },
-    {
-        id: 'workflow',
-        name: 'Workflow',
-        category: 'Process',
-        description: 'Workflow management'
-    },
-    {
-        id: 'approvals',
-        name: 'Approvals',
-        category: 'Process',
-        description: 'Handle approvals'
-    },
-    {
-        id: 'inventory',
-        name: 'Inventory',
-        category: 'Resources',
-        description: 'Manage inventory items'
-    }
-];
 const THEME_BLUE = '#002147';
 const THEME_RED = '#ff0000';
 const THEME_GREEN = '#00c853';
+const THEME_ACCENT = '#1976d2';
 const MapUser = ()=>{
     _s();
     // Search State
@@ -3438,47 +3340,33 @@ const MapUser = ()=>{
     const [employeeDetails, setEmployeeDetails] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     // Form State
     const [preferredUlb, setPreferredUlb] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
-    const [preferredSection, setPreferredSection] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const [userType, setUserType] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const [role, setRole] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const [level, setLevel] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
-    const [searchInput, setSearchInput] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
-    const [filteredEmployees, setFilteredEmployees] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
-    const [existingAccess, setExistingAccess] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     // Grid State
     const [mappedRoles, setMappedRoles] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([
         {
             id: 1,
-            employeeId: 'EMP001',
-            employeeName: 'Ramesh Kumar',
             ulbName: 'Nelamangala',
-            section: 'Engineering',
-            userType: 'ULB Head',
-            role: 'AE',
-            level: 'Level 0',
-            mappedMenus: [
-                'dashboard',
-                'user_management'
-            ],
-            isActive: true,
-            assignedDate: '2024-01-15',
-            lastModified: '2024-01-15',
-            assignedBy: 'Super Admin',
-            auditTrail: [
-                {
-                    action: 'ROLE_ASSIGNED',
-                    timestamp: '2024-01-15 10:30:00',
-                    performedBy: 'Super Admin',
-                    details: 'ULB Head role assigned for Nelamangala'
-                }
-            ]
+            userType: '-',
+            role: 'ULB Head',
+            level: 'Level 0'
+        },
+        {
+            id: 2,
+            ulbName: 'Bengaluru',
+            userType: 'ULB Employee',
+            role: 'JE',
+            level: 'Level 4'
+        },
+        {
+            id: 3,
+            ulbName: 'Mysuru',
+            userType: 'ULB Employee',
+            role: 'Health Inspector',
+            level: 'Level 3'
         }
     ]);
-    // Dialog states
-    const [menuDialogOpen, setMenuDialogOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    const [selectedRoleForMenu, setSelectedRoleForMenu] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
-    const [selectedMenus, setSelectedMenus] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
-    const [isLoading, setIsLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [notification, setNotification] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
         open: false,
         message: '',
@@ -3494,47 +3382,21 @@ const MapUser = ()=>{
             });
             return;
         }
-        // Set employee details
         setEmployeeDetails(searchQuery);
-        // Pre-populate preferred ULB based on requirement 14 & 15
-        if (!searchQuery.hasExistingAccess && searchQuery.ulbName) {
-            // If no ULB mapped, pre-set current ULB to Preferred ULB and make it editable
+        if (searchQuery.ulbName) {
             setPreferredUlb(searchQuery.ulbName);
-        } else {
-            // If ULB already assigned, allow selection from dropdown
-            setPreferredUlb(null);
         }
-        // Set preferred section based on employee's section
-        setPreferredSection(searchQuery.section);
-        // Fetch and display existing access for the employee
-        const employeeExistingAccess = mappedRoles.filter((role)=>role.employeeId === searchQuery.id);
-        setExistingAccess(employeeExistingAccess);
-        setNotification({
-            open: true,
-            message: `Employee ${searchQuery.name} loaded successfully. ${employeeExistingAccess.length > 0 ? `Found ${employeeExistingAccess.length} existing access record(s).` : 'No existing access found.'}`,
-            type: 'success'
-        });
     };
     const handleClear = ()=>{
         setSearchQuery(null);
         setEmployeeDetails(null);
         setPreferredUlb(null);
-        setPreferredSection(null);
         setUserType(null);
         setRole(null);
         setLevel(null);
-        setSearchInput('');
-        setFilteredEmployees([]);
-        setExistingAccess([]);
-        setNotification({
-            open: true,
-            message: 'Search results cleared. Ready for new search.',
-            type: 'info'
-        });
     };
-    // --- Add Handler with Complete Validation ---
+    // --- Add Handler ---
     const handleAdd = ()=>{
-        // Validation 1: Employee must be selected
         if (!employeeDetails) {
             setNotification({
                 open: true,
@@ -3543,29 +3405,26 @@ const MapUser = ()=>{
             });
             return;
         }
-        // Validation 2: All mandatory fields must be selected
-        if (!preferredUlb || !preferredSection || !userType || !role) {
+        if (!preferredUlb || !userType || !role) {
             setNotification({
                 open: true,
-                message: 'Please select all mandatory fields (Preferred ULB, Preferred Section, User Type, Role)',
+                message: 'Please select all mandatory fields (Preferred ULB, User Type, Role)',
                 type: 'error'
             });
             return;
         }
-        // Validation 3: ULB Head restriction - only one ULB Head per ULB
         if (userType === 'ULB Head') {
-            const existingHead = mappedRoles.find((m)=>m.ulbName === preferredUlb && m.userType === 'ULB Head' && m.isActive);
+            const existingHead = mappedRoles.find((m)=>m.ulbName === preferredUlb && m.userType === 'ULB Head');
             if (existingHead) {
                 setNotification({
                     open: true,
-                    message: `Access Denied: ${preferredUlb} already has a designated ULB Head (${existingHead.employeeName}).`,
+                    message: `Access Denied: ${preferredUlb} already has a designated ULB Head.`,
                     type: 'error'
                 });
                 return;
             }
         }
-        // Validation 4: Prevent duplicate role assignment
-        const isDuplicate = mappedRoles.some((m)=>m.employeeId === employeeDetails.id && m.ulbName === preferredUlb && m.role === role && m.userType === userType && m.isActive);
+        const isDuplicate = mappedRoles.some((m)=>m.ulbName === preferredUlb && m.role === role && m.userType === userType);
         if (isDuplicate) {
             setNotification({
                 open: true,
@@ -3574,9 +3433,9 @@ const MapUser = ()=>{
             });
             return;
         }
-        // Validation 5: Prevent ULB Head and ULB Employee roles for same employee in same ULB
-        const conflictingRole = mappedRoles.find((m)=>m.employeeId === employeeDetails.id && m.ulbName === preferredUlb && m.userType !== userType && m.isActive);
-        if (conflictingRole) {
+        const hasHeadRole = mappedRoles.some((m)=>m.userType === 'ULB Head' && m.ulbName === preferredUlb);
+        const hasEmployeeRole = mappedRoles.some((m)=>m.userType === 'ULB Employee' && m.ulbName === preferredUlb);
+        if (userType === 'ULB Head' && hasEmployeeRole || userType === 'ULB Employee' && hasHeadRole) {
             setNotification({
                 open: true,
                 message: `This Role is already assigned to ${employeeDetails.name} in ${preferredUlb} ULB`,
@@ -3584,154 +3443,34 @@ const MapUser = ()=>{
             });
             return;
         }
-        // Create new role with complete audit trail
-        const currentTimestamp = new Date().toISOString();
         const newRole = {
             id: Date.now(),
-            employeeId: employeeDetails.id,
-            employeeName: employeeDetails.name,
             ulbName: preferredUlb,
-            section: preferredSection,
             userType,
             role,
-            level: level || '-',
-            mappedMenus: [],
-            isActive: true,
-            assignedDate: currentTimestamp.split('T')[0],
-            lastModified: currentTimestamp.split('T')[0],
-            assignedBy: 'Super Admin',
-            auditTrail: [
-                {
-                    action: 'ROLE_ASSIGNED',
-                    timestamp: currentTimestamp,
-                    performedBy: 'Super Admin',
-                    details: `${userType} role '${role}' assigned for ${preferredUlb} in ${preferredSection} section`
-                }
-            ]
+            level: level || '-'
         };
         setMappedRoles([
             ...mappedRoles,
             newRole
         ]);
-        // Update existing access display
-        const updatedExistingAccess = [
-            ...existingAccess,
-            newRole
-        ];
-        setExistingAccess(updatedExistingAccess);
         setNotification({
             open: true,
-            message: `Role assigned successfully. ${employeeDetails.name} now has ${userType} access to ${preferredUlb}.`,
+            message: 'Role added successfully',
             type: 'success'
         });
-        // Clear form after successful addition
-        setUserType(null);
-        setRole(null);
-        setLevel(null);
-    };
-    // --- Search Input Handler for Auto-complete ---
-    const handleSearchInputChange = (value)=>{
-        setSearchInput(value);
-        if (value.length >= 4) {
-            // Filter employees based on first 4 digits of ID or first 4 characters of name
-            const filtered = MOCK_EMPLOYEES.filter((emp)=>emp.id.toLowerCase().startsWith(value.toLowerCase()) || emp.name.toLowerCase().startsWith(value.toLowerCase()));
-            setFilteredEmployees(filtered);
-        } else {
-            setFilteredEmployees([]);
-        }
     };
     const handleRevoke = (id)=>{
-        const roleToRevoke = mappedRoles.find((r)=>r.id === id);
-        if (!roleToRevoke) return;
-        // Add audit trail for revocation
-        const updatedRole = {
-            ...roleToRevoke,
-            isActive: false,
-            lastModified: new Date().toISOString().split('T')[0],
-            auditTrail: [
-                ...roleToRevoke.auditTrail,
-                {
-                    action: 'ACCESS_REVOKED',
-                    timestamp: new Date().toISOString(),
-                    performedBy: 'Super Admin',
-                    details: `Access revoked for ${roleToRevoke.userType} role in ${roleToRevoke.ulbName}`
-                }
-            ]
-        };
-        // Update the role to inactive instead of removing completely (for audit purposes)
-        setMappedRoles(mappedRoles.map((r)=>r.id === id ? updatedRole : r));
-        // Update existing access display if current employee is selected
-        if (employeeDetails && employeeDetails.id === roleToRevoke.employeeId) {
-            setExistingAccess(existingAccess.map((r)=>r.id === id ? updatedRole : r));
-        }
+        setMappedRoles(mappedRoles.filter((r)=>r.id !== id));
         setNotification({
             open: true,
-            message: `Access revoked successfully. ${roleToRevoke.employeeName} will be logged out if currently active.`,
+            message: 'Access revoked successfully',
             type: 'info'
         });
     };
-    const handleToggleStatus = (id)=>{
-        setMappedRoles(mappedRoles.map((role)=>role.id === id ? {
-                ...role,
-                isActive: !role.isActive,
-                lastModified: new Date().toISOString().split('T')[0]
-            } : role));
-        const role = mappedRoles.find((r)=>r.id === id);
-        setNotification({
-            open: true,
-            message: `Role ${role?.isActive ? 'deactivated' : 'activated'} successfully`,
-            type: 'info'
-        });
-    };
-    const handleOpenMenuDialog = (role)=>{
-        setSelectedRoleForMenu(role);
-        setSelectedMenus([
-            ...role.mappedMenus
-        ]);
-        setMenuDialogOpen(true);
-    };
-    const handleCloseMenuDialog = ()=>{
-        setMenuDialogOpen(false);
-        setSelectedRoleForMenu(null);
-        setSelectedMenus([]);
-    };
-    const handleMenuToggle = (menuId)=>{
-        setSelectedMenus((prev)=>prev.includes(menuId) ? prev.filter((id)=>id !== menuId) : [
-                ...prev,
-                menuId
-            ]);
-    };
-    const handleSaveMenuMapping = async ()=>{
-        if (!selectedRoleForMenu) return;
-        setIsLoading(true);
-        // Simulate API call
-        await new Promise((resolve)=>setTimeout(resolve, 1000));
-        setMappedRoles(mappedRoles.map((role)=>role.id === selectedRoleForMenu.id ? {
-                ...role,
-                mappedMenus: [
-                    ...selectedMenus
-                ],
-                lastModified: new Date().toISOString().split('T')[0]
-            } : role));
-        setNotification({
-            open: true,
-            message: 'Menu mapping updated successfully',
-            type: 'success'
-        });
-        setIsLoading(false);
-        handleCloseMenuDialog();
-    };
-    const getMenusByCategory = ()=>{
-        const categories = {};
-        MOCK_MENUS.forEach((menu)=>{
-            if (!categories[menu.category]) categories[menu.category] = [];
-            categories[menu.category].push(menu);
-        });
-        return categories;
-    };
-    const DetailItem = ({ label, value })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+    const DetailItem = ({ label, value, icon })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
             sx: {
-                mb: 1
+                mb: 2
             },
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -3739,46 +3478,52 @@ const MapUser = ()=>{
                     sx: {
                         color: '#64748b',
                         display: 'block',
-                        mb: 0.5,
-                        fontWeight: 500
+                        mb: 1,
+                        fontWeight: 600,
+                        fontSize: '15px'
                     },
-                    children: label
-                }, void 0, false, {
+                    children: [
+                        icon,
+                        " ",
+                        label
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/src/components/admin/MapUser.tsx",
-                    lineNumber: 446,
+                    lineNumber: 178,
                     columnNumber: 13
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                     sx: {
                         bgcolor: '#f1f5f9',
-                        p: 1,
-                        borderRadius: 1,
+                        p: 2,
+                        borderRadius: 2,
                         border: '1px solid #cbd5e1',
-                        minHeight: '35px',
+                        minHeight: '45px',
                         display: 'flex',
                         alignItems: 'center'
                     },
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                        variant: "body2",
+                        variant: "body1",
                         sx: {
-                            fontWeight: 600,
-                            color: '#334155'
+                            fontWeight: 700,
+                            color: '#334155',
+                            fontSize: '17px'
                         },
                         children: value || '-'
                     }, void 0, false, {
                         fileName: "[project]/src/components/admin/MapUser.tsx",
-                        lineNumber: 458,
+                        lineNumber: 190,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/src/components/admin/MapUser.tsx",
-                    lineNumber: 449,
+                    lineNumber: 181,
                     columnNumber: 13
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/admin/MapUser.tsx",
-            lineNumber: 445,
+            lineNumber: 177,
             columnNumber: 9
         }, ("TURBOPACK compile-time value", void 0));
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Fade$2f$Fade$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Fade$3e$__["Fade"], {
@@ -3786,38 +3531,90 @@ const MapUser = ()=>{
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
             sx: {
                 maxWidth: '100%',
-                mx: 'auto'
+                mx: 'auto',
+                p: 3
             },
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Paper$3e$__["Paper"], {
-                    elevation: 3,
+                    elevation: 8,
                     sx: {
-                        borderRadius: 2,
-                        overflow: 'hidden'
+                        borderRadius: 4,
+                        overflow: 'hidden',
+                        border: '1px solid #e2e8f0',
+                        boxShadow: '0 10px 25px rgba(0,0,0,0.08)'
                     },
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                             sx: {
                                 bgcolor: THEME_BLUE,
-                                py: 2,
-                                px: 3
+                                py: 4,
+                                px: 4,
+                                textAlign: 'center',
+                                position: 'relative'
                             },
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                variant: "h6",
-                                sx: {
-                                    color: 'white',
-                                    fontWeight: 600,
-                                    textAlign: 'center'
-                                },
-                                children: "Map User - Role and Menu Mapping"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                lineNumber: 471,
-                                columnNumber: 25
-                            }, ("TURBOPACK compile-time value", void 0))
-                        }, void 0, false, {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                    sx: {
+                                        position: 'absolute',
+                                        top: 16,
+                                        left: 16,
+                                        bgcolor: 'rgba(255,255,255,0.15)',
+                                        p: 1,
+                                        borderRadius: '50%',
+                                        width: 48,
+                                        height: 48,
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        justifyContent: 'center'
+                                    },
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Security$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        sx: {
+                                            color: 'white',
+                                            fontSize: 28
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                        lineNumber: 227,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                    lineNumber: 214,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                    variant: "h4",
+                                    sx: {
+                                        color: 'white',
+                                        fontWeight: 800,
+                                        mb: 1,
+                                        background: 'linear-gradient(45deg, #fff 30%, #cbd5e1 90%)',
+                                        backgroundClip: 'text',
+                                        WebkitBackgroundClip: 'text',
+                                        WebkitTextFillColor: 'transparent'
+                                    },
+                                    children: "User Role Mapping"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                    lineNumber: 229,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                    variant: "h6",
+                                    sx: {
+                                        color: '#e2e8f0',
+                                        fontWeight: 500
+                                    },
+                                    children: "Assign roles and permissions to employees across different ULBs"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                    lineNumber: 240,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/src/components/admin/MapUser.tsx",
-                            lineNumber: 470,
+                            lineNumber: 207,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -3825,2335 +3622,1337 @@ const MapUser = ()=>{
                                 p: 4
                             },
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Card$2f$Card$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__["Card"], {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                     sx: {
-                                        mb: 4,
-                                        border: '2px solid #3b82f6'
+                                        display: 'flex',
+                                        gap: 3,
+                                        mb: 5,
+                                        flexWrap: 'wrap'
                                     },
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CardContent$2f$CardContent$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CardContent$3e$__["CardContent"], {
-                                        sx: {
-                                            p: 3
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Paper$3e$__["Paper"], {
+                                            elevation: 2,
+                                            sx: {
+                                                p: 2.5,
+                                                borderRadius: 3,
+                                                flex: 1,
+                                                minWidth: 180,
+                                                border: '1px solid #e2e8f0',
+                                                bgcolor: 'rgba(0, 33, 71, 0.03)'
+                                            },
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                 sx: {
                                                     display: 'flex',
-                                                    alignItems: 'center',
-                                                    gap: 2,
-                                                    mb: 2
-                                                },
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Search$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        sx: {
-                                                            color: THEME_BLUE
-                                                        }
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 481,
-                                                        columnNumber: 37
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "h6",
-                                                        sx: {
-                                                            color: THEME_BLUE,
-                                                            fontWeight: 600
-                                                        },
-                                                        children: "Employee Search (Super Admin Access)"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 482,
-                                                        columnNumber: 37
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 480,
-                                                columnNumber: 33
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Alert$2f$Alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Alert$3e$__["Alert"], {
-                                                severity: "info",
-                                                sx: {
-                                                    mb: 3
-                                                },
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                    variant: "body2",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                            children: "Search Instructions:"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 489,
-                                                            columnNumber: 41
-                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                        " Enter at least 4 digits of Employee ID or 4 characters of Employee Name to auto-display results."
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                    lineNumber: 488,
-                                                    columnNumber: 37
-                                                }, ("TURBOPACK compile-time value", void 0))
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 487,
-                                                columnNumber: 33
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                sx: {
-                                                    display: 'flex',
-                                                    gap: 2,
-                                                    alignItems: 'center',
-                                                    flexWrap: 'wrap'
-                                                },
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Autocomplete$2f$Autocomplete$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Autocomplete$3e$__["Autocomplete"], {
-                                                        sx: {
-                                                            minWidth: 450,
-                                                            flex: 1
-                                                        },
-                                                        options: searchInput.length >= 4 ? filteredEmployees : MOCK_EMPLOYEES,
-                                                        getOptionLabel: (option)=>`${option.name} (${option.id}) - ${option.designation}`,
-                                                        value: searchQuery,
-                                                        onChange: (_, newValue)=>{
-                                                            setSearchQuery(newValue);
-                                                            if (newValue) {
-                                                                setSearchInput(`${newValue.name} (${newValue.id})`);
-                                                            }
-                                                        },
-                                                        onInputChange: (_, value)=>handleSearchInputChange(value),
-                                                        inputValue: searchInput,
-                                                        renderOption: (props, option)=>{
-                                                            const { key, ...otherProps } = props;
-                                                            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                                component: "li",
-                                                                ...otherProps,
-                                                                sx: {
-                                                                    display: 'flex',
-                                                                    flexDirection: 'column',
-                                                                    alignItems: 'flex-start',
-                                                                    py: 1.5,
-                                                                    borderBottom: '1px solid #e2e8f0'
-                                                                },
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                                    sx: {
-                                                                        display: 'flex',
-                                                                        justifyContent: 'space-between',
-                                                                        width: '100%',
-                                                                        alignItems: 'center'
-                                                                    },
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                    variant: "body1",
-                                                                                    sx: {
-                                                                                        fontWeight: 600
-                                                                                    },
-                                                                                    children: [
-                                                                                        option.name,
-                                                                                        " (",
-                                                                                        option.id,
-                                                                                        ")"
-                                                                                    ]
-                                                                                }, void 0, true, {
-                                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                    lineNumber: 513,
-                                                                                    columnNumber: 57
-                                                                                }, void 0),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                    variant: "caption",
-                                                                                    sx: {
-                                                                                        color: '#64748b'
-                                                                                    },
-                                                                                    children: [
-                                                                                        option.designation,
-                                                                                        " • ",
-                                                                                        option.ulbName,
-                                                                                        " • ",
-                                                                                        option.section
-                                                                                    ]
-                                                                                }, void 0, true, {
-                                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                    lineNumber: 516,
-                                                                                    columnNumber: 57
-                                                                                }, void 0)
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                            lineNumber: 512,
-                                                                            columnNumber: 53
-                                                                        }, void 0),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                                            sx: {
-                                                                                display: 'flex',
-                                                                                gap: 1
-                                                                            },
-                                                                            children: [
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Chip$2f$Chip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Chip$3e$__["Chip"], {
-                                                                                    label: option.hasExistingAccess ? 'Has Access' : 'No Access',
-                                                                                    size: "small",
-                                                                                    color: option.hasExistingAccess ? 'success' : 'default'
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                    lineNumber: 521,
-                                                                                    columnNumber: 57
-                                                                                }, void 0),
-                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Chip$2f$Chip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Chip$3e$__["Chip"], {
-                                                                                    label: option.recruitmentType,
-                                                                                    size: "small",
-                                                                                    variant: "outlined"
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                    lineNumber: 526,
-                                                                                    columnNumber: 57
-                                                                                }, void 0)
-                                                                            ]
-                                                                        }, void 0, true, {
-                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                            lineNumber: 520,
-                                                                            columnNumber: 53
-                                                                        }, void 0)
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                    lineNumber: 511,
-                                                                    columnNumber: 49
-                                                                }, void 0)
-                                                            }, key, false, {
-                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 510,
-                                                                columnNumber: 49
-                                                            }, void 0);
-                                                        },
-                                                        renderInput: (params)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
-                                                                ...params,
-                                                                label: "Search User / Employee *",
-                                                                placeholder: "Enter 4+ digits of ID or 4+ characters of name...",
-                                                                variant: "outlined",
-                                                                size: "medium",
-                                                                required: true,
-                                                                error: searchInput.length > 0 && searchInput.length < 4,
-                                                                helperText: searchInput.length > 0 && searchInput.length < 4 ? 'Minimum 4 characters required' : '',
-                                                                sx: {
-                                                                    '& .MuiOutlinedInput-root': {
-                                                                        '&:hover fieldset': {
-                                                                            borderColor: THEME_BLUE
-                                                                        },
-                                                                        '&.Mui-focused fieldset': {
-                                                                            borderColor: THEME_BLUE
-                                                                        }
-                                                                    }
-                                                                }
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 537,
-                                                                columnNumber: 45
-                                                            }, void 0),
-                                                        noOptionsText: searchInput.length < 4 ? "Enter at least 4 characters" : "No employees found"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 494,
-                                                        columnNumber: 37
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                                        variant: "contained",
-                                                        size: "large",
-                                                        onClick: handleSearch,
-                                                        startIcon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Search$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 560,
-                                                            columnNumber: 52
-                                                        }, void 0),
-                                                        disabled: !searchQuery,
-                                                        sx: {
-                                                            bgcolor: THEME_BLUE,
-                                                            textTransform: 'none',
-                                                            px: 3,
-                                                            minWidth: 120,
-                                                            '&:hover': {
-                                                                bgcolor: '#001a38'
-                                                            },
-                                                            '&:disabled': {
-                                                                bgcolor: '#94a3b8',
-                                                                color: 'white'
-                                                            }
-                                                        },
-                                                        children: "Search"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 556,
-                                                        columnNumber: 37
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                                        variant: "outlined",
-                                                        size: "large",
-                                                        onClick: handleClear,
-                                                        startIcon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Refresh$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 577,
-                                                            columnNumber: 52
-                                                        }, void 0),
-                                                        sx: {
-                                                            color: '#64748b',
-                                                            borderColor: '#cbd5e1',
-                                                            textTransform: 'none',
-                                                            px: 3,
-                                                            minWidth: 120,
-                                                            '&:hover': {
-                                                                borderColor: '#94a3b8',
-                                                                bgcolor: '#f8fafc'
-                                                            }
-                                                        },
-                                                        children: "Clear & Reload"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 573,
-                                                        columnNumber: 37
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 493,
-                                                columnNumber: 33
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                        lineNumber: 479,
-                                        columnNumber: 29
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                    lineNumber: 478,
-                                    columnNumber: 25
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Divider$2f$Divider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__["Divider"], {
-                                    sx: {
-                                        mb: 4
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                    lineNumber: 593,
-                                    columnNumber: 25
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Card$2f$Card$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__["Card"], {
-                                    sx: {
-                                        mb: 4,
-                                        border: employeeDetails ? '2px solid #10b981' : '1px solid #e2e8f0'
-                                    },
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CardContent$2f$CardContent$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CardContent$3e$__["CardContent"], {
-                                        sx: {
-                                            p: 3
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                sx: {
-                                                    display: 'flex',
-                                                    alignItems: 'center',
-                                                    gap: 2,
-                                                    mb: 3
+                                                    alignItems: 'center'
                                                 },
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                         sx: {
-                                                            color: THEME_BLUE
-                                                        }
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 599,
-                                                        columnNumber: 37
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "h6",
-                                                        sx: {
+                                                            fontSize: 32,
                                                             color: THEME_BLUE,
-                                                            fontWeight: 600
-                                                        },
-                                                        children: "Employee Details (Non-Editable)"
+                                                            mr: 1.5
+                                                        }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 600,
+                                                        lineNumber: 265,
                                                         columnNumber: 37
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    employeeDetails && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Chip$2f$Chip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Chip$3e$__["Chip"], {
-                                                        label: "Auto-Populated",
-                                                        color: "success",
-                                                        size: "small",
-                                                        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$CheckCircle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 608,
-                                                            columnNumber: 51
-                                                        }, void 0)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 604,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 598,
-                                                columnNumber: 33
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            !employeeDetails ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                sx: {
-                                                    textAlign: 'center',
-                                                    py: 6,
-                                                    color: '#64748b',
-                                                    bgcolor: '#f8fafc',
-                                                    borderRadius: 2,
-                                                    border: '2px dashed #cbd5e1'
-                                                },
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        sx: {
-                                                            fontSize: 48,
-                                                            mb: 2,
-                                                            opacity: 0.5
-                                                        }
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 621,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "h6",
-                                                        sx: {
-                                                            mb: 1,
-                                                            fontWeight: 500
-                                                        },
-                                                        children: "No Employee Selected"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 622,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "body2",
-                                                        children: "Search and select an employee to auto-populate their details"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 625,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 613,
-                                                columnNumber: 37
-                                            }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grid$2f$Grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                container: true,
-                                                spacing: 3,
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grid$2f$Grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                        item: true,
-                                                        xs: 12,
-                                                        md: 3,
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DetailItem, {
-                                                            label: "Employee ID",
-                                                            value: employeeDetails.id
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 631,
-                                                            columnNumber: 67
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 631,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grid$2f$Grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                        item: true,
-                                                        xs: 12,
-                                                        md: 3,
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DetailItem, {
-                                                            label: "Employee Name",
-                                                            value: employeeDetails.name
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 632,
-                                                            columnNumber: 67
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 632,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grid$2f$Grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                        item: true,
-                                                        xs: 12,
-                                                        md: 3,
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DetailItem, {
-                                                            label: "Section",
-                                                            value: employeeDetails.section
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 633,
-                                                            columnNumber: 67
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 633,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grid$2f$Grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                        item: true,
-                                                        xs: 12,
-                                                        md: 3,
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DetailItem, {
-                                                            label: "Recruitment Type",
-                                                            value: employeeDetails.recruitmentType
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 634,
-                                                            columnNumber: 67
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 634,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grid$2f$Grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                        item: true,
-                                                        xs: 12,
-                                                        md: 3,
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DetailItem, {
-                                                            label: "Designation",
-                                                            value: employeeDetails.designation
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 635,
-                                                            columnNumber: 67
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 635,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grid$2f$Grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                        item: true,
-                                                        xs: 12,
-                                                        md: 3,
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DetailItem, {
-                                                            label: "Current ULB",
-                                                            value: employeeDetails.ulbName
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 636,
-                                                            columnNumber: 67
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 636,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grid$2f$Grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                        item: true,
-                                                        xs: 12,
-                                                        md: 3,
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DetailItem, {
-                                                            label: "Ward Name",
-                                                            value: employeeDetails.wardName
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 637,
-                                                            columnNumber: 67
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 637,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grid$2f$Grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                        item: true,
-                                                        xs: 12,
-                                                        md: 3,
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                            sx: {
-                                                                mb: 1
-                                                            },
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                    variant: "caption",
-                                                                    sx: {
-                                                                        color: '#64748b',
-                                                                        display: 'block',
-                                                                        mb: 0.5,
-                                                                        fontWeight: 500
-                                                                    },
-                                                                    children: "Access Status"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                    lineNumber: 640,
-                                                                    columnNumber: 49
-                                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Chip$2f$Chip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Chip$3e$__["Chip"], {
-                                                                    label: employeeDetails.hasExistingAccess ? `Has Access (${existingAccess.filter((a)=>a.isActive).length} active)` : 'No Access',
-                                                                    color: employeeDetails.hasExistingAccess ? 'success' : 'default',
-                                                                    size: "small",
-                                                                    sx: {
-                                                                        fontWeight: 600
-                                                                    },
-                                                                    icon: employeeDetails.hasExistingAccess ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$CheckCircle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 648,
-                                                                        columnNumber: 95
-                                                                    }, void 0) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Cancel$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 648,
-                                                                        columnNumber: 113
-                                                                    }, void 0)
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                    lineNumber: 643,
-                                                                    columnNumber: 49
-                                                                }, ("TURBOPACK compile-time value", void 0))
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 639,
-                                                            columnNumber: 45
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 638,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 630,
-                                                columnNumber: 37
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                        lineNumber: 597,
-                                        columnNumber: 29
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                    lineNumber: 596,
-                                    columnNumber: 25
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                employeeDetails && existingAccess.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Card$2f$Card$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__["Card"], {
-                                    sx: {
-                                        mb: 4,
-                                        border: '1px solid #f59e0b',
-                                        bgcolor: '#fffbeb'
-                                    },
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CardContent$2f$CardContent$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CardContent$3e$__["CardContent"], {
-                                        sx: {
-                                            p: 3
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                sx: {
-                                                    display: 'flex',
-                                                    alignItems: 'center',
-                                                    gap: 2,
-                                                    mb: 3
-                                                },
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Assignment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        sx: {
-                                                            color: '#f59e0b'
-                                                        }
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 662,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "h6",
-                                                        sx: {
-                                                            color: '#f59e0b',
-                                                            fontWeight: 600
-                                                        },
-                                                        children: "Current Application Access"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 663,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Badge$2f$Badge$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Badge$3e$__["Badge"], {
-                                                        badgeContent: existingAccess.filter((a)=>a.isActive).length,
-                                                        color: "warning",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                            variant: "body2",
-                                                            sx: {
-                                                                color: '#92400e',
-                                                                fontWeight: 500
-                                                            },
-                                                            children: "Active Roles"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 667,
-                                                            columnNumber: 45
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 666,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 661,
-                                                columnNumber: 37
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Alert$2f$Alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Alert$3e$__["Alert"], {
-                                                severity: "warning",
-                                                sx: {
-                                                    mb: 2
-                                                },
-                                                children: "This employee already has the following access in the application:"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 673,
-                                                columnNumber: 37
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                sx: {
-                                                    display: 'flex',
-                                                    flexWrap: 'wrap',
-                                                    gap: 1
-                                                },
-                                                children: existingAccess.map((access, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Chip$2f$Chip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Chip$3e$__["Chip"], {
-                                                        label: `${access.userType} - ${access.ulbName} (${access.role})`,
-                                                        color: access.isActive ? 'warning' : 'default',
-                                                        variant: access.isActive ? 'filled' : 'outlined',
-                                                        size: "small",
-                                                        sx: {
-                                                            fontWeight: 500
-                                                        }
-                                                    }, index, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 679,
-                                                        columnNumber: 45
-                                                    }, ("TURBOPACK compile-time value", void 0)))
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 677,
-                                                columnNumber: 37
-                                            }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                        lineNumber: 660,
-                                        columnNumber: 33
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                    lineNumber: 659,
-                                    columnNumber: 29
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Divider$2f$Divider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__["Divider"], {
-                                    sx: {
-                                        mb: 4
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                    lineNumber: 693,
-                                    columnNumber: 25
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Card$2f$Card$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__["Card"], {
-                                    sx: {
-                                        mb: 4,
-                                        border: '2px solid #3b82f6'
-                                    },
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CardContent$2f$CardContent$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CardContent$3e$__["CardContent"], {
-                                        sx: {
-                                            p: 3
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                sx: {
-                                                    display: 'flex',
-                                                    alignItems: 'center',
-                                                    gap: 2,
-                                                    mb: 3
-                                                },
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Assignment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        sx: {
-                                                            color: THEME_BLUE
-                                                        }
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 699,
-                                                        columnNumber: 37
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "h6",
-                                                        sx: {
-                                                            color: THEME_BLUE,
-                                                            fontWeight: 600
-                                                        },
-                                                        children: "Grant/Revoke Application Access"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 700,
-                                                        columnNumber: 37
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__["Tooltip"], {
-                                                        title: "Assign ULB access and roles with proper validation",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__IconButton$3e$__["IconButton"], {
-                                                            size: "small",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Info$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                sx: {
-                                                                    fontSize: 18,
-                                                                    color: '#64748b'
-                                                                }
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 705,
-                                                                columnNumber: 45
-                                                            }, ("TURBOPACK compile-time value", void 0))
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 704,
-                                                            columnNumber: 41
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 703,
-                                                        columnNumber: 37
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 698,
-                                                columnNumber: 33
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            !employeeDetails ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                sx: {
-                                                    textAlign: 'center',
-                                                    py: 4,
-                                                    color: '#64748b',
-                                                    bgcolor: '#f8fafc',
-                                                    borderRadius: 2,
-                                                    border: '2px dashed #cbd5e1'
-                                                },
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Assignment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        sx: {
-                                                            fontSize: 40,
-                                                            mb: 1,
-                                                            opacity: 0.5
-                                                        }
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 719,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "body1",
-                                                        sx: {
-                                                            fontWeight: 500
-                                                        },
-                                                        children: "Please select an employee first to assign roles"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 720,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 711,
-                                                columnNumber: 37
-                                            }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Alert$2f$Alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Alert$3e$__["Alert"], {
-                                                        severity: "info",
-                                                        sx: {
-                                                            mb: 3
-                                                        },
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                            variant: "body2",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                                    children: "Selected Employee:"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                    lineNumber: 728,
-                                                                    columnNumber: 49
-                                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                                " ",
-                                                                employeeDetails.name,
-                                                                " (",
-                                                                employeeDetails.id,
-                                                                ") - ",
-                                                                employeeDetails.designation,
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                    lineNumber: 729,
-                                                                    columnNumber: 49
-                                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                                    children: "Current ULB:"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                    lineNumber: 730,
-                                                                    columnNumber: 49
-                                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                                " ",
-                                                                employeeDetails.ulbName || 'Not Assigned',
-                                                                " |",
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                                    children: " Section:"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                    lineNumber: 731,
-                                                                    columnNumber: 49
-                                                                }, ("TURBOPACK compile-time value", void 0)),
-                                                                " ",
-                                                                employeeDetails.section
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 727,
-                                                            columnNumber: 45
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 726,
-                                                        columnNumber: 41
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grid$2f$Grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                        container: true,
-                                                        spacing: 3,
-                                                        alignItems: "flex-end",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grid$2f$Grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                                item: true,
-                                                                xs: 12,
-                                                                md: 2.4,
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                        variant: "caption",
-                                                                        sx: {
-                                                                            fontWeight: 600,
-                                                                            color: '#334155',
-                                                                            mb: 1,
-                                                                            display: 'block'
-                                                                        },
-                                                                        children: [
-                                                                            "Preferred ULB *",
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__["Tooltip"], {
-                                                                                title: !employeeDetails.hasExistingAccess ? "Pre-set from current ULB and editable" : "Select from dropdown list",
-                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Info$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                    sx: {
-                                                                                        fontSize: 12,
-                                                                                        ml: 0.5,
-                                                                                        color: '#64748b'
-                                                                                    }
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                    lineNumber: 740,
-                                                                                    columnNumber: 57
-                                                                                }, ("TURBOPACK compile-time value", void 0))
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                lineNumber: 739,
-                                                                                columnNumber: 53
-                                                                            }, ("TURBOPACK compile-time value", void 0))
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 737,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Autocomplete$2f$Autocomplete$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Autocomplete$3e$__["Autocomplete"], {
-                                                                        fullWidth: true,
-                                                                        size: "small",
-                                                                        options: MOCK_ULBS,
-                                                                        value: preferredUlb,
-                                                                        onChange: (_, val)=>setPreferredUlb(val),
-                                                                        renderInput: (params)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
-                                                                                ...params,
-                                                                                variant: "outlined",
-                                                                                required: true,
-                                                                                sx: {
-                                                                                    bgcolor: 'white',
-                                                                                    '& .MuiOutlinedInput-root': {
-                                                                                        '&:hover fieldset': {
-                                                                                            borderColor: THEME_BLUE
-                                                                                        },
-                                                                                        '&.Mui-focused fieldset': {
-                                                                                            borderColor: THEME_BLUE
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                lineNumber: 750,
-                                                                                columnNumber: 57
-                                                                            }, void 0)
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 743,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 736,
-                                                                columnNumber: 45
-                                                            }, ("TURBOPACK compile-time value", void 0)),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grid$2f$Grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                                item: true,
-                                                                xs: 12,
-                                                                md: 2.4,
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                        variant: "caption",
-                                                                        sx: {
-                                                                            fontWeight: 600,
-                                                                            color: '#334155',
-                                                                            mb: 1,
-                                                                            display: 'block'
-                                                                        },
-                                                                        children: [
-                                                                            "Preferred Section *",
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__["Tooltip"], {
-                                                                                title: "Pre-populated from employee section",
-                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Info$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                    sx: {
-                                                                                        fontSize: 12,
-                                                                                        ml: 0.5,
-                                                                                        color: '#64748b'
-                                                                                    }
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                    lineNumber: 769,
-                                                                                    columnNumber: 57
-                                                                                }, ("TURBOPACK compile-time value", void 0))
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                lineNumber: 768,
-                                                                                columnNumber: 53
-                                                                            }, ("TURBOPACK compile-time value", void 0))
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 766,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Autocomplete$2f$Autocomplete$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Autocomplete$3e$__["Autocomplete"], {
-                                                                        fullWidth: true,
-                                                                        size: "small",
-                                                                        options: MOCK_SECTIONS,
-                                                                        value: preferredSection,
-                                                                        onChange: (_, val)=>setPreferredSection(val),
-                                                                        renderInput: (params)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
-                                                                                ...params,
-                                                                                variant: "outlined",
-                                                                                required: true,
-                                                                                sx: {
-                                                                                    bgcolor: 'white',
-                                                                                    '& .MuiOutlinedInput-root': {
-                                                                                        '&:hover fieldset': {
-                                                                                            borderColor: THEME_BLUE
-                                                                                        },
-                                                                                        '&.Mui-focused fieldset': {
-                                                                                            borderColor: THEME_BLUE
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                lineNumber: 779,
-                                                                                columnNumber: 57
-                                                                            }, void 0)
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 772,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 765,
-                                                                columnNumber: 45
-                                                            }, ("TURBOPACK compile-time value", void 0)),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grid$2f$Grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                                item: true,
-                                                                xs: 12,
-                                                                md: 2.4,
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                        variant: "caption",
-                                                                        sx: {
-                                                                            fontWeight: 600,
-                                                                            color: '#334155',
-                                                                            mb: 1,
-                                                                            display: 'block'
-                                                                        },
-                                                                        children: [
-                                                                            "User Type *",
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__["Tooltip"], {
-                                                                                title: "ULB Employee or ULB Head (only one Head per ULB)",
-                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Info$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                    sx: {
-                                                                                        fontSize: 12,
-                                                                                        ml: 0.5,
-                                                                                        color: '#64748b'
-                                                                                    }
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                    lineNumber: 798,
-                                                                                    columnNumber: 57
-                                                                                }, ("TURBOPACK compile-time value", void 0))
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                lineNumber: 797,
-                                                                                columnNumber: 53
-                                                                            }, ("TURBOPACK compile-time value", void 0))
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 795,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Autocomplete$2f$Autocomplete$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Autocomplete$3e$__["Autocomplete"], {
-                                                                        fullWidth: true,
-                                                                        size: "small",
-                                                                        options: preferredUlb ? MOCK_USER_TYPES : [],
-                                                                        value: userType,
-                                                                        onChange: (_, val)=>setUserType(val),
-                                                                        disabled: !preferredUlb,
-                                                                        renderInput: (params)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
-                                                                                ...params,
-                                                                                variant: "outlined",
-                                                                                required: true,
-                                                                                placeholder: !preferredUlb ? "Select ULB first" : "",
-                                                                                sx: {
-                                                                                    bgcolor: 'white',
-                                                                                    '& .MuiOutlinedInput-root': {
-                                                                                        '&:hover fieldset': {
-                                                                                            borderColor: THEME_BLUE
-                                                                                        },
-                                                                                        '&.Mui-focused fieldset': {
-                                                                                            borderColor: THEME_BLUE
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                lineNumber: 809,
-                                                                                columnNumber: 57
-                                                                            }, void 0)
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 801,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 794,
-                                                                columnNumber: 45
-                                                            }, ("TURBOPACK compile-time value", void 0)),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grid$2f$Grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                                item: true,
-                                                                xs: 12,
-                                                                md: 2.4,
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                        variant: "caption",
-                                                                        sx: {
-                                                                            fontWeight: 600,
-                                                                            color: '#334155',
-                                                                            mb: 1,
-                                                                            display: 'block'
-                                                                        },
-                                                                        children: "Role *"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 826,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Autocomplete$2f$Autocomplete$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Autocomplete$3e$__["Autocomplete"], {
-                                                                        fullWidth: true,
-                                                                        size: "small",
-                                                                        options: MOCK_ROLES,
-                                                                        value: role,
-                                                                        onChange: (_, val)=>setRole(val),
-                                                                        renderInput: (params)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
-                                                                                ...params,
-                                                                                variant: "outlined",
-                                                                                required: true,
-                                                                                sx: {
-                                                                                    bgcolor: 'white',
-                                                                                    '& .MuiOutlinedInput-root': {
-                                                                                        '&:hover fieldset': {
-                                                                                            borderColor: THEME_BLUE
-                                                                                        },
-                                                                                        '&.Mui-focused fieldset': {
-                                                                                            borderColor: THEME_BLUE
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                lineNumber: 836,
-                                                                                columnNumber: 57
-                                                                            }, void 0)
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 829,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 825,
-                                                                columnNumber: 45
-                                                            }, ("TURBOPACK compile-time value", void 0)),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Grid$2f$Grid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid$3e$__["Grid"], {
-                                                                item: true,
-                                                                xs: 12,
-                                                                md: 2.4,
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                                                    fullWidth: true,
-                                                                    variant: "contained",
-                                                                    onClick: handleAdd,
-                                                                    startIcon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Add$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 856,
-                                                                        columnNumber: 64
-                                                                    }, void 0),
-                                                                    disabled: !preferredUlb || !preferredSection || !userType || !role,
-                                                                    sx: {
-                                                                        bgcolor: THEME_BLUE,
-                                                                        textTransform: 'none',
-                                                                        fontWeight: 600,
-                                                                        height: '40px',
-                                                                        '&:hover': {
-                                                                            bgcolor: '#001a38'
-                                                                        },
-                                                                        '&:disabled': {
-                                                                            bgcolor: '#94a3b8',
-                                                                            color: 'white'
-                                                                        }
-                                                                    },
-                                                                    children: "Add ULB and Role"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                    lineNumber: 852,
-                                                                    columnNumber: 49
-                                                                }, ("TURBOPACK compile-time value", void 0))
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 851,
-                                                                columnNumber: 45
-                                                            }, ("TURBOPACK compile-time value", void 0))
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 735,
-                                                        columnNumber: 41
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                        sx: {
-                                                            mt: 2,
-                                                            p: 2,
-                                                            bgcolor: '#f0f9ff',
-                                                            borderRadius: 1,
-                                                            border: '1px solid #bae6fd'
-                                                        },
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                variant: "caption",
+                                                                variant: "h5",
                                                                 sx: {
-                                                                    color: '#0369a1',
-                                                                    display: 'block',
-                                                                    mb: 1
+                                                                    fontWeight: 700,
+                                                                    color: THEME_BLUE
                                                                 },
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                                    children: "Validation Notes:"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                    lineNumber: 874,
-                                                                    columnNumber: 49
-                                                                }, ("TURBOPACK compile-time value", void 0))
+                                                                children: mappedRoles.length
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 873,
-                                                                columnNumber: 45
+                                                                lineNumber: 271,
+                                                                columnNumber: 41
                                                             }, ("TURBOPACK compile-time value", void 0)),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                                                                 variant: "body2",
                                                                 sx: {
-                                                                    color: '#0369a1',
-                                                                    fontSize: '0.8rem'
+                                                                    color: '#64748b'
                                                                 },
-                                                                children: [
-                                                                    "• Only one ULB Head allowed per ULB • Cannot assign both ULB Head and Employee roles to same person in same ULB",
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 877,
-                                                                        columnNumber: 160
-                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                    "• All fields marked with * are mandatory • System will validate and prevent duplicate assignments"
-                                                                ]
-                                                            }, void 0, true, {
+                                                                children: "Roles Assigned"
+                                                            }, void 0, false, {
                                                                 fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 876,
-                                                                columnNumber: 45
+                                                                lineNumber: 277,
+                                                                columnNumber: 41
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 872,
-                                                        columnNumber: 41
+                                                        lineNumber: 270,
+                                                        columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 725,
-                                                columnNumber: 37
+                                                lineNumber: 264,
+                                                columnNumber: 33
                                             }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                        lineNumber: 697,
-                                        columnNumber: 29
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                }, void 0, false, {
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                            lineNumber: 256,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Paper$3e$__["Paper"], {
+                                            elevation: 2,
+                                            sx: {
+                                                p: 2.5,
+                                                borderRadius: 3,
+                                                flex: 1,
+                                                minWidth: 180,
+                                                border: '1px solid #e2e8f0',
+                                                bgcolor: 'rgba(0, 33, 71, 0.03)'
+                                            },
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                sx: {
+                                                    display: 'flex',
+                                                    alignItems: 'center'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$AccountBalance$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        sx: {
+                                                            fontSize: 32,
+                                                            color: THEME_BLUE,
+                                                            mr: 1.5
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                        lineNumber: 295,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                variant: "h5",
+                                                                sx: {
+                                                                    fontWeight: 700,
+                                                                    color: THEME_BLUE
+                                                                },
+                                                                children: new Set(mappedRoles.map((m)=>m.ulbName)).size
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 301,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                variant: "body2",
+                                                                sx: {
+                                                                    color: '#64748b'
+                                                                },
+                                                                children: "ULBs Covered"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 307,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                        lineNumber: 300,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                lineNumber: 294,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                            lineNumber: 286,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Paper$3e$__["Paper"], {
+                                            elevation: 2,
+                                            sx: {
+                                                p: 2.5,
+                                                borderRadius: 3,
+                                                flex: 1,
+                                                minWidth: 180,
+                                                border: '1px solid #e2e8f0',
+                                                bgcolor: 'rgba(0, 33, 71, 0.03)'
+                                            },
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                sx: {
+                                                    display: 'flex',
+                                                    alignItems: 'center'
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Work$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        sx: {
+                                                            fontSize: 32,
+                                                            color: THEME_BLUE,
+                                                            mr: 1.5
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                        lineNumber: 325,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                variant: "h5",
+                                                                sx: {
+                                                                    fontWeight: 700,
+                                                                    color: THEME_BLUE
+                                                                },
+                                                                children: new Set(mappedRoles.map((m)=>m.role)).size
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 331,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                variant: "body2",
+                                                                sx: {
+                                                                    color: '#64748b'
+                                                                },
+                                                                children: "Unique Roles"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 337,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                        lineNumber: 330,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                lineNumber: 324,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                            lineNumber: 316,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/src/components/admin/MapUser.tsx",
-                                    lineNumber: 696,
+                                    lineNumber: 250,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Card$2f$Card$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__["Card"], {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                     sx: {
-                                        border: '1px solid #e2e8f0'
+                                        display: 'flex',
+                                        gap: 2,
+                                        justifyContent: 'center',
+                                        mb: 5,
+                                        alignItems: 'center',
+                                        flexWrap: 'wrap'
                                     },
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CardContent$2f$CardContent$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CardContent$3e$__["CardContent"], {
-                                        sx: {
-                                            p: 0
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Autocomplete$2f$Autocomplete$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Autocomplete$3e$__["Autocomplete"], {
+                                            sx: {
+                                                width: 450
+                                            },
+                                            options: MOCK_EMPLOYEES,
+                                            getOptionLabel: (option)=>`${option.name} (${option.id})`,
+                                            value: searchQuery,
+                                            onChange: (_, newValue)=>setSearchQuery(newValue),
+                                            renderInput: (params)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                    ...params,
+                                                    label: "Search User / Employee",
+                                                    variant: "outlined",
+                                                    size: "medium",
+                                                    sx: {
+                                                        '& .MuiOutlinedInput-root': {
+                                                            borderRadius: 12,
+                                                            bgcolor: 'white',
+                                                            boxShadow: '0 2px 6px rgba(0,0,0,0.05)',
+                                                            '& fieldset': {
+                                                                borderColor: '#e2e8f0'
+                                                            },
+                                                            '&:hover fieldset': {
+                                                                borderColor: '#cbd5e1'
+                                                            }
+                                                        }
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                    lineNumber: 363,
+                                                    columnNumber: 37
+                                                }, void 0),
+                                            renderOption: (props, option)=>{
+                                                const { key, ...otherProps } = props;
+                                                return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    ...otherProps,
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        sx: {
+                                                            display: 'flex',
+                                                            alignItems: 'center',
+                                                            width: '100%'
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                sx: {
+                                                                    mr: 2,
+                                                                    color: '#64748b'
+                                                                }
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 384,
+                                                                columnNumber: 49
+                                                            }, void 0),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                        variant: "body1",
+                                                                        fontWeight: 600,
+                                                                        color: "#0f172a",
+                                                                        children: option.name
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                        lineNumber: 386,
+                                                                        columnNumber: 53
+                                                                    }, void 0),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                        variant: "caption",
+                                                                        color: "#64748b",
+                                                                        children: [
+                                                                            option.id,
+                                                                            " • ",
+                                                                            option.designation
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                        lineNumber: 389,
+                                                                        columnNumber: 53
+                                                                    }, void 0)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 385,
+                                                                columnNumber: 49
+                                                            }, void 0)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                        lineNumber: 383,
+                                                        columnNumber: 45
+                                                    }, void 0)
+                                                }, key, false, {
+                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                    lineNumber: 382,
+                                                    columnNumber: 41
+                                                }, void 0);
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                            lineNumber: 356,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                            variant: "contained",
+                                            size: "large",
+                                            startIcon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Search$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                lineNumber: 401,
+                                                columnNumber: 44
+                                            }, void 0),
+                                            onClick: handleSearch,
+                                            sx: {
+                                                bgcolor: THEME_BLUE,
+                                                textTransform: 'none',
+                                                px: 4,
+                                                py: 1.5,
+                                                borderRadius: 12,
+                                                fontWeight: 700,
+                                                fontSize: '16px',
+                                                boxShadow: '0 4px 12px rgba(0, 33, 71, 0.2)',
+                                                '&:hover': {
+                                                    bgcolor: '#001a38',
+                                                    boxShadow: '0 6px 16px rgba(0, 33, 71, 0.3)'
+                                                },
+                                                transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
+                                            },
+                                            children: "Search"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                            lineNumber: 398,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                            variant: "outlined",
+                                            size: "large",
+                                            onClick: handleClear,
+                                            sx: {
+                                                color: '#64748b',
+                                                borderColor: '#cbd5e1',
+                                                textTransform: 'none',
+                                                px: 4,
+                                                py: 1.5,
+                                                borderRadius: 12,
+                                                fontWeight: 700,
+                                                fontSize: '16px',
+                                                '&:hover': {
+                                                    borderColor: '#94a3b8',
+                                                    bgcolor: '#f8fafc',
+                                                    boxShadow: '0 4px 12px rgba(0,0,0,0.05)'
+                                                },
+                                                transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
+                                            },
+                                            children: "Clear"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                            lineNumber: 421,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                    lineNumber: 348,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Divider$2f$Divider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__["Divider"], {
+                                    sx: {
+                                        mb: 5,
+                                        borderColor: '#cbd5e1'
+                                    }
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                    lineNumber: 446,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                employeeDetails && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                    sx: {
+                                        mb: 5
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                            variant: "h5",
+                                            sx: {
+                                                color: THEME_BLUE,
+                                                fontWeight: 800,
+                                                mb: 3,
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                gap: 1
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    sx: {
+                                                        fontSize: 28
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                    lineNumber: 459,
+                                                    columnNumber: 37
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                "Employee Details"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                            lineNumber: 451,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Paper$3e$__["Paper"], {
+                                            variant: "outlined",
+                                            sx: {
+                                                p: 3,
+                                                bgcolor: '#fff',
+                                                borderRadius: 3,
+                                                border: '1px solid #e2e8f0',
+                                                boxShadow: '0 4px 12px rgba(0,0,0,0.05)'
+                                            },
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                 sx: {
-                                                    p: 3,
-                                                    borderBottom: '1px solid #e2e8f0',
-                                                    bgcolor: '#f8fafc'
+                                                    display: 'flex',
+                                                    flexWrap: 'wrap',
+                                                    gap: 3
                                                 },
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                         sx: {
-                                                            display: 'flex',
-                                                            alignItems: 'center',
-                                                            justifyContent: 'space-between'
+                                                            flex: '1 1 300px'
                                                         },
                                                         children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                                sx: {
-                                                                    display: 'flex',
-                                                                    alignItems: 'center',
-                                                                    gap: 2
-                                                                },
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Business$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                        sx: {
-                                                                            color: THEME_BLUE
-                                                                        }
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 892,
-                                                                        columnNumber: 45
-                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                        variant: "h6",
-                                                                        sx: {
-                                                                            color: THEME_BLUE,
-                                                                            fontWeight: 600
-                                                                        },
-                                                                        children: "Assigned Roles & Permissions"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 893,
-                                                                        columnNumber: 45
-                                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 891,
-                                                                columnNumber: 41
-                                                            }, ("TURBOPACK compile-time value", void 0)),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Badge$2f$Badge$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Badge$3e$__["Badge"], {
-                                                                badgeContent: mappedRoles.length,
-                                                                color: "primary",
-                                                                sx: {
-                                                                    '& .MuiBadge-badge': {
-                                                                        bgcolor: THEME_BLUE
-                                                                    }
-                                                                },
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                    variant: "body2",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DetailItem, {
+                                                                label: "Employee ID/Code",
+                                                                value: employeeDetails?.id || '',
+                                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Badge$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                                     sx: {
-                                                                        color: '#64748b',
-                                                                        fontWeight: 500
-                                                                    },
-                                                                    children: "Total Assignments"
+                                                                        fontSize: 18,
+                                                                        mr: 1
+                                                                    }
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                    lineNumber: 898,
-                                                                    columnNumber: 45
-                                                                }, ("TURBOPACK compile-time value", void 0))
+                                                                    lineNumber: 474,
+                                                                    columnNumber: 55
+                                                                }, void 0)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 897,
-                                                                columnNumber: 41
+                                                                lineNumber: 471,
+                                                                columnNumber: 45
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DetailItem, {
+                                                                label: "User Name",
+                                                                value: employeeDetails?.name || '',
+                                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Person$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    sx: {
+                                                                        fontSize: 18,
+                                                                        mr: 1
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                    lineNumber: 479,
+                                                                    columnNumber: 55
+                                                                }, void 0)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 476,
+                                                                columnNumber: 45
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DetailItem, {
+                                                                label: "Ward Name",
+                                                                value: employeeDetails?.wardName || '',
+                                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$LocationOn$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    sx: {
+                                                                        fontSize: 18,
+                                                                        mr: 1
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                    lineNumber: 484,
+                                                                    columnNumber: 55
+                                                                }, void 0)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 481,
+                                                                columnNumber: 45
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 890,
-                                                        columnNumber: 37
+                                                        lineNumber: 470,
+                                                        columnNumber: 41
                                                     }, ("TURBOPACK compile-time value", void 0)),
-                                                    employeeDetails && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "body2",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                         sx: {
-                                                            color: '#64748b',
-                                                            mt: 1
+                                                            flex: '1 1 300px'
                                                         },
                                                         children: [
-                                                            "Role assignments for ",
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                                children: employeeDetails.name
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DetailItem, {
+                                                                label: "Section Name",
+                                                                value: employeeDetails?.section || '',
+                                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Engineering$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    sx: {
+                                                                        fontSize: 18,
+                                                                        mr: 1
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                    lineNumber: 491,
+                                                                    columnNumber: 55
+                                                                }, void 0)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 905,
-                                                                columnNumber: 66
+                                                                lineNumber: 488,
+                                                                columnNumber: 45
                                                             }, ("TURBOPACK compile-time value", void 0)),
-                                                            " (",
-                                                            employeeDetails.id,
-                                                            ")"
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DetailItem, {
+                                                                label: "Recruitment Type",
+                                                                value: employeeDetails?.recruitmentType || '',
+                                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Work$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    sx: {
+                                                                        fontSize: 18,
+                                                                        mr: 1
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                    lineNumber: 496,
+                                                                    columnNumber: 55
+                                                                }, void 0)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 493,
+                                                                columnNumber: 45
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DetailItem, {
+                                                                label: "ULB Name",
+                                                                value: employeeDetails?.ulbName || '',
+                                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$AccountBalance$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                    sx: {
+                                                                        fontSize: 18,
+                                                                        mr: 1
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                    lineNumber: 501,
+                                                                    columnNumber: 55
+                                                                }, void 0)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 498,
+                                                                columnNumber: 45
+                                                            }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 904,
+                                                        lineNumber: 487,
+                                                        columnNumber: 41
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        sx: {
+                                                            flex: '1 1 300px'
+                                                        },
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DetailItem, {
+                                                            label: "Designation",
+                                                            value: employeeDetails?.designation || '',
+                                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Assignment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                sx: {
+                                                                    fontSize: 18,
+                                                                    mr: 1
+                                                                }
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 508,
+                                                                columnNumber: 55
+                                                            }, void 0)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                            lineNumber: 505,
+                                                            columnNumber: 45
+                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                        lineNumber: 504,
                                                         columnNumber: 41
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 889,
-                                                columnNumber: 33
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableContainer$2f$TableContainer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableContainer$3e$__["TableContainer"], {
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Table$2f$Table$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Table$3e$__["Table"], {
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableHead$2f$TableHead$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableHead$3e$__["TableHead"], {
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableRow$2f$TableRow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableRow$3e$__["TableRow"], {
-                                                                sx: {
-                                                                    bgcolor: THEME_BLUE
-                                                                },
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                        sx: {
-                                                                            color: 'white',
-                                                                            fontWeight: 700,
-                                                                            width: '60px',
-                                                                            textAlign: 'center'
-                                                                        },
-                                                                        children: "Sl No"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 914,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                        sx: {
-                                                                            color: 'white',
-                                                                            fontWeight: 700
-                                                                        },
-                                                                        children: "Employee"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 915,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                        sx: {
-                                                                            color: 'white',
-                                                                            fontWeight: 700
-                                                                        },
-                                                                        children: "ULB Name"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 916,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                        sx: {
-                                                                            color: 'white',
-                                                                            fontWeight: 700
-                                                                        },
-                                                                        children: "Section"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 917,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                        sx: {
-                                                                            color: 'white',
-                                                                            fontWeight: 700
-                                                                        },
-                                                                        children: "User Type"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 918,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                        sx: {
-                                                                            color: 'white',
-                                                                            fontWeight: 700
-                                                                        },
-                                                                        children: "Role"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 919,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                        sx: {
-                                                                            color: 'white',
-                                                                            fontWeight: 700,
-                                                                            textAlign: 'center'
-                                                                        },
-                                                                        children: "Status"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 920,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                        sx: {
-                                                                            color: 'white',
-                                                                            fontWeight: 700,
-                                                                            textAlign: 'center'
-                                                                        },
-                                                                        children: "Menus"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 921,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                        sx: {
-                                                                            color: 'white',
-                                                                            fontWeight: 700,
-                                                                            textAlign: 'center'
-                                                                        },
-                                                                        children: "Assigned Date"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 922,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                        sx: {
-                                                                            color: 'white',
-                                                                            fontWeight: 700,
-                                                                            textAlign: 'center'
-                                                                        },
-                                                                        children: "Assigned By"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 923,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                        sx: {
-                                                                            color: 'white',
-                                                                            fontWeight: 700,
-                                                                            textAlign: 'center',
-                                                                            width: '180px'
-                                                                        },
-                                                                        children: "Actions"
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 924,
-                                                                        columnNumber: 49
-                                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 913,
-                                                                columnNumber: 45
-                                                            }, ("TURBOPACK compile-time value", void 0))
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 912,
-                                                            columnNumber: 41
-                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableBody$2f$TableBody$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableBody$3e$__["TableBody"], {
-                                                            children: mappedRoles.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableRow$2f$TableRow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableRow$3e$__["TableRow"], {
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                    colSpan: 11,
-                                                                    align: "center",
-                                                                    sx: {
-                                                                        py: 8
-                                                                    },
-                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                                        sx: {
-                                                                            color: '#64748b'
-                                                                        },
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Assignment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                sx: {
-                                                                                    fontSize: 48,
-                                                                                    mb: 2,
-                                                                                    opacity: 0.5
-                                                                                }
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                lineNumber: 932,
-                                                                                columnNumber: 61
-                                                                            }, ("TURBOPACK compile-time value", void 0)),
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                variant: "h6",
-                                                                                sx: {
-                                                                                    mb: 1,
-                                                                                    fontWeight: 500
-                                                                                },
-                                                                                children: "No Roles Assigned"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                lineNumber: 933,
-                                                                                columnNumber: 61
-                                                                            }, ("TURBOPACK compile-time value", void 0)),
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                variant: "body2",
-                                                                                children: "Select an employee and assign roles to get started"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                lineNumber: 936,
-                                                                                columnNumber: 61
-                                                                            }, ("TURBOPACK compile-time value", void 0))
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 931,
-                                                                        columnNumber: 57
-                                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                    lineNumber: 930,
-                                                                    columnNumber: 53
-                                                                }, ("TURBOPACK compile-time value", void 0))
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 929,
-                                                                columnNumber: 49
-                                                            }, ("TURBOPACK compile-time value", void 0)) : // Show only active roles in the main view, with option to show all
-                                                            mappedRoles.filter((row)=>row.isActive || !employeeDetails || row.employeeId === employeeDetails.id).map((row, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableRow$2f$TableRow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableRow$3e$__["TableRow"], {
-                                                                    sx: {
-                                                                        '&:nth-of-type(odd)': {
-                                                                            bgcolor: '#f8fafc'
-                                                                        },
-                                                                        '&:hover': {
-                                                                            bgcolor: '#f1f5f9'
-                                                                        },
-                                                                        opacity: row.isActive ? 1 : 0.6,
-                                                                        border: !row.isActive ? '1px solid #fbbf24' : 'none'
-                                                                    },
-                                                                    children: [
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                            align: "center",
-                                                                            sx: {
-                                                                                fontWeight: 500,
-                                                                                color: '#64748b'
-                                                                            },
-                                                                            children: index + 1
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                            lineNumber: 954,
-                                                                            columnNumber: 57
-                                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                            sx: {
-                                                                                fontWeight: 600,
-                                                                                color: '#1e293b'
-                                                                            },
-                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                                                sx: {
-                                                                                    display: 'flex',
-                                                                                    flexDirection: 'column'
-                                                                                },
-                                                                                children: [
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                        variant: "body2",
-                                                                                        sx: {
-                                                                                            fontWeight: 600
-                                                                                        },
-                                                                                        children: row.employeeName
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                        lineNumber: 959,
-                                                                                        columnNumber: 65
-                                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                                        variant: "caption",
-                                                                                        sx: {
-                                                                                            color: '#64748b'
-                                                                                        },
-                                                                                        children: row.employeeId
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                        lineNumber: 962,
-                                                                                        columnNumber: 65
-                                                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                                                ]
-                                                                            }, void 0, true, {
-                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                lineNumber: 958,
-                                                                                columnNumber: 61
-                                                                            }, ("TURBOPACK compile-time value", void 0))
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                            lineNumber: 957,
-                                                                            columnNumber: 57
-                                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                            sx: {
-                                                                                fontWeight: 600,
-                                                                                color: '#1e293b'
-                                                                            },
-                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                                                sx: {
-                                                                                    display: 'flex',
-                                                                                    alignItems: 'center',
-                                                                                    gap: 1
-                                                                                },
-                                                                                children: [
-                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Business$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                        sx: {
-                                                                                            fontSize: 16,
-                                                                                            color: '#64748b'
-                                                                                        }
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                        lineNumber: 969,
-                                                                                        columnNumber: 65
-                                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                                    row.ulbName
-                                                                                ]
-                                                                            }, void 0, true, {
-                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                lineNumber: 968,
-                                                                                columnNumber: 61
-                                                                            }, ("TURBOPACK compile-time value", void 0))
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                            lineNumber: 967,
-                                                                            columnNumber: 57
-                                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                            sx: {
-                                                                                fontWeight: 500
-                                                                            },
-                                                                            children: row.section
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                            lineNumber: 973,
-                                                                            columnNumber: 57
-                                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Chip$2f$Chip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Chip$3e$__["Chip"], {
-                                                                                label: row.userType,
-                                                                                size: "small",
-                                                                                color: row.userType === 'ULB Head' ? 'primary' : 'default',
-                                                                                sx: {
-                                                                                    fontWeight: 500
-                                                                                }
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                lineNumber: 975,
-                                                                                columnNumber: 61
-                                                                            }, ("TURBOPACK compile-time value", void 0))
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                            lineNumber: 974,
-                                                                            columnNumber: 57
-                                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                            sx: {
-                                                                                fontWeight: 500
-                                                                            },
-                                                                            children: row.role
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                            lineNumber: 982,
-                                                                            columnNumber: 57
-                                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                            align: "center",
-                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Chip$2f$Chip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Chip$3e$__["Chip"], {
-                                                                                label: row.isActive ? 'Active' : 'Revoked',
-                                                                                size: "small",
-                                                                                color: row.isActive ? 'success' : 'warning',
-                                                                                icon: row.isActive ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$CheckCircle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                    lineNumber: 988,
-                                                                                    columnNumber: 86
-                                                                                }, void 0) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Cancel$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                    lineNumber: 988,
-                                                                                    columnNumber: 104
-                                                                                }, void 0),
-                                                                                sx: {
-                                                                                    fontWeight: 600
-                                                                                }
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                lineNumber: 984,
-                                                                                columnNumber: 61
-                                                                            }, ("TURBOPACK compile-time value", void 0))
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                            lineNumber: 983,
-                                                                            columnNumber: 57
-                                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                            align: "center",
-                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Badge$2f$Badge$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Badge$3e$__["Badge"], {
-                                                                                badgeContent: row.mappedMenus.length,
-                                                                                color: "info",
-                                                                                anchorOrigin: {
-                                                                                    vertical: 'top',
-                                                                                    horizontal: 'right'
-                                                                                },
-                                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                    sx: {
-                                                                                        color: '#64748b'
-                                                                                    }
-                                                                                }, void 0, false, {
-                                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                    lineNumber: 998,
-                                                                                    columnNumber: 65
-                                                                                }, ("TURBOPACK compile-time value", void 0))
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                lineNumber: 993,
-                                                                                columnNumber: 61
-                                                                            }, ("TURBOPACK compile-time value", void 0))
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                            lineNumber: 992,
-                                                                            columnNumber: 57
-                                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                            align: "center",
-                                                                            sx: {
-                                                                                color: '#64748b',
-                                                                                fontSize: '0.875rem'
-                                                                            },
-                                                                            children: row.assignedDate
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                            lineNumber: 1001,
-                                                                            columnNumber: 57
-                                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                            align: "center",
-                                                                            sx: {
-                                                                                color: '#64748b',
-                                                                                fontSize: '0.875rem'
-                                                                            },
-                                                                            children: row.assignedBy
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                            lineNumber: 1004,
-                                                                            columnNumber: 57
-                                                                        }, ("TURBOPACK compile-time value", void 0)),
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
-                                                                            align: "center",
-                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                                                sx: {
-                                                                                    display: 'flex',
-                                                                                    justifyContent: 'center',
-                                                                                    gap: 0.5,
-                                                                                    flexWrap: 'wrap'
-                                                                                },
-                                                                                children: [
-                                                                                    row.isActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__["Tooltip"], {
-                                                                                        title: "Map menus",
-                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                                                                            variant: "contained",
-                                                                                            size: "small",
-                                                                                            onClick: ()=>handleOpenMenuDialog(row),
-                                                                                            sx: {
-                                                                                                bgcolor: THEME_GREEN,
-                                                                                                textTransform: 'none',
-                                                                                                fontWeight: 600,
-                                                                                                boxShadow: 'none',
-                                                                                                minWidth: 'auto',
-                                                                                                px: 1,
-                                                                                                '&:hover': {
-                                                                                                    bgcolor: '#00a344'
-                                                                                                }
-                                                                                            },
-                                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                                sx: {
-                                                                                                    fontSize: 14
-                                                                                                }
-                                                                                            }, void 0, false, {
-                                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                                lineNumber: 1025,
-                                                                                                columnNumber: 77
-                                                                                            }, ("TURBOPACK compile-time value", void 0))
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                            lineNumber: 1011,
-                                                                                            columnNumber: 73
-                                                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                        lineNumber: 1010,
-                                                                                        columnNumber: 69
-                                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                                    row.isActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__["Tooltip"], {
-                                                                                        title: "Revoke access (will logout user)",
-                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                                                                            variant: "contained",
-                                                                                            size: "small",
-                                                                                            onClick: ()=>{
-                                                                                                if (window.confirm(`Are you sure you want to revoke ${row.employeeName}'s access to ${row.ulbName}? This will immediately log out the user and remove all permissions.`)) {
-                                                                                                    handleRevoke(row.id);
-                                                                                                }
-                                                                                            },
-                                                                                            sx: {
-                                                                                                bgcolor: THEME_RED,
-                                                                                                textTransform: 'none',
-                                                                                                fontWeight: 600,
-                                                                                                boxShadow: 'none',
-                                                                                                minWidth: 'auto',
-                                                                                                px: 1,
-                                                                                                '&:hover': {
-                                                                                                    bgcolor: '#d32f2f'
-                                                                                                }
-                                                                                            },
-                                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                                                sx: {
-                                                                                                    fontSize: 14
-                                                                                                }
-                                                                                            }, void 0, false, {
-                                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                                lineNumber: 1049,
-                                                                                                columnNumber: 77
-                                                                                            }, ("TURBOPACK compile-time value", void 0))
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                            lineNumber: 1031,
-                                                                                            columnNumber: 73
-                                                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                        lineNumber: 1030,
-                                                                                        columnNumber: 69
-                                                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                                                    !row.isActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Tooltip$3e$__["Tooltip"], {
-                                                                                        title: "Access already revoked",
-                                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Chip$2f$Chip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Chip$3e$__["Chip"], {
-                                                                                            label: "Revoked",
-                                                                                            size: "small",
-                                                                                            color: "warning",
-                                                                                            sx: {
-                                                                                                fontSize: '0.75rem'
-                                                                                            }
-                                                                                        }, void 0, false, {
-                                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                            lineNumber: 1055,
-                                                                                            columnNumber: 73
-                                                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                                                    }, void 0, false, {
-                                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                        lineNumber: 1054,
-                                                                                        columnNumber: 69
-                                                                                    }, ("TURBOPACK compile-time value", void 0))
-                                                                                ]
-                                                                            }, void 0, true, {
-                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                                lineNumber: 1008,
-                                                                                columnNumber: 61
-                                                                            }, ("TURBOPACK compile-time value", void 0))
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                            lineNumber: 1007,
-                                                                            columnNumber: 57
-                                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                                    ]
-                                                                }, row.id, true, {
-                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                    lineNumber: 945,
-                                                                    columnNumber: 53
-                                                                }, ("TURBOPACK compile-time value", void 0)))
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 927,
-                                                            columnNumber: 41
-                                                        }, ("TURBOPACK compile-time value", void 0))
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                    lineNumber: 911,
-                                                    columnNumber: 37
-                                                }, ("TURBOPACK compile-time value", void 0))
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 910,
-                                                columnNumber: 33
+                                                lineNumber: 469,
+                                                columnNumber: 37
                                             }, ("TURBOPACK compile-time value", void 0))
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                        lineNumber: 888,
-                                        columnNumber: 29
-                                    }, ("TURBOPACK compile-time value", void 0))
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                    lineNumber: 887,
-                                    columnNumber: 25
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                            lineNumber: 476,
-                            columnNumber: 21
-                        }, ("TURBOPACK compile-time value", void 0))
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                    lineNumber: 468,
-                    columnNumber: 17
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Dialog$2f$Dialog$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Dialog$3e$__["Dialog"], {
-                    open: menuDialogOpen,
-                    onClose: handleCloseMenuDialog,
-                    maxWidth: "md",
-                    fullWidth: true,
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DialogTitle$2f$DialogTitle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DialogTitle$3e$__["DialogTitle"], {
-                            sx: {
-                                bgcolor: THEME_BLUE,
-                                color: 'white',
-                                display: 'flex',
-                                alignItems: 'center',
-                                gap: 2
-                            },
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                    lineNumber: 1090,
-                                    columnNumber: 25
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                            component: "div",
-                                            sx: {
-                                                fontSize: '1.25rem',
-                                                fontWeight: 600
-                                            },
-                                            children: "Menu Mapping"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/admin/MapUser.tsx",
-                                            lineNumber: 1092,
-                                            columnNumber: 29
-                                        }, ("TURBOPACK compile-time value", void 0)),
-                                        selectedRoleForMenu && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                            variant: "body2",
-                                            sx: {
-                                                opacity: 0.9
-                                            },
-                                            children: [
-                                                selectedRoleForMenu.role,
-                                                " - ",
-                                                selectedRoleForMenu.ulbName
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                                            lineNumber: 1094,
+                                            lineNumber: 462,
                                             columnNumber: 33
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/admin/MapUser.tsx",
-                                    lineNumber: 1091,
-                                    columnNumber: 25
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                            lineNumber: 1083,
-                            columnNumber: 21
-                        }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DialogContent$2f$DialogContent$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DialogContent$3e$__["DialogContent"], {
-                            sx: {
-                                p: 3
-                            },
-                            children: [
-                                isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$LinearProgress$2f$LinearProgress$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__LinearProgress$3e$__["LinearProgress"], {
+                                    lineNumber: 450,
+                                    columnNumber: 29
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Divider$2f$Divider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Divider$3e$__["Divider"], {
                                     sx: {
-                                        mb: 2
+                                        mb: 5,
+                                        borderColor: '#cbd5e1'
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/admin/MapUser.tsx",
-                                    lineNumber: 1101,
-                                    columnNumber: 39
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Alert$2f$Alert$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Alert$3e$__["Alert"], {
-                                    severity: "info",
-                                    sx: {
-                                        mb: 3
-                                    },
-                                    children: "Select the menus and features that this role should have access to. Changes will be applied immediately."
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                    lineNumber: 1103,
+                                    lineNumber: 516,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                    variant: "h6",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                     sx: {
-                                        mb: 2,
-                                        color: THEME_BLUE,
-                                        fontWeight: 600
+                                        mb: 5
                                     },
-                                    children: "Available Menus"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                    lineNumber: 1107,
-                                    columnNumber: 25
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                Object.entries(getMenusByCategory()).map(([category, menus])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                        sx: {
-                                            mb: 3
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                variant: "subtitle1",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                            variant: "h5",
+                                            sx: {
+                                                color: THEME_BLUE,
+                                                fontWeight: 800,
+                                                mb: 3,
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                gap: 1
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Assignment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    sx: {
+                                                        fontSize: 28
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                    lineNumber: 528,
+                                                    columnNumber: 33
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                "Map Preferred ULB's"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                            lineNumber: 520,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Paper$3e$__["Paper"], {
+                                            variant: "outlined",
+                                            sx: {
+                                                p: 3,
+                                                bgcolor: 'rgba(248, 250, 252, 0.7)',
+                                                borderRadius: 3,
+                                                border: '1px solid #e2e8f0',
+                                                boxShadow: '0 4px 12px rgba(0,0,0,0.05)',
+                                                backdropFilter: 'blur(10px)'
+                                            },
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                 sx: {
-                                                    mb: 2,
-                                                    fontWeight: 600,
-                                                    color: '#374151',
                                                     display: 'flex',
-                                                    alignItems: 'center',
-                                                    gap: 1
+                                                    flexWrap: 'wrap',
+                                                    gap: 3,
+                                                    alignItems: 'flex-end'
                                                 },
                                                 children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Chip$2f$Chip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Chip$3e$__["Chip"], {
-                                                        label: category,
-                                                        size: "small",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                                                         sx: {
-                                                            bgcolor: THEME_BLUE,
-                                                            color: 'white'
-                                                        }
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 1121,
-                                                        columnNumber: 37
-                                                    }, ("TURBOPACK compile-time value", void 0)),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                        variant: "body2",
-                                                        sx: {
-                                                            color: '#64748b'
+                                                            flex: '1 1 250px'
                                                         },
                                                         children: [
-                                                            "(",
-                                                            menus.filter((menu)=>selectedMenus.includes(menu.id)).length,
-                                                            "/",
-                                                            menus.length,
-                                                            " selected)"
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                variant: "subtitle2",
+                                                                sx: {
+                                                                    fontWeight: 700,
+                                                                    color: '#334155',
+                                                                    mb: 1.5,
+                                                                    fontSize: '16px'
+                                                                },
+                                                                children: "Preferred ULB *"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 541,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Autocomplete$2f$Autocomplete$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Autocomplete$3e$__["Autocomplete"], {
+                                                                fullWidth: true,
+                                                                size: "medium",
+                                                                options: MOCK_ULBS,
+                                                                value: preferredUlb,
+                                                                onChange: (_, val)=>setPreferredUlb(val),
+                                                                renderInput: (params)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                                        ...params,
+                                                                        variant: "outlined",
+                                                                        sx: {
+                                                                            bgcolor: 'white',
+                                                                            '& .MuiOutlinedInput-root': {
+                                                                                borderRadius: 12,
+                                                                                boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
+                                                                                '& fieldset': {
+                                                                                    borderColor: '#e2e8f0'
+                                                                                },
+                                                                                '&:hover fieldset': {
+                                                                                    borderColor: '#cbd5e1'
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                        lineNumber: 551,
+                                                                        columnNumber: 49
+                                                                    }, void 0)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 544,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0))
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                        lineNumber: 1126,
+                                                        lineNumber: 540,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        sx: {
+                                                            flex: '1 1 250px'
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                variant: "subtitle2",
+                                                                sx: {
+                                                                    fontWeight: 700,
+                                                                    color: '#334155',
+                                                                    mb: 1.5,
+                                                                    fontSize: '16px'
+                                                                },
+                                                                children: "User Type *"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 568,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Autocomplete$2f$Autocomplete$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Autocomplete$3e$__["Autocomplete"], {
+                                                                fullWidth: true,
+                                                                size: "medium",
+                                                                options: MOCK_USER_TYPES,
+                                                                value: userType,
+                                                                onChange: (_, val)=>setUserType(val),
+                                                                renderInput: (params)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                                        ...params,
+                                                                        variant: "outlined",
+                                                                        sx: {
+                                                                            bgcolor: 'white',
+                                                                            '& .MuiOutlinedInput-root': {
+                                                                                borderRadius: 12,
+                                                                                boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
+                                                                                '& fieldset': {
+                                                                                    borderColor: '#e2e8f0'
+                                                                                },
+                                                                                '&:hover fieldset': {
+                                                                                    borderColor: '#cbd5e1'
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                        lineNumber: 578,
+                                                                        columnNumber: 49
+                                                                    }, void 0)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 571,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                        lineNumber: 567,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        sx: {
+                                                            flex: '1 1 200px'
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                variant: "subtitle2",
+                                                                sx: {
+                                                                    fontWeight: 700,
+                                                                    color: '#334155',
+                                                                    mb: 1.5,
+                                                                    fontSize: '16px'
+                                                                },
+                                                                children: "Role *"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 595,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Autocomplete$2f$Autocomplete$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Autocomplete$3e$__["Autocomplete"], {
+                                                                fullWidth: true,
+                                                                size: "medium",
+                                                                options: MOCK_ROLES,
+                                                                value: role,
+                                                                onChange: (_, val)=>setRole(val),
+                                                                renderInput: (params)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                                        ...params,
+                                                                        variant: "outlined",
+                                                                        sx: {
+                                                                            bgcolor: 'white',
+                                                                            '& .MuiOutlinedInput-root': {
+                                                                                borderRadius: 12,
+                                                                                boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
+                                                                                '& fieldset': {
+                                                                                    borderColor: '#e2e8f0'
+                                                                                },
+                                                                                '&:hover fieldset': {
+                                                                                    borderColor: '#cbd5e1'
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                        lineNumber: 605,
+                                                                        columnNumber: 49
+                                                                    }, void 0)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 598,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                        lineNumber: 594,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        sx: {
+                                                            flex: '1 1 200px'
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                variant: "subtitle2",
+                                                                sx: {
+                                                                    fontWeight: 700,
+                                                                    color: '#334155',
+                                                                    mb: 1.5,
+                                                                    fontSize: '16px'
+                                                                },
+                                                                children: "Level"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 622,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Autocomplete$2f$Autocomplete$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Autocomplete$3e$__["Autocomplete"], {
+                                                                fullWidth: true,
+                                                                size: "medium",
+                                                                options: MOCK_LEVELS,
+                                                                value: level,
+                                                                onChange: (_, val)=>setLevel(val),
+                                                                renderInput: (params)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TextField$3e$__["TextField"], {
+                                                                        ...params,
+                                                                        variant: "outlined",
+                                                                        sx: {
+                                                                            bgcolor: 'white',
+                                                                            '& .MuiOutlinedInput-root': {
+                                                                                borderRadius: 12,
+                                                                                boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
+                                                                                '& fieldset': {
+                                                                                    borderColor: '#e2e8f0'
+                                                                                },
+                                                                                '&:hover fieldset': {
+                                                                                    borderColor: '#cbd5e1'
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                        lineNumber: 632,
+                                                                        columnNumber: 49
+                                                                    }, void 0)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 625,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                        lineNumber: 621,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                        sx: {
+                                                            flex: '1 1 200px'
+                                                        },
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                            fullWidth: true,
+                                                            variant: "contained",
+                                                            startIcon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$PersonAdd$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 652,
+                                                                columnNumber: 56
+                                                            }, void 0),
+                                                            onClick: handleAdd,
+                                                            sx: {
+                                                                bgcolor: THEME_BLUE,
+                                                                textTransform: 'none',
+                                                                fontWeight: 700,
+                                                                height: '56px',
+                                                                fontSize: '16px',
+                                                                borderRadius: 12,
+                                                                boxShadow: '0 4px 12px rgba(0, 33, 71, 0.2)',
+                                                                '&:hover': {
+                                                                    bgcolor: '#001a38',
+                                                                    boxShadow: '0 6px 16px rgba(0, 33, 71, 0.3)'
+                                                                }
+                                                            },
+                                                            children: "Add Role"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                            lineNumber: 649,
+                                                            columnNumber: 41
+                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                        lineNumber: 648,
                                                         columnNumber: 37
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 1113,
+                                                lineNumber: 539,
                                                 columnNumber: 33
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Paper$3e$__["Paper"], {
-                                                variant: "outlined",
-                                                sx: {
-                                                    p: 2,
-                                                    bgcolor: '#f8fafc'
-                                                },
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$FormGroup$2f$FormGroup$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__FormGroup$3e$__["FormGroup"], {
-                                                    children: menus.map((menu)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$FormControlLabel$2f$FormControlLabel$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__FormControlLabel$3e$__["FormControlLabel"], {
-                                                            control: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Checkbox$2f$Checkbox$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Checkbox$3e$__["Checkbox"], {
-                                                                checked: selectedMenus.includes(menu.id),
-                                                                onChange: ()=>handleMenuToggle(menu.id),
-                                                                sx: {
-                                                                    color: THEME_BLUE,
-                                                                    '&.Mui-checked': {
-                                                                        color: THEME_BLUE
-                                                                    }
-                                                                }
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 1137,
-                                                                columnNumber: 53
-                                                            }, void 0),
-                                                            label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                        variant: "body1",
-                                                                        sx: {
-                                                                            fontWeight: 500
-                                                                        },
-                                                                        children: menu.name
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 1148,
-                                                                        columnNumber: 57
-                                                                    }, void 0),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                                                        variant: "caption",
-                                                                        sx: {
-                                                                            color: '#64748b'
-                                                                        },
-                                                                        children: menu.description
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                        lineNumber: 1151,
-                                                                        columnNumber: 57
-                                                                    }, void 0)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                                lineNumber: 1147,
-                                                                columnNumber: 53
-                                                            }, void 0),
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                            lineNumber: 531,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                    lineNumber: 519,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableContainer$2f$TableContainer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableContainer$3e$__["TableContainer"], {
+                                    component: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Paper$2f$Paper$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Paper$3e$__["Paper"],
+                                    elevation: 0,
+                                    sx: {
+                                        border: '1px solid #e2e8f0',
+                                        borderRadius: 3,
+                                        boxShadow: '0 4px 12px rgba(0,0,0,0.05)'
+                                    },
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Table$2f$Table$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Table$3e$__["Table"], {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableHead$2f$TableHead$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableHead$3e$__["TableHead"], {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableRow$2f$TableRow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableRow$3e$__["TableRow"], {
+                                                    sx: {
+                                                        bgcolor: THEME_BLUE
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
                                                             sx: {
-                                                                mb: 1
-                                                            }
-                                                        }, menu.id, false, {
+                                                                color: 'white',
+                                                                fontWeight: 700,
+                                                                width: '60px',
+                                                                textAlign: 'center',
+                                                                py: 2.5,
+                                                                fontSize: '16px'
+                                                            },
+                                                            children: "#"
+                                                        }, void 0, false, {
                                                             fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                            lineNumber: 1134,
-                                                            columnNumber: 45
-                                                        }, ("TURBOPACK compile-time value", void 0)))
-                                                }, void 0, false, {
+                                                            lineNumber: 684,
+                                                            columnNumber: 41
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
+                                                            sx: {
+                                                                color: 'white',
+                                                                fontWeight: 700,
+                                                                py: 2.5,
+                                                                fontSize: '16px'
+                                                            },
+                                                            children: "ULB Name"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                            lineNumber: 694,
+                                                            columnNumber: 41
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
+                                                            sx: {
+                                                                color: 'white',
+                                                                fontWeight: 700,
+                                                                py: 2.5,
+                                                                fontSize: '16px'
+                                                            },
+                                                            children: "User Type"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                            lineNumber: 702,
+                                                            columnNumber: 41
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
+                                                            sx: {
+                                                                color: 'white',
+                                                                fontWeight: 700,
+                                                                py: 2.5,
+                                                                fontSize: '16px'
+                                                            },
+                                                            children: "Role"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                            lineNumber: 710,
+                                                            columnNumber: 41
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
+                                                            sx: {
+                                                                color: 'white',
+                                                                fontWeight: 700,
+                                                                py: 2.5,
+                                                                fontSize: '16px'
+                                                            },
+                                                            children: "Level"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                            lineNumber: 718,
+                                                            columnNumber: 41
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
+                                                            sx: {
+                                                                color: 'white',
+                                                                fontWeight: 700,
+                                                                textAlign: 'center',
+                                                                width: '280px',
+                                                                py: 2.5,
+                                                                fontSize: '16px'
+                                                            },
+                                                            children: "Actions"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                            lineNumber: 726,
+                                                            columnNumber: 41
+                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                    lineNumber: 1132,
+                                                    lineNumber: 683,
                                                     columnNumber: 37
                                                 }, ("TURBOPACK compile-time value", void 0))
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 1131,
+                                                lineNumber: 682,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableBody$2f$TableBody$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableBody$3e$__["TableBody"], {
+                                                children: mappedRoles.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableRow$2f$TableRow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableRow$3e$__["TableRow"], {
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
+                                                        colSpan: 6,
+                                                        align: "center",
+                                                        sx: {
+                                                            py: 8,
+                                                            color: '#64748b'
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                variant: "h5",
+                                                                sx: {
+                                                                    mb: 2,
+                                                                    fontWeight: 600
+                                                                },
+                                                                children: "No roles mapped"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 742,
+                                                                columnNumber: 49
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
+                                                                variant: "h6",
+                                                                children: "Search for an employee and assign roles using the form above"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 745,
+                                                                columnNumber: 49
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                        lineNumber: 741,
+                                                        columnNumber: 45
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                    lineNumber: 740,
+                                                    columnNumber: 41
+                                                }, ("TURBOPACK compile-time value", void 0)) : mappedRoles.map((row, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableRow$2f$TableRow$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableRow$3e$__["TableRow"], {
+                                                        sx: {
+                                                            '&:nth-of-type(odd)': {
+                                                                bgcolor: '#f8fafc'
+                                                            },
+                                                            '&:hover': {
+                                                                bgcolor: '#f1f5f9'
+                                                            },
+                                                            '& td': {
+                                                                py: 2.5
+                                                            }
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
+                                                                align: "center",
+                                                                sx: {
+                                                                    fontWeight: 600,
+                                                                    color: '#475569',
+                                                                    fontSize: '16px'
+                                                                },
+                                                                children: index + 1
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 757,
+                                                                columnNumber: 49
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
+                                                                sx: {
+                                                                    fontWeight: 700,
+                                                                    color: '#1e293b',
+                                                                    fontSize: '16px'
+                                                                },
+                                                                children: row.ulbName
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 764,
+                                                                columnNumber: 49
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
+                                                                sx: {
+                                                                    fontSize: '16px',
+                                                                    color: '#334155'
+                                                                },
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Chip$2f$Chip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Chip$3e$__["Chip"], {
+                                                                    label: row.userType,
+                                                                    icon: row.userType === 'ULB Head' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Verified$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                        lineNumber: 777,
+                                                                        columnNumber: 93
+                                                                    }, void 0) : undefined,
+                                                                    sx: {
+                                                                        bgcolor: row.userType === 'ULB Head' ? 'rgba(255, 0, 0, 0.1)' : 'rgba(0, 33, 71, 0.1)',
+                                                                        color: row.userType === 'ULB Head' ? '#ff0000' : THEME_BLUE,
+                                                                        fontWeight: 700,
+                                                                        fontSize: '14px',
+                                                                        py: 1,
+                                                                        px: 1.5,
+                                                                        borderRadius: 12
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                    lineNumber: 775,
+                                                                    columnNumber: 53
+                                                                }, ("TURBOPACK compile-time value", void 0))
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 771,
+                                                                columnNumber: 49
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
+                                                                sx: {
+                                                                    fontSize: '16px',
+                                                                    color: '#334155'
+                                                                },
+                                                                children: row.role
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 789,
+                                                                columnNumber: 49
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
+                                                                sx: {
+                                                                    fontSize: '16px',
+                                                                    color: '#334155'
+                                                                },
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Chip$2f$Chip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Chip$3e$__["Chip"], {
+                                                                    label: row.level,
+                                                                    sx: {
+                                                                        bgcolor: 'rgba(0, 200, 83, 0.1)',
+                                                                        color: '#00c853',
+                                                                        fontWeight: 700,
+                                                                        fontSize: '14px',
+                                                                        py: 1,
+                                                                        px: 1.5,
+                                                                        borderRadius: 12
+                                                                    }
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                    lineNumber: 799,
+                                                                    columnNumber: 53
+                                                                }, ("TURBOPACK compile-time value", void 0))
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 795,
+                                                                columnNumber: 49
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TableCell$2f$TableCell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TableCell$3e$__["TableCell"], {
+                                                                align: "center",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+                                                                    sx: {
+                                                                        display: 'flex',
+                                                                        justifyContent: 'center',
+                                                                        gap: 1.5
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                                            variant: "contained",
+                                                                            size: "small",
+                                                                            sx: {
+                                                                                bgcolor: THEME_ACCENT,
+                                                                                textTransform: 'none',
+                                                                                fontWeight: 700,
+                                                                                boxShadow: 'none',
+                                                                                px: 3,
+                                                                                py: 1,
+                                                                                borderRadius: 12,
+                                                                                fontSize: '14px',
+                                                                                '&:hover': {
+                                                                                    bgcolor: '#1565c0',
+                                                                                    boxShadow: '0 4px 12px rgba(25, 118, 210, 0.2)'
+                                                                                }
+                                                                            },
+                                                                            children: "Map Menus"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                            lineNumber: 814,
+                                                                            columnNumber: 57
+                                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                                                            variant: "contained",
+                                                                            size: "small",
+                                                                            startIcon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Delete$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                                lineNumber: 837,
+                                                                                columnNumber: 72
+                                                                            }, void 0),
+                                                                            onClick: ()=>handleRevoke(row.id),
+                                                                            sx: {
+                                                                                bgcolor: THEME_RED,
+                                                                                textTransform: 'none',
+                                                                                fontWeight: 700,
+                                                                                boxShadow: 'none',
+                                                                                px: 3,
+                                                                                py: 1,
+                                                                                borderRadius: 12,
+                                                                                fontSize: '14px',
+                                                                                '&:hover': {
+                                                                                    bgcolor: '#d32f2f',
+                                                                                    boxShadow: '0 4px 12px rgba(255, 0, 0, 0.2)'
+                                                                                }
+                                                                            },
+                                                                            children: "Revoke"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                            lineNumber: 834,
+                                                                            columnNumber: 57
+                                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                    lineNumber: 813,
+                                                                    columnNumber: 53
+                                                                }, ("TURBOPACK compile-time value", void 0))
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                                lineNumber: 812,
+                                                                columnNumber: 49
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, row.id, true, {
+                                                        fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                        lineNumber: 752,
+                                                        columnNumber: 45
+                                                    }, ("TURBOPACK compile-time value", void 0)))
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/admin/MapUser.tsx",
+                                                lineNumber: 738,
                                                 columnNumber: 33
                                             }, ("TURBOPACK compile-time value", void 0))
                                         ]
-                                    }, category, true, {
-                                        fileName: "[project]/src/components/admin/MapUser.tsx",
-                                        lineNumber: 1112,
-                                        columnNumber: 29
-                                    }, ("TURBOPACK compile-time value", void 0))),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                                    sx: {
-                                        mt: 3,
-                                        p: 2,
-                                        bgcolor: '#f0f9ff',
-                                        borderRadius: 1,
-                                        border: '1px solid #bae6fd'
-                                    },
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                        variant: "body2",
-                                        sx: {
-                                            color: '#0369a1'
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "Selected Menus:"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/admin/MapUser.tsx",
-                                                lineNumber: 1166,
-                                                columnNumber: 33
-                                            }, ("TURBOPACK compile-time value", void 0)),
-                                            " ",
-                                            selectedMenus.length === 0 ? 'None' : selectedMenus.map((id)=>MOCK_MENUS.find((m)=>m.id === id)?.name).join(', ')
-                                        ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/admin/MapUser.tsx",
-                                        lineNumber: 1165,
+                                        lineNumber: 681,
                                         columnNumber: 29
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/admin/MapUser.tsx",
-                                    lineNumber: 1164,
+                                    lineNumber: 676,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/admin/MapUser.tsx",
-                            lineNumber: 1100,
-                            columnNumber: 21
-                        }, ("TURBOPACK compile-time value", void 0)),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$DialogActions$2f$DialogActions$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__DialogActions$3e$__["DialogActions"], {
-                            sx: {
-                                p: 3,
-                                gap: 2
-                            },
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                    onClick: handleCloseMenuDialog,
-                                    variant: "outlined",
-                                    sx: {
-                                        color: '#64748b',
-                                        borderColor: '#cbd5e1',
-                                        '&:hover': {
-                                            borderColor: '#94a3b8',
-                                            bgcolor: '#f8fafc'
-                                        }
-                                    },
-                                    children: "Cancel"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                    lineNumber: 1172,
-                                    columnNumber: 25
-                                }, ("TURBOPACK compile-time value", void 0)),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                    onClick: handleSaveMenuMapping,
-                                    variant: "contained",
-                                    disabled: isLoading,
-                                    sx: {
-                                        bgcolor: THEME_BLUE,
-                                        '&:hover': {
-                                            bgcolor: '#001a38'
-                                        }
-                                    },
-                                    children: isLoading ? 'Saving...' : 'Save Menu Mapping'
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/admin/MapUser.tsx",
-                                    lineNumber: 1183,
-                                    columnNumber: 25
-                                }, ("TURBOPACK compile-time value", void 0))
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/components/admin/MapUser.tsx",
-                            lineNumber: 1171,
+                            lineNumber: 248,
                             columnNumber: 21
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/admin/MapUser.tsx",
-                    lineNumber: 1077,
+                    lineNumber: 200,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Snackbar$2f$Snackbar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Snackbar$3e$__["Snackbar"], {
                     open: notification.open,
-                    autoHideDuration: 4000,
+                    autoHideDuration: 5000,
                     onClose: ()=>setNotification({
                             ...notification,
                             open: false
@@ -6169,30 +4968,35 @@ const MapUser = ()=>{
                                 open: false
                             }),
                         variant: "filled",
+                        sx: {
+                            fontSize: '15px',
+                            fontWeight: 600,
+                            minWidth: '300px'
+                        },
                         children: notification.message
                     }, void 0, false, {
                         fileName: "[project]/src/components/admin/MapUser.tsx",
-                        lineNumber: 1204,
+                        lineNumber: 874,
                         columnNumber: 21
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/src/components/admin/MapUser.tsx",
-                    lineNumber: 1198,
+                    lineNumber: 868,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/admin/MapUser.tsx",
-            lineNumber: 467,
+            lineNumber: 199,
             columnNumber: 13
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/src/components/admin/MapUser.tsx",
-        lineNumber: 466,
+        lineNumber: 198,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
-_s(MapUser, "2HZwmufV731xbZPZ0M1EmgulweE=");
+_s(MapUser, "GKRsEjSJ5pOs53ovu1dK/QJd30M=");
 _c = MapUser;
 const __TURBOPACK__default__export__ = MapUser;
 var _c;
@@ -9706,20 +8510,11 @@ const Dashboard = ({ userInfo, selectedULB, onLogout })=>{
     };
     const navItems = [
         {
-            id: 'modules',
-            label: 'Modules',
-            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Business$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/src/components/dashboard/Dashboard.tsx",
-                lineNumber: 125,
-                columnNumber: 46
-            }, ("TURBOPACK compile-time value", void 0))
-        },
-        {
             id: 'employees',
             label: 'User Management',
             icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$People$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/components/dashboard/Dashboard.tsx",
-                lineNumber: 126,
+                lineNumber: 125,
                 columnNumber: 56
             }, ("TURBOPACK compile-time value", void 0))
         },
@@ -9728,7 +8523,7 @@ const Dashboard = ({ userInfo, selectedULB, onLogout })=>{
             label: 'ULB Mapping',
             icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Map$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/components/dashboard/Dashboard.tsx",
-                lineNumber: 127,
+                lineNumber: 126,
                 columnNumber: 50
             }, ("TURBOPACK compile-time value", void 0))
         },
@@ -9737,7 +8532,7 @@ const Dashboard = ({ userInfo, selectedULB, onLogout })=>{
             label: 'Super Admin',
             icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$AdminPanelSettings$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/components/dashboard/Dashboard.tsx",
-                lineNumber: 128,
+                lineNumber: 127,
                 columnNumber: 58
             }, ("TURBOPACK compile-time value", void 0))
         },
@@ -9746,7 +8541,7 @@ const Dashboard = ({ userInfo, selectedULB, onLogout })=>{
             label: 'Levels & Roles',
             icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$AccountTree$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/components/dashboard/Dashboard.tsx",
-                lineNumber: 129,
+                lineNumber: 128,
                 columnNumber: 56
             }, ("TURBOPACK compile-time value", void 0))
         },
@@ -9755,7 +8550,7 @@ const Dashboard = ({ userInfo, selectedULB, onLogout })=>{
             label: 'User Mapping',
             icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Assignment$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/components/dashboard/Dashboard.tsx",
-                lineNumber: 130,
+                lineNumber: 129,
                 columnNumber: 52
             }, ("TURBOPACK compile-time value", void 0))
         },
@@ -9764,8 +8559,17 @@ const Dashboard = ({ userInfo, selectedULB, onLogout })=>{
             label: 'Transfer Employee',
             icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$TransferWithinAStation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/components/dashboard/Dashboard.tsx",
-                lineNumber: 131,
+                lineNumber: 130,
                 columnNumber: 66
+            }, ("TURBOPACK compile-time value", void 0))
+        },
+        {
+            id: 'modules',
+            label: 'Modules',
+            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Business$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/components/dashboard/Dashboard.tsx",
+                lineNumber: 131,
+                columnNumber: 46
             }, ("TURBOPACK compile-time value", void 0))
         }
     ];
